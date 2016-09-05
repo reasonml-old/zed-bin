@@ -9,11 +9,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "files": [
-    "index.js",
-    "cli.js",
-    "lib"
-  ],
   "exportedEnvVars": {
       "PATH": {
           "global": true,
