@@ -1,0 +1,1568 @@
+"src/zed_input.ml" 33 770 791 "src/zed_input.ml" 33 770 807
+call(
+  stack
+)
+"src/zed_input.ml" 41 895 901 "src/zed_input.ml" 41 895 906
+type(
+  'a Event_map.t
+)
+ident(
+  def empty "src/zed_input.ml" 43 926 928 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 41 895 909 "src/zed_input.ml" 41 895 924
+type(
+  'a Event_map.t
+)
+ident(
+  ext_ref Event_map.empty
+)
+"src/zed_input.ml" 43 926 936 "src/zed_input.ml" 43 926 939
+type(
+  Event_map.key list -> 'b -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  def add "src/zed_input.ml" 43 926 928 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 43 926 940 "src/zed_input.ml" 43 926 946
+type(
+  Event_map.key list
+)
+ident(
+  def events "src/zed_input.ml" 43 926 947 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 43 926 947 "src/zed_input.ml" 43 926 952
+type(
+  'b
+)
+ident(
+  def value "src/zed_input.ml" 43 926 953 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 43 926 953 "src/zed_input.ml" 43 926 956
+type(
+  'b node Event_map.t
+)
+ident(
+  def set "src/zed_input.ml" 44 959 963 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 44 959 969 "src/zed_input.ml" 44 959 975
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 43 926 940 "src/zed_input.ml" 43 926 946
+)
+"src/zed_input.ml" 45 981 989 "src/zed_input.ml" 45 981 991
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 46 995 1005 "src/zed_input.ml" 46 995 1016
+type(
+  string -> 'b node Event_map.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/zed_input.ml" 46 995 1017 "src/zed_input.ml" 46 995 1037
+type(
+  string
+)
+"src/zed_input.ml" 46 995 1005 "src/zed_input.ml" 46 995 1037
+call(
+  tail
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 47 1038 1047 "src/zed_input.ml" 47 1038 1052
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 48 1057 1067 "src/zed_input.ml" 48 1057 1102
+)
+"src/zed_input.ml" 47 1038 1046 "src/zed_input.ml" 47 1038 1053
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 48 1057 1067 "src/zed_input.ml" 48 1057 1080
+type(
+  Event_map.key -> 'b node -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  ext_ref Event_map.add
+)
+"src/zed_input.ml" 48 1057 1081 "src/zed_input.ml" 48 1057 1086
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 47 1038 1047 "src/zed_input.ml" 47 1038 1052
+)
+"src/zed_input.ml" 48 1057 1092 "src/zed_input.ml" 48 1057 1097
+type(
+  'b
+)
+ident(
+  int_ref value "src/zed_input.ml" 43 926 947 "src/zed_input.ml" 43 926 952
+)
+"src/zed_input.ml" 48 1057 1087 "src/zed_input.ml" 48 1057 1098
+type(
+  'b node
+)
+"src/zed_input.ml" 48 1057 1099 "src/zed_input.ml" 48 1057 1102
+type(
+  'b node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 43 926 953 "src/zed_input.ml" 43 926 956
+)
+"src/zed_input.ml" 48 1057 1067 "src/zed_input.ml" 48 1057 1102
+call(
+  tail
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 49 1103 1111 "src/zed_input.ml" 49 1103 1116
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 50 1130 1140 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 49 1103 1120 "src/zed_input.ml" 49 1103 1126
+type(
+  Event_map.key list
+)
+ident(
+  def events "src/zed_input.ml" 50 1130 1140 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 49 1103 1111 "src/zed_input.ml" 49 1103 1126
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 50 1130 1156 "src/zed_input.ml" 50 1130 1170
+type(
+  Event_map.key -> 'b node Event_map.t -> 'b node
+)
+ident(
+  ext_ref Event_map.find
+)
+"src/zed_input.ml" 50 1130 1171 "src/zed_input.ml" 50 1130 1176
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 49 1103 1111 "src/zed_input.ml" 49 1103 1116
+)
+"src/zed_input.ml" 50 1130 1177 "src/zed_input.ml" 50 1130 1180
+type(
+  'b node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 43 926 953 "src/zed_input.ml" 43 926 956
+)
+"src/zed_input.ml" 50 1130 1155 "src/zed_input.ml" 50 1130 1181
+call(
+  stack
+)
+type(
+  'b node
+)
+"src/zed_input.ml" 50 1130 1150 "src/zed_input.ml" 50 1130 1181
+type(
+  'b node option
+)
+"src/zed_input.ml" 50 1130 1187 "src/zed_input.ml" 50 1130 1196
+type(
+  exn
+)
+"src/zed_input.ml" 50 1130 1200 "src/zed_input.ml" 50 1130 1204
+type(
+  'b node option
+)
+"src/zed_input.ml" 50 1130 1146 "src/zed_input.ml" 50 1130 1204
+type(
+  'b node option
+)
+"src/zed_input.ml" 51 1210 1224 "src/zed_input.ml" 51 1210 1228
+type(
+  'b node option
+)
+"src/zed_input.ml" 52 1229 1253 "src/zed_input.ml" 52 1229 1254
+type(
+  'b
+)
+"src/zed_input.ml" 52 1229 1248 "src/zed_input.ml" 52 1229 1255
+type(
+  'b node
+)
+"src/zed_input.ml" 52 1229 1243 "src/zed_input.ml" 52 1229 1255
+type(
+  'b node option
+)
+"src/zed_input.ml" 51 1210 1224 "src/zed_input.ml" 52 1229 1255
+type(
+  'b node option
+)
+"src/zed_input.ml" 53 1259 1275 "src/zed_input.ml" 53 1259 1288
+type(
+  Event_map.key -> 'b node -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  ext_ref Event_map.add
+)
+"src/zed_input.ml" 53 1259 1289 "src/zed_input.ml" 53 1259 1294
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 49 1103 1111 "src/zed_input.ml" 49 1103 1116
+)
+"src/zed_input.ml" 53 1259 1301 "src/zed_input.ml" 53 1259 1304
+type(
+  Event_map.key list -> 'b -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  int_ref add "src/zed_input.ml" 43 926 936 "src/zed_input.ml" 43 926 939
+)
+"src/zed_input.ml" 53 1259 1305 "src/zed_input.ml" 53 1259 1311
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 49 1103 1120 "src/zed_input.ml" 49 1103 1126
+)
+"src/zed_input.ml" 53 1259 1312 "src/zed_input.ml" 53 1259 1317
+type(
+  'b
+)
+ident(
+  int_ref value "src/zed_input.ml" 43 926 947 "src/zed_input.ml" 43 926 952
+)
+"src/zed_input.ml" 53 1259 1318 "src/zed_input.ml" 53 1259 1323
+type(
+  'b node Event_map.t
+)
+ident(
+  int_ref empty "src/zed_input.ml" 41 895 901 "src/zed_input.ml" 41 895 906
+)
+"src/zed_input.ml" 53 1259 1300 "src/zed_input.ml" 53 1259 1324
+call(
+  stack
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 53 1259 1295 "src/zed_input.ml" 53 1259 1325
+type(
+  'b node
+)
+"src/zed_input.ml" 53 1259 1326 "src/zed_input.ml" 53 1259 1329
+type(
+  'b node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 43 926 953 "src/zed_input.ml" 43 926 956
+)
+"src/zed_input.ml" 53 1259 1275 "src/zed_input.ml" 53 1259 1329
+call(
+  tail
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 54 1330 1354 "src/zed_input.ml" 54 1330 1355
+type(
+  'b t
+)
+ident(
+  def s "src/zed_input.ml" 55 1360 1376 "src/zed_input.ml" 55 1360 1426
+)
+"src/zed_input.ml" 54 1330 1349 "src/zed_input.ml" 54 1330 1356
+type(
+  'b node
+)
+"src/zed_input.ml" 54 1330 1344 "src/zed_input.ml" 54 1330 1356
+type(
+  'b node option
+)
+"src/zed_input.ml" 55 1360 1376 "src/zed_input.ml" 55 1360 1389
+type(
+  Event_map.key -> 'b node -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  ext_ref Event_map.add
+)
+"src/zed_input.ml" 55 1360 1390 "src/zed_input.ml" 55 1360 1395
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 49 1103 1111 "src/zed_input.ml" 49 1103 1116
+)
+"src/zed_input.ml" 55 1360 1402 "src/zed_input.ml" 55 1360 1405
+type(
+  Event_map.key list -> 'b -> 'b node Event_map.t -> 'b node Event_map.t
+)
+ident(
+  int_ref add "src/zed_input.ml" 43 926 936 "src/zed_input.ml" 43 926 939
+)
+"src/zed_input.ml" 55 1360 1406 "src/zed_input.ml" 55 1360 1412
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 49 1103 1120 "src/zed_input.ml" 49 1103 1126
+)
+"src/zed_input.ml" 55 1360 1413 "src/zed_input.ml" 55 1360 1418
+type(
+  'b
+)
+ident(
+  int_ref value "src/zed_input.ml" 43 926 947 "src/zed_input.ml" 43 926 952
+)
+"src/zed_input.ml" 55 1360 1419 "src/zed_input.ml" 55 1360 1420
+type(
+  'b t
+)
+ident(
+  int_ref s "src/zed_input.ml" 54 1330 1354 "src/zed_input.ml" 54 1330 1355
+)
+"src/zed_input.ml" 55 1360 1401 "src/zed_input.ml" 55 1360 1421
+call(
+  stack
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 55 1360 1396 "src/zed_input.ml" 55 1360 1422
+type(
+  'b node
+)
+"src/zed_input.ml" 55 1360 1423 "src/zed_input.ml" 55 1360 1426
+type(
+  'b node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 43 926 953 "src/zed_input.ml" 43 926 956
+)
+"src/zed_input.ml" 55 1360 1376 "src/zed_input.ml" 55 1360 1426
+call(
+  tail
+)
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 50 1130 1140 "src/zed_input.ml" 55 1360 1426
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 44 959 963 "src/zed_input.ml" 55 1360 1426
+type(
+  'b node Event_map.t
+)
+"src/zed_input.ml" 57 1428 1438 "src/zed_input.ml" 57 1428 1444
+type(
+  Event_map.key list -> 'c node Event_map.t -> 'c node Event_map.t
+)
+ident(
+  def remove "src/zed_input.ml" 57 1428 1430 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 57 1428 1445 "src/zed_input.ml" 57 1428 1451
+type(
+  Event_map.key list
+)
+ident(
+  def events "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+type(
+  'c node Event_map.t
+)
+ident(
+  def set "src/zed_input.ml" 58 1458 1462 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 58 1458 1468 "src/zed_input.ml" 58 1458 1474
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 57 1428 1445 "src/zed_input.ml" 57 1428 1451
+)
+"src/zed_input.ml" 59 1480 1488 "src/zed_input.ml" 59 1480 1490
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 60 1494 1504 "src/zed_input.ml" 60 1494 1515
+type(
+  string -> 'c node Event_map.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/zed_input.ml" 60 1494 1516 "src/zed_input.ml" 60 1494 1539
+type(
+  string
+)
+"src/zed_input.ml" 60 1494 1504 "src/zed_input.ml" 60 1494 1539
+call(
+  tail
+)
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 61 1540 1549 "src/zed_input.ml" 61 1540 1554
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 62 1559 1569 "src/zed_input.ml" 62 1559 1595
+)
+"src/zed_input.ml" 61 1540 1548 "src/zed_input.ml" 61 1540 1555
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 62 1559 1569 "src/zed_input.ml" 62 1559 1585
+type(
+  Event_map.key -> 'c node Event_map.t -> 'c node Event_map.t
+)
+ident(
+  ext_ref Event_map.remove
+)
+"src/zed_input.ml" 62 1559 1586 "src/zed_input.ml" 62 1559 1591
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 61 1540 1549 "src/zed_input.ml" 61 1540 1554
+)
+"src/zed_input.ml" 62 1559 1592 "src/zed_input.ml" 62 1559 1595
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+)
+"src/zed_input.ml" 62 1559 1569 "src/zed_input.ml" 62 1559 1595
+call(
+  tail
+)
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 63 1596 1604 "src/zed_input.ml" 63 1596 1609
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 64 1623 1633 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 63 1596 1613 "src/zed_input.ml" 63 1596 1619
+type(
+  Event_map.key list
+)
+ident(
+  def events "src/zed_input.ml" 64 1623 1633 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 63 1596 1604 "src/zed_input.ml" 63 1596 1619
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 64 1623 1649 "src/zed_input.ml" 64 1623 1663
+type(
+  Event_map.key -> 'c node Event_map.t -> 'c node
+)
+ident(
+  ext_ref Event_map.find
+)
+"src/zed_input.ml" 64 1623 1664 "src/zed_input.ml" 64 1623 1669
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 63 1596 1604 "src/zed_input.ml" 63 1596 1609
+)
+"src/zed_input.ml" 64 1623 1670 "src/zed_input.ml" 64 1623 1673
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+)
+"src/zed_input.ml" 64 1623 1648 "src/zed_input.ml" 64 1623 1674
+call(
+  stack
+)
+type(
+  'c node
+)
+"src/zed_input.ml" 64 1623 1643 "src/zed_input.ml" 64 1623 1674
+type(
+  'c node option
+)
+"src/zed_input.ml" 64 1623 1680 "src/zed_input.ml" 64 1623 1689
+type(
+  exn
+)
+"src/zed_input.ml" 64 1623 1693 "src/zed_input.ml" 64 1623 1697
+type(
+  'c node option
+)
+"src/zed_input.ml" 64 1623 1639 "src/zed_input.ml" 64 1623 1697
+type(
+  'c node option
+)
+"src/zed_input.ml" 65 1703 1717 "src/zed_input.ml" 65 1703 1721
+type(
+  'c node option
+)
+"src/zed_input.ml" 66 1722 1746 "src/zed_input.ml" 66 1722 1747
+type(
+  'c
+)
+"src/zed_input.ml" 66 1722 1741 "src/zed_input.ml" 66 1722 1748
+type(
+  'c node
+)
+"src/zed_input.ml" 66 1722 1736 "src/zed_input.ml" 66 1722 1748
+type(
+  'c node option
+)
+"src/zed_input.ml" 65 1703 1717 "src/zed_input.ml" 66 1722 1748
+type(
+  'c node option
+)
+"src/zed_input.ml" 67 1752 1768 "src/zed_input.ml" 67 1752 1771
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+)
+"src/zed_input.ml" 68 1772 1796 "src/zed_input.ml" 68 1772 1797
+type(
+  'c t
+)
+ident(
+  def s "src/zed_input.ml" 69 1802 1818 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 68 1772 1791 "src/zed_input.ml" 68 1772 1798
+type(
+  'c node
+)
+"src/zed_input.ml" 68 1772 1786 "src/zed_input.ml" 68 1772 1798
+type(
+  'c node option
+)
+"src/zed_input.ml" 69 1802 1822 "src/zed_input.ml" 69 1802 1823
+type(
+  'c node Event_map.t
+)
+ident(
+  def s "src/zed_input.ml" 70 1845 1861 "src/zed_input.ml" 73 1956 2005
+)
+"src/zed_input.ml" 69 1802 1826 "src/zed_input.ml" 69 1802 1832
+type(
+  Event_map.key list -> 'c node Event_map.t -> 'c node Event_map.t
+)
+ident(
+  int_ref remove "src/zed_input.ml" 57 1428 1438 "src/zed_input.ml" 57 1428 1444
+)
+"src/zed_input.ml" 69 1802 1833 "src/zed_input.ml" 69 1802 1839
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 63 1596 1613 "src/zed_input.ml" 63 1596 1619
+)
+"src/zed_input.ml" 69 1802 1840 "src/zed_input.ml" 69 1802 1841
+type(
+  'c t
+)
+ident(
+  int_ref s "src/zed_input.ml" 68 1772 1796 "src/zed_input.ml" 68 1772 1797
+)
+"src/zed_input.ml" 69 1802 1826 "src/zed_input.ml" 69 1802 1841
+call(
+  stack
+)
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 70 1845 1864 "src/zed_input.ml" 70 1845 1882
+type(
+  'c node Event_map.t -> bool
+)
+ident(
+  ext_ref Event_map.is_empty
+)
+"src/zed_input.ml" 70 1845 1883 "src/zed_input.ml" 70 1845 1884
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref s "src/zed_input.ml" 69 1802 1822 "src/zed_input.ml" 69 1802 1823
+)
+"src/zed_input.ml" 70 1845 1864 "src/zed_input.ml" 70 1845 1884
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_input.ml" 71 1890 1908 "src/zed_input.ml" 71 1890 1924
+type(
+  Event_map.key -> 'c node Event_map.t -> 'c node Event_map.t
+)
+ident(
+  ext_ref Event_map.remove
+)
+"src/zed_input.ml" 71 1890 1925 "src/zed_input.ml" 71 1890 1930
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 63 1596 1604 "src/zed_input.ml" 63 1596 1609
+)
+"src/zed_input.ml" 71 1890 1931 "src/zed_input.ml" 71 1890 1934
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+)
+"src/zed_input.ml" 71 1890 1908 "src/zed_input.ml" 71 1890 1934
+call(
+  tail
+)
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 73 1956 1974 "src/zed_input.ml" 73 1956 1987
+type(
+  Event_map.key -> 'c node -> 'c node Event_map.t -> 'c node Event_map.t
+)
+ident(
+  ext_ref Event_map.add
+)
+"src/zed_input.ml" 73 1956 1988 "src/zed_input.ml" 73 1956 1993
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 63 1596 1604 "src/zed_input.ml" 63 1596 1609
+)
+"src/zed_input.ml" 73 1956 1999 "src/zed_input.ml" 73 1956 2000
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref s "src/zed_input.ml" 69 1802 1822 "src/zed_input.ml" 69 1802 1823
+)
+"src/zed_input.ml" 73 1956 1994 "src/zed_input.ml" 73 1956 2001
+type(
+  'c node
+)
+"src/zed_input.ml" 73 1956 2002 "src/zed_input.ml" 73 1956 2005
+type(
+  'c node Event_map.t
+)
+ident(
+  int_ref set "src/zed_input.ml" 57 1428 1452 "src/zed_input.ml" 57 1428 1455
+)
+"src/zed_input.ml" 73 1956 1974 "src/zed_input.ml" 73 1956 2005
+call(
+  tail
+)
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 70 1845 1861 "src/zed_input.ml" 73 1956 2005
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 69 1802 1818 "src/zed_input.ml" 73 1956 2005
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 64 1623 1633 "src/zed_input.ml" 73 1956 2005
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 58 1458 1462 "src/zed_input.ml" 73 1956 2005
+type(
+  'c node Event_map.t
+)
+"src/zed_input.ml" 75 2007 2013 "src/zed_input.ml" 75 2007 2017
+type(
+  (Event_map.key list -> 'd -> 'e -> 'e) -> 'd t -> 'e -> 'e
+)
+ident(
+  def fold "src/zed_input.ml" 89 2344 2346 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 75 2007 2018 "src/zed_input.ml" 75 2007 2019
+type(
+  Event_map.key list -> 'd -> 'e -> 'e
+)
+ident(
+  def f "src/zed_input.ml" 75 2007 2020 "src/zed_input.ml" 87 2323 2342
+)
+"src/zed_input.ml" 75 2007 2020 "src/zed_input.ml" 75 2007 2023
+type(
+  'd t
+)
+ident(
+  def set "src/zed_input.ml" 75 2007 2024 "src/zed_input.ml" 87 2323 2342
+)
+"src/zed_input.ml" 75 2007 2024 "src/zed_input.ml" 75 2007 2027
+type(
+  'e
+)
+ident(
+  def acc "src/zed_input.ml" 76 2030 2034 "src/zed_input.ml" 87 2323 2342
+)
+"src/zed_input.ml" 76 2030 2042 "src/zed_input.ml" 76 2030 2046
+type(
+  Event_map.key list -> 'd t -> 'e -> 'e
+)
+ident(
+  def loop "src/zed_input.ml" 76 2030 2034 "src/zed_input.ml" 87 2323 2342
+)
+"src/zed_input.ml" 76 2030 2047 "src/zed_input.ml" 76 2030 2053
+type(
+  Event_map.key list
+)
+ident(
+  def prefix "src/zed_input.ml" 76 2030 2054 "src/zed_input.ml" 85 2304 2315
+)
+"src/zed_input.ml" 76 2030 2054 "src/zed_input.ml" 76 2030 2057
+type(
+  'd t
+)
+ident(
+  def set "src/zed_input.ml" 76 2030 2058 "src/zed_input.ml" 85 2304 2315
+)
+"src/zed_input.ml" 76 2030 2058 "src/zed_input.ml" 76 2030 2061
+type(
+  'e
+)
+ident(
+  def acc "src/zed_input.ml" 77 2064 2070 "src/zed_input.ml" 85 2304 2315
+)
+"src/zed_input.ml" 77 2064 2070 "src/zed_input.ml" 77 2064 2084
+type(
+  (Event_map.key -> 'd node -> 'e -> 'e) -> 'd node Event_map.t -> 'e -> 'e
+)
+ident(
+  ext_ref Event_map.fold
+)
+"src/zed_input.ml" 78 2085 2098 "src/zed_input.ml" 78 2085 2103
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 78 2085 2104 "src/zed_input.ml" 83 2245 2290
+)
+"src/zed_input.ml" 78 2085 2104 "src/zed_input.ml" 78 2085 2108
+type(
+  'd node
+)
+ident(
+  def node "src/zed_input.ml" 78 2085 2109 "src/zed_input.ml" 83 2245 2290
+)
+"src/zed_input.ml" 78 2085 2109 "src/zed_input.ml" 78 2085 2112
+type(
+  'e
+)
+ident(
+  def acc "src/zed_input.ml" 79 2116 2127 "src/zed_input.ml" 83 2245 2290
+)
+"src/zed_input.ml" 79 2116 2133 "src/zed_input.ml" 79 2116 2137
+type(
+  'd node
+)
+ident(
+  int_ref node "src/zed_input.ml" 78 2085 2104 "src/zed_input.ml" 78 2085 2108
+)
+"src/zed_input.ml" 80 2143 2162 "src/zed_input.ml" 80 2143 2163
+type(
+  'd
+)
+ident(
+  def v "src/zed_input.ml" 81 2167 2184 "src/zed_input.ml" 81 2167 2220
+)
+"src/zed_input.ml" 80 2143 2158 "src/zed_input.ml" 80 2143 2163
+type(
+  'd node
+)
+"src/zed_input.ml" 81 2167 2184 "src/zed_input.ml" 81 2167 2185
+type(
+  Event_map.key list -> 'd -> 'e -> 'e
+)
+ident(
+  int_ref f "src/zed_input.ml" 75 2007 2018 "src/zed_input.ml" 75 2007 2019
+)
+"src/zed_input.ml" 81 2167 2187 "src/zed_input.ml" 81 2167 2195
+type(
+  Event_map.key list -> Event_map.key list
+)
+ident(
+  ext_ref List.rev
+)
+"src/zed_input.ml" 81 2167 2197 "src/zed_input.ml" 81 2167 2202
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 78 2085 2098 "src/zed_input.ml" 78 2085 2103
+)
+"src/zed_input.ml" 81 2167 2206 "src/zed_input.ml" 81 2167 2212
+type(
+  Event_map.key list
+)
+ident(
+  int_ref prefix "src/zed_input.ml" 76 2030 2047 "src/zed_input.ml" 76 2030 2053
+)
+"src/zed_input.ml" 81 2167 2196 "src/zed_input.ml" 81 2167 2213
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 81 2167 2186 "src/zed_input.ml" 81 2167 2214
+call(
+  stack
+)
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 81 2167 2215 "src/zed_input.ml" 81 2167 2216
+type(
+  'd
+)
+ident(
+  int_ref v "src/zed_input.ml" 80 2143 2162 "src/zed_input.ml" 80 2143 2163
+)
+"src/zed_input.ml" 81 2167 2217 "src/zed_input.ml" 81 2167 2220
+type(
+  'e
+)
+ident(
+  int_ref acc "src/zed_input.ml" 78 2085 2109 "src/zed_input.ml" 78 2085 2112
+)
+"src/zed_input.ml" 81 2167 2184 "src/zed_input.ml" 81 2167 2220
+call(
+  tail
+)
+type(
+  'e
+)
+"src/zed_input.ml" 82 2221 2240 "src/zed_input.ml" 82 2221 2241
+type(
+  'd t
+)
+ident(
+  def s "src/zed_input.ml" 83 2245 2262 "src/zed_input.ml" 83 2245 2290
+)
+"src/zed_input.ml" 82 2221 2236 "src/zed_input.ml" 82 2221 2241
+type(
+  'd node
+)
+"src/zed_input.ml" 83 2245 2262 "src/zed_input.ml" 83 2245 2266
+type(
+  Event_map.key list -> 'd t -> 'e -> 'e
+)
+ident(
+  int_ref loop "src/zed_input.ml" 76 2030 2042 "src/zed_input.ml" 76 2030 2046
+)
+"src/zed_input.ml" 83 2245 2268 "src/zed_input.ml" 83 2245 2273
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 78 2085 2098 "src/zed_input.ml" 78 2085 2103
+)
+"src/zed_input.ml" 83 2245 2277 "src/zed_input.ml" 83 2245 2283
+type(
+  Event_map.key list
+)
+ident(
+  int_ref prefix "src/zed_input.ml" 76 2030 2047 "src/zed_input.ml" 76 2030 2053
+)
+"src/zed_input.ml" 83 2245 2267 "src/zed_input.ml" 83 2245 2284
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 83 2245 2285 "src/zed_input.ml" 83 2245 2286
+type(
+  'd t
+)
+ident(
+  int_ref s "src/zed_input.ml" 82 2221 2240 "src/zed_input.ml" 82 2221 2241
+)
+"src/zed_input.ml" 83 2245 2287 "src/zed_input.ml" 83 2245 2290
+type(
+  'e
+)
+ident(
+  int_ref acc "src/zed_input.ml" 78 2085 2109 "src/zed_input.ml" 78 2085 2112
+)
+"src/zed_input.ml" 83 2245 2262 "src/zed_input.ml" 83 2245 2290
+call(
+  tail
+)
+type(
+  'e
+)
+"src/zed_input.ml" 79 2116 2127 "src/zed_input.ml" 83 2245 2290
+type(
+  'e
+)
+"src/zed_input.ml" 78 2085 2093 "src/zed_input.ml" 83 2245 2291
+type(
+  Event_map.key -> 'd node -> 'e -> 'e
+)
+"src/zed_input.ml" 84 2292 2300 "src/zed_input.ml" 84 2292 2303
+type(
+  'd t
+)
+ident(
+  int_ref set "src/zed_input.ml" 76 2030 2054 "src/zed_input.ml" 76 2030 2057
+)
+"src/zed_input.ml" 85 2304 2312 "src/zed_input.ml" 85 2304 2315
+type(
+  'e
+)
+ident(
+  int_ref acc "src/zed_input.ml" 76 2030 2058 "src/zed_input.ml" 76 2030 2061
+)
+"src/zed_input.ml" 77 2064 2070 "src/zed_input.ml" 85 2304 2315
+call(
+  tail
+)
+type(
+  'e
+)
+"src/zed_input.ml" 87 2323 2327 "src/zed_input.ml" 87 2323 2331
+type(
+  Event_map.key list -> 'd t -> 'e -> 'e
+)
+ident(
+  int_ref loop "src/zed_input.ml" 76 2030 2042 "src/zed_input.ml" 76 2030 2046
+)
+"src/zed_input.ml" 87 2323 2332 "src/zed_input.ml" 87 2323 2334
+type(
+  Event_map.key list
+)
+"src/zed_input.ml" 87 2323 2335 "src/zed_input.ml" 87 2323 2338
+type(
+  'd t
+)
+ident(
+  int_ref set "src/zed_input.ml" 75 2007 2020 "src/zed_input.ml" 75 2007 2023
+)
+"src/zed_input.ml" 87 2323 2339 "src/zed_input.ml" 87 2323 2342
+type(
+  'e
+)
+ident(
+  int_ref acc "src/zed_input.ml" 75 2007 2024 "src/zed_input.ml" 75 2007 2027
+)
+"src/zed_input.ml" 87 2323 2327 "src/zed_input.ml" 87 2323 2342
+call(
+  tail
+)
+type(
+  'e
+)
+"src/zed_input.ml" 76 2030 2034 "src/zed_input.ml" 87 2323 2342
+type(
+  'e
+)
+"src/zed_input.ml" 89 2344 2350 "src/zed_input.ml" 89 2344 2358
+type(
+  'f t -> (Event_map.key list * 'f) list
+)
+ident(
+  def bindings "src/zed_input.ml" 92 2440 2442 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 89 2344 2359 "src/zed_input.ml" 89 2344 2362
+type(
+  'f t
+)
+ident(
+  def set "src/zed_input.ml" 90 2365 2369 "src/zed_input.ml" 90 2365 2438
+)
+"src/zed_input.ml" 90 2365 2369 "src/zed_input.ml" 90 2365 2377
+type(
+  (Event_map.key list * 'f) list -> (Event_map.key list * 'f) list
+)
+ident(
+  ext_ref List.rev
+)
+"src/zed_input.ml" 90 2365 2379 "src/zed_input.ml" 90 2365 2383
+type(
+  (Event_map.key list ->
+   'f -> (Event_map.key list * 'f) list -> (Event_map.key list * 'f) list) ->
+  'f t -> (Event_map.key list * 'f) list -> (Event_map.key list * 'f) list
+)
+ident(
+  int_ref fold "src/zed_input.ml" 75 2007 2013 "src/zed_input.ml" 75 2007 2017
+)
+"src/zed_input.ml" 90 2365 2389 "src/zed_input.ml" 90 2365 2395
+type(
+  Event_map.key list
+)
+ident(
+  def events "src/zed_input.ml" 90 2365 2396 "src/zed_input.ml" 90 2365 2429
+)
+"src/zed_input.ml" 90 2365 2396 "src/zed_input.ml" 90 2365 2402
+type(
+  'f
+)
+ident(
+  def action "src/zed_input.ml" 90 2365 2403 "src/zed_input.ml" 90 2365 2429
+)
+"src/zed_input.ml" 90 2365 2403 "src/zed_input.ml" 90 2365 2404
+type(
+  (Event_map.key list * 'f) list
+)
+ident(
+  def l "src/zed_input.ml" 90 2365 2408 "src/zed_input.ml" 90 2365 2429
+)
+"src/zed_input.ml" 90 2365 2409 "src/zed_input.ml" 90 2365 2415
+type(
+  Event_map.key list
+)
+ident(
+  int_ref events "src/zed_input.ml" 90 2365 2389 "src/zed_input.ml" 90 2365 2395
+)
+"src/zed_input.ml" 90 2365 2417 "src/zed_input.ml" 90 2365 2423
+type(
+  'f
+)
+ident(
+  int_ref action "src/zed_input.ml" 90 2365 2396 "src/zed_input.ml" 90 2365 2402
+)
+"src/zed_input.ml" 90 2365 2408 "src/zed_input.ml" 90 2365 2424
+type(
+  Event_map.key list * 'f
+)
+"src/zed_input.ml" 90 2365 2428 "src/zed_input.ml" 90 2365 2429
+type(
+  (Event_map.key list * 'f) list
+)
+ident(
+  int_ref l "src/zed_input.ml" 90 2365 2403 "src/zed_input.ml" 90 2365 2404
+)
+"src/zed_input.ml" 90 2365 2408 "src/zed_input.ml" 90 2365 2429
+type(
+  (Event_map.key list * 'f) list
+)
+"src/zed_input.ml" 90 2365 2384 "src/zed_input.ml" 90 2365 2430
+type(
+  Event_map.key list ->
+  'f -> (Event_map.key list * 'f) list -> (Event_map.key list * 'f) list
+)
+"src/zed_input.ml" 90 2365 2431 "src/zed_input.ml" 90 2365 2434
+type(
+  'f t
+)
+ident(
+  int_ref set "src/zed_input.ml" 89 2344 2359 "src/zed_input.ml" 89 2344 2362
+)
+"src/zed_input.ml" 90 2365 2435 "src/zed_input.ml" 90 2365 2437
+type(
+  (Event_map.key list * 'f) list
+)
+"src/zed_input.ml" 90 2365 2378 "src/zed_input.ml" 90 2365 2438
+call(
+  stack
+)
+type(
+  (Event_map.key list * 'f) list
+)
+"src/zed_input.ml" 90 2365 2369 "src/zed_input.ml" 90 2365 2438
+call(
+  tail
+)
+type(
+  (Event_map.key list * 'f) list
+)
+"src/zed_input.ml" 103 2618 2624 "src/zed_input.ml" 103 2618 2628
+type(
+  ('g -> 'h) -> 'g t -> (module Pack with type b = 'h)
+)
+ident(
+  def pack "src/zed_input.ml" 107 2785 2787 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 103 2618 2647 "src/zed_input.ml" 103 2618 2650
+type(
+  u -> v
+)
+ident(
+  def map "src/zed_input.ml" 103 2618 2651 "src/zed_input.ml" 105 2743 2783
+)
+"src/zed_input.ml" 103 2618 2651 "src/zed_input.ml" 103 2618 2654
+type(
+  u t
+)
+ident(
+  def set "src/zed_input.ml" 104 2657 2661 "src/zed_input.ml" 105 2743 2783
+)
+"src/zed_input.ml" 104 2657 2712 "src/zed_input.ml" 104 2657 2715
+type(
+  u t
+)
+ident(
+  def set "src/zed_input.ml" 104 2657 2722 "src/zed_input.ml" 104 2657 2739
+)
+"src/zed_input.ml" 104 2657 2718 "src/zed_input.ml" 104 2657 2721
+type(
+  u t
+)
+ident(
+  int_ref set "src/zed_input.ml" 103 2618 2651 "src/zed_input.ml" 103 2618 2654
+)
+"src/zed_input.ml" 104 2657 2726 "src/zed_input.ml" 104 2657 2729
+type(
+  u -> v
+)
+ident(
+  def map "src/zed_input.ml" 104 2657 2735 "src/zed_input.ml" 104 2657 2739
+)
+"src/zed_input.ml" 104 2657 2732 "src/zed_input.ml" 104 2657 2735
+type(
+  u -> v
+)
+ident(
+  int_ref map "src/zed_input.ml" 103 2618 2647 "src/zed_input.ml" 103 2618 2650
+)
+"src/zed_input.ml" 104 2657 2661 "src/zed_input.ml" 105 2743 2783
+type(
+  (module Pack with type b = v)
+)
+"src/zed_input.ml" 103 2618 2638 "src/zed_input.ml" 105 2743 2783
+type(
+  (u -> 'h) -> u t -> (module Pack with type b = 'h)
+)
+"src/zed_input.ml" 103 2618 2629 "src/zed_input.ml" 105 2743 2783
+type(
+  ('g -> 'h) -> 'g t -> (module Pack with type b = 'h)
+)
+"src/zed_input.ml" 107 2785 2791 "src/zed_input.ml" 107 2785 2799
+type(
+  'i -> 'i
+)
+ident(
+  def resolver "src/zed_input.ml" 109 2807 2809 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 107 2785 2800 "src/zed_input.ml" 107 2785 2801
+type(
+  'i
+)
+ident(
+  def l "src/zed_input.ml" 107 2785 2804 "src/zed_input.ml" 107 2785 2805
+)
+"src/zed_input.ml" 107 2785 2804 "src/zed_input.ml" 107 2785 2805
+type(
+  'i
+)
+ident(
+  int_ref l "src/zed_input.ml" 107 2785 2800 "src/zed_input.ml" 107 2785 2801
+)
+"src/zed_input.ml" 114 2893 2903 "src/zed_input.ml" 114 2893 2914
+type(
+  'a0. event -> 'a0 pack list -> 'a0 pack list -> 'a0 result
+)
+ident(
+  def resolve_rec "src/zed_input.ml" 114 2893 2895 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 114 2893 2987 "src/zed_input.ml" 114 2893 2992
+type(
+  Event_map.key
+)
+ident(
+  def event "src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 129 3498 3541
+)
+"src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 114 2893 2996
+type(
+  u pack list
+)
+ident(
+  def acc "src/zed_input.ml" 114 2893 2997 "src/zed_input.ml" 129 3498 3541
+)
+"src/zed_input.ml" 114 2893 2997 "src/zed_input.ml" 114 2893 3002
+type(
+  u pack list
+)
+ident(
+  def packs "src/zed_input.ml" 115 3006 3010 "src/zed_input.ml" 129 3498 3541
+)
+"src/zed_input.ml" 115 3006 3016 "src/zed_input.ml" 115 3006 3021
+type(
+  u pack list
+)
+ident(
+  int_ref packs "src/zed_input.ml" 114 2893 2997 "src/zed_input.ml" 114 2893 3002
+)
+"src/zed_input.ml" 116 3027 3035 "src/zed_input.ml" 116 3027 3037
+type(
+  u pack list
+)
+"src/zed_input.ml" 117 3041 3054 "src/zed_input.ml" 117 3041 3057
+type(
+  u pack list
+)
+ident(
+  int_ref acc "src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 114 2893 2996
+)
+"src/zed_input.ml" 117 3041 3058 "src/zed_input.ml" 117 3041 3059
+type(
+  u pack list -> u pack list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_input.ml" 117 3041 3060 "src/zed_input.ml" 117 3041 3062
+type(
+  u pack list
+)
+"src/zed_input.ml" 117 3041 3054 "src/zed_input.ml" 117 3041 3062
+type(
+  bool
+)
+"src/zed_input.ml" 118 3068 3080 "src/zed_input.ml" 118 3068 3088
+type(
+  u result
+)
+"src/zed_input.ml" 120 3104 3126 "src/zed_input.ml" 120 3104 3134
+type(
+  u pack list -> u resolver
+)
+ident(
+  ext_ref List.rev
+)
+"src/zed_input.ml" 120 3104 3135 "src/zed_input.ml" 120 3104 3138
+type(
+  u pack list
+)
+ident(
+  int_ref acc "src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 114 2893 2996
+)
+"src/zed_input.ml" 120 3104 3125 "src/zed_input.ml" 120 3104 3139
+call(
+  stack
+)
+type(
+  u resolver
+)
+"src/zed_input.ml" 120 3104 3116 "src/zed_input.ml" 120 3104 3139
+type(
+  u result
+)
+"src/zed_input.ml" 117 3041 3051 "src/zed_input.ml" 120 3104 3139
+type(
+  u result
+)
+"src/zed_input.ml" 121 3140 3148 "src/zed_input.ml" 121 3140 3149
+type(
+  u pack
+)
+ident(
+  def p "src/zed_input.ml" 122 3162 3172 "src/zed_input.ml" 129 3498 3541
+)
+"src/zed_input.ml" 121 3140 3153 "src/zed_input.ml" 121 3140 3158
+type(
+  u pack list
+)
+ident(
+  def packs "src/zed_input.ml" 122 3162 3172 "src/zed_input.ml" 129 3498 3541
+)
+"src/zed_input.ml" 121 3140 3148 "src/zed_input.ml" 121 3140 3158
+type(
+  u pack list
+)
+"src/zed_input.ml" 122 3162 3195 "src/zed_input.ml" 122 3162 3196
+type(
+  (module Pack with type b = u)
+)
+type(
+  u pack
+)
+ident(
+  int_ref p "src/zed_input.ml" 121 3140 3148 "src/zed_input.ml" 121 3140 3149
+)
+"src/zed_input.ml" 123 3224 3250 "src/zed_input.ml" 123 3224 3264
+type(
+  Event_map.key -> Pack.a node Event_map.t -> Pack.a node
+)
+ident(
+  ext_ref Event_map.find
+)
+"src/zed_input.ml" 123 3224 3265 "src/zed_input.ml" 123 3224 3270
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 114 2893 2987 "src/zed_input.ml" 114 2893 2992
+)
+"src/zed_input.ml" 123 3224 3271 "src/zed_input.ml" 123 3224 3279
+type(
+  Pack.a t
+)
+ident(
+  int_ref Pack.set "src/zed_input.ml" 96 2489 2493 "src/zed_input.ml" 96 2489 2506
+)
+"src/zed_input.ml" 123 3224 3249 "src/zed_input.ml" 123 3224 3280
+call(
+  stack
+)
+type(
+  Pack.a node
+)
+"src/zed_input.ml" 123 3224 3244 "src/zed_input.ml" 123 3224 3280
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 123 3224 3286 "src/zed_input.ml" 123 3224 3295
+type(
+  exn
+)
+"src/zed_input.ml" 123 3224 3299 "src/zed_input.ml" 123 3224 3303
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 123 3224 3240 "src/zed_input.ml" 123 3224 3303
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 124 3309 3333 "src/zed_input.ml" 124 3309 3336
+type(
+  Pack.a t
+)
+ident(
+  def set "src/zed_input.ml" 125 3341 3357 "src/zed_input.ml" 125 3341 3407
+)
+"src/zed_input.ml" 124 3309 3328 "src/zed_input.ml" 124 3309 3337
+type(
+  Pack.a node
+)
+"src/zed_input.ml" 124 3309 3323 "src/zed_input.ml" 124 3309 3337
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 125 3341 3357 "src/zed_input.ml" 125 3341 3368
+type(
+  event -> u pack list -> u pack list -> u result
+)
+ident(
+  int_ref resolve_rec "src/zed_input.ml" 114 2893 2903 "src/zed_input.ml" 114 2893 2914
+)
+"src/zed_input.ml" 125 3341 3369 "src/zed_input.ml" 125 3341 3374
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 114 2893 2987 "src/zed_input.ml" 114 2893 2992
+)
+"src/zed_input.ml" 125 3341 3376 "src/zed_input.ml" 125 3341 3380
+type(
+  (Pack.a -> u) -> Pack.a t -> u pack
+)
+ident(
+  int_ref pack "src/zed_input.ml" 103 2618 2624 "src/zed_input.ml" 103 2618 2628
+)
+"src/zed_input.ml" 125 3341 3381 "src/zed_input.ml" 125 3341 3389
+type(
+  Pack.a -> u
+)
+ident(
+  int_ref Pack.map "src/zed_input.ml" 97 2507 2511 "src/zed_input.ml" 97 2507 2527
+)
+"src/zed_input.ml" 125 3341 3390 "src/zed_input.ml" 125 3341 3393
+type(
+  Pack.a t
+)
+ident(
+  int_ref set "src/zed_input.ml" 124 3309 3333 "src/zed_input.ml" 124 3309 3336
+)
+"src/zed_input.ml" 125 3341 3376 "src/zed_input.ml" 125 3341 3393
+call(
+  stack
+)
+type(
+  u pack
+)
+"src/zed_input.ml" 125 3341 3397 "src/zed_input.ml" 125 3341 3400
+type(
+  u pack list
+)
+ident(
+  int_ref acc "src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 114 2893 2996
+)
+"src/zed_input.ml" 125 3341 3375 "src/zed_input.ml" 125 3341 3401
+type(
+  u pack list
+)
+"src/zed_input.ml" 125 3341 3402 "src/zed_input.ml" 125 3341 3407
+type(
+  u pack list
+)
+ident(
+  int_ref packs "src/zed_input.ml" 121 3140 3153 "src/zed_input.ml" 121 3140 3158
+)
+"src/zed_input.ml" 125 3341 3357 "src/zed_input.ml" 125 3341 3407
+call(
+  tail
+)
+type(
+  u result
+)
+"src/zed_input.ml" 126 3408 3432 "src/zed_input.ml" 126 3408 3433
+type(
+  Pack.a
+)
+ident(
+  def v "src/zed_input.ml" 127 3438 3454 "src/zed_input.ml" 127 3438 3475
+)
+"src/zed_input.ml" 126 3408 3427 "src/zed_input.ml" 126 3408 3434
+type(
+  Pack.a node
+)
+"src/zed_input.ml" 126 3408 3422 "src/zed_input.ml" 126 3408 3434
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 127 3438 3464 "src/zed_input.ml" 127 3438 3472
+type(
+  Pack.a -> u
+)
+ident(
+  int_ref Pack.map "src/zed_input.ml" 97 2507 2511 "src/zed_input.ml" 97 2507 2527
+)
+"src/zed_input.ml" 127 3438 3473 "src/zed_input.ml" 127 3438 3474
+type(
+  Pack.a
+)
+ident(
+  int_ref v "src/zed_input.ml" 126 3408 3432 "src/zed_input.ml" 126 3408 3433
+)
+"src/zed_input.ml" 127 3438 3463 "src/zed_input.ml" 127 3438 3475
+call(
+  stack
+)
+type(
+  u
+)
+"src/zed_input.ml" 127 3438 3454 "src/zed_input.ml" 127 3438 3475
+type(
+  u result
+)
+"src/zed_input.ml" 128 3476 3490 "src/zed_input.ml" 128 3476 3494
+type(
+  Pack.a node option
+)
+"src/zed_input.ml" 129 3498 3514 "src/zed_input.ml" 129 3498 3525
+type(
+  event -> u pack list -> u pack list -> u result
+)
+ident(
+  int_ref resolve_rec "src/zed_input.ml" 114 2893 2903 "src/zed_input.ml" 114 2893 2914
+)
+"src/zed_input.ml" 129 3498 3526 "src/zed_input.ml" 129 3498 3531
+type(
+  Event_map.key
+)
+ident(
+  int_ref event "src/zed_input.ml" 114 2893 2987 "src/zed_input.ml" 114 2893 2992
+)
+"src/zed_input.ml" 129 3498 3532 "src/zed_input.ml" 129 3498 3535
+type(
+  u pack list
+)
+ident(
+  int_ref acc "src/zed_input.ml" 114 2893 2993 "src/zed_input.ml" 114 2893 2996
+)
+"src/zed_input.ml" 129 3498 3536 "src/zed_input.ml" 129 3498 3541
+type(
+  u pack list
+)
+ident(
+  int_ref packs "src/zed_input.ml" 121 3140 3153 "src/zed_input.ml" 121 3140 3158
+)
+"src/zed_input.ml" 129 3498 3514 "src/zed_input.ml" 129 3498 3541
+call(
+  tail
+)
+type(
+  u result
+)
+"src/zed_input.ml" 123 3224 3234 "src/zed_input.ml" 129 3498 3541
+type(
+  u result
+)
+"src/zed_input.ml" 122 3162 3172 "src/zed_input.ml" 129 3498 3541
+type(
+  u result
+)
+"src/zed_input.ml" 115 3006 3010 "src/zed_input.ml" 129 3498 3541
+type(
+  u result
+)
+"src/zed_input.ml" 114 2893 2974 "src/zed_input.ml" 129 3498 3541
+type(
+  event -> 'a0 pack list -> 'a0 pack list -> 'a0 result
+)
+"src/zed_input.ml" 131 3543 3549 "src/zed_input.ml" 131 3543 3556
+type(
+  event -> 'j pack list -> 'j result
+)
+ident(
+  def resolve "src/zed_input.ml" 132 3570 3599 "src/zed_input.ml" 133 3600 3603
+)
+"src/zed_input.ml" 131 3543 3557 "src/zed_input.ml" 131 3543 3562
+type(
+  event
+)
+ident(
+  def event "src/zed_input.ml" 131 3543 3563 "src/zed_input.ml" 132 3570 3599
+)
+"src/zed_input.ml" 131 3543 3563 "src/zed_input.ml" 131 3543 3567
+type(
+  'j pack list
+)
+ident(
+  def sets "src/zed_input.ml" 132 3570 3574 "src/zed_input.ml" 132 3570 3599
+)
+"src/zed_input.ml" 132 3570 3574 "src/zed_input.ml" 132 3570 3585
+type(
+  event -> 'j pack list -> 'j pack list -> 'j result
+)
+ident(
+  int_ref resolve_rec "src/zed_input.ml" 114 2893 2903 "src/zed_input.ml" 114 2893 2914
+)
+"src/zed_input.ml" 132 3570 3586 "src/zed_input.ml" 132 3570 3591
+type(
+  event
+)
+ident(
+  int_ref event "src/zed_input.ml" 131 3543 3557 "src/zed_input.ml" 131 3543 3562
+)
+"src/zed_input.ml" 132 3570 3592 "src/zed_input.ml" 132 3570 3594
+type(
+  'j pack list
+)
+"src/zed_input.ml" 132 3570 3595 "src/zed_input.ml" 132 3570 3599
+type(
+  'j pack list
+)
+ident(
+  int_ref sets "src/zed_input.ml" 131 3543 3563 "src/zed_input.ml" 131 3543 3567
+)
+"src/zed_input.ml" 132 3570 3574 "src/zed_input.ml" 132 3570 3599
+call(
+  tail
+)
+type(
+  'j result
+)

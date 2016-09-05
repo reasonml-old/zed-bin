@@ -1,0 +1,4840 @@
+"src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+type(
+  t -> int
+)
+ident(
+  def length "src/zed_lines.ml" 38 1047 1047 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 34 973 984 "src/zed_lines.ml" 34 973 987
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 34 973 991 "src/zed_lines.ml" 34 973 994
+)
+"src/zed_lines.ml" 34 973 977 "src/zed_lines.ml" 34 973 987
+type(
+  t
+)
+"src/zed_lines.ml" 34 973 991 "src/zed_lines.ml" 34 973 994
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 34 973 984 "src/zed_lines.ml" 34 973 987
+)
+"src/zed_lines.ml" 35 995 999 "src/zed_lines.ml" 35 995 1005
+type(
+  t
+)
+"src/zed_lines.ml" 35 995 1009 "src/zed_lines.ml" 35 995 1010
+type(
+  int
+)
+"src/zed_lines.ml" 36 1011 1022 "src/zed_lines.ml" 36 1011 1023
+type(
+  t
+)
+"src/zed_lines.ml" 36 1011 1025 "src/zed_lines.ml" 36 1011 1026
+type(
+  t
+)
+"src/zed_lines.ml" 36 1011 1028 "src/zed_lines.ml" 36 1011 1031
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 36 1011 1042 "src/zed_lines.ml" 36 1011 1045
+)
+"src/zed_lines.ml" 36 1011 1033 "src/zed_lines.ml" 36 1011 1034
+type(
+  int
+)
+"src/zed_lines.ml" 36 1011 1036 "src/zed_lines.ml" 36 1011 1037
+type(
+  int
+)
+"src/zed_lines.ml" 36 1011 1015 "src/zed_lines.ml" 36 1011 1038
+type(
+  t
+)
+"src/zed_lines.ml" 36 1011 1042 "src/zed_lines.ml" 36 1011 1045
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 36 1011 1028 "src/zed_lines.ml" 36 1011 1031
+)
+"src/zed_lines.ml" 33 951 964 "src/zed_lines.ml" 36 1011 1045
+type(
+  t -> int
+)
+"src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+type(
+  t -> int
+)
+ident(
+  def count "src/zed_lines.ml" 43 1142 1142 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 39 1068 1079 "src/zed_lines.ml" 39 1068 1080
+type(
+  int
+)
+"src/zed_lines.ml" 39 1068 1072 "src/zed_lines.ml" 39 1068 1080
+type(
+  t
+)
+"src/zed_lines.ml" 39 1068 1084 "src/zed_lines.ml" 39 1068 1085
+type(
+  int
+)
+"src/zed_lines.ml" 40 1086 1090 "src/zed_lines.ml" 40 1086 1096
+type(
+  t
+)
+"src/zed_lines.ml" 40 1086 1100 "src/zed_lines.ml" 40 1086 1101
+type(
+  int
+)
+"src/zed_lines.ml" 41 1102 1113 "src/zed_lines.ml" 41 1102 1114
+type(
+  t
+)
+"src/zed_lines.ml" 41 1102 1116 "src/zed_lines.ml" 41 1102 1117
+type(
+  t
+)
+"src/zed_lines.ml" 41 1102 1119 "src/zed_lines.ml" 41 1102 1120
+type(
+  int
+)
+"src/zed_lines.ml" 41 1102 1122 "src/zed_lines.ml" 41 1102 1127
+type(
+  int
+)
+ident(
+  def count "src/zed_lines.ml" 41 1102 1135 "src/zed_lines.ml" 41 1102 1140
+)
+"src/zed_lines.ml" 41 1102 1129 "src/zed_lines.ml" 41 1102 1130
+type(
+  int
+)
+"src/zed_lines.ml" 41 1102 1106 "src/zed_lines.ml" 41 1102 1131
+type(
+  t
+)
+"src/zed_lines.ml" 41 1102 1135 "src/zed_lines.ml" 41 1102 1140
+type(
+  int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 41 1102 1122 "src/zed_lines.ml" 41 1102 1127
+)
+"src/zed_lines.ml" 38 1047 1059 "src/zed_lines.ml" 41 1102 1140
+type(
+  t -> int
+)
+"src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+type(
+  t -> int
+)
+ident(
+  def depth "src/zed_lines.ml" 47 1222 1222 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 44 1163 1174 "src/zed_lines.ml" 44 1163 1175
+type(
+  int
+)
+"src/zed_lines.ml" 44 1163 1167 "src/zed_lines.ml" 44 1163 1175
+type(
+  t
+)
+"src/zed_lines.ml" 44 1163 1178 "src/zed_lines.ml" 44 1163 1184
+type(
+  t
+)
+"src/zed_lines.ml" 44 1163 1167 "src/zed_lines.ml" 44 1163 1184
+type(
+  t
+)
+"src/zed_lines.ml" 44 1163 1188 "src/zed_lines.ml" 44 1163 1189
+type(
+  int
+)
+"src/zed_lines.ml" 45 1190 1201 "src/zed_lines.ml" 45 1190 1202
+type(
+  t
+)
+"src/zed_lines.ml" 45 1190 1204 "src/zed_lines.ml" 45 1190 1205
+type(
+  t
+)
+"src/zed_lines.ml" 45 1190 1207 "src/zed_lines.ml" 45 1190 1208
+type(
+  int
+)
+"src/zed_lines.ml" 45 1190 1210 "src/zed_lines.ml" 45 1190 1211
+type(
+  int
+)
+"src/zed_lines.ml" 45 1190 1213 "src/zed_lines.ml" 45 1190 1214
+type(
+  int
+)
+ident(
+  def d "src/zed_lines.ml" 45 1190 1219 "src/zed_lines.ml" 45 1190 1220
+)
+"src/zed_lines.ml" 45 1190 1194 "src/zed_lines.ml" 45 1190 1215
+type(
+  t
+)
+"src/zed_lines.ml" 45 1190 1219 "src/zed_lines.ml" 45 1190 1220
+type(
+  int
+)
+ident(
+  int_ref d "src/zed_lines.ml" 45 1190 1213 "src/zed_lines.ml" 45 1190 1214
+)
+"src/zed_lines.ml" 43 1142 1154 "src/zed_lines.ml" 45 1190 1220
+type(
+  t -> int
+)
+"src/zed_lines.ml" 47 1222 1226 "src/zed_lines.ml" 47 1222 1234
+type(
+  t -> bool
+)
+ident(
+  def is_empty "src/zed_lines.ml" 51 1283 1283 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 48 1246 1257 "src/zed_lines.ml" 48 1246 1258
+type(
+  int
+)
+"src/zed_lines.ml" 48 1246 1250 "src/zed_lines.ml" 48 1246 1258
+type(
+  t
+)
+"src/zed_lines.ml" 48 1246 1262 "src/zed_lines.ml" 48 1246 1266
+type(
+  bool
+)
+"src/zed_lines.ml" 49 1267 1271 "src/zed_lines.ml" 49 1267 1272
+type(
+  t
+)
+"src/zed_lines.ml" 49 1267 1276 "src/zed_lines.ml" 49 1267 1281
+type(
+  bool
+)
+"src/zed_lines.ml" 47 1222 1237 "src/zed_lines.ml" 49 1267 1281
+type(
+  t -> bool
+)
+"src/zed_lines.ml" 51 1283 1287 "src/zed_lines.ml" 51 1283 1292
+type(
+  t
+)
+ident(
+  def empty "src/zed_lines.ml" 57 1522 1522 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 51 1283 1302 "src/zed_lines.ml" 51 1283 1303
+type(
+  int
+)
+"src/zed_lines.ml" 51 1283 1295 "src/zed_lines.ml" 51 1283 1303
+type(
+  t
+)
+"src/zed_lines.ml" 57 1522 1530 "src/zed_lines.ml" 57 1522 1544
+type(
+  t -> int -> int -> int
+)
+ident(
+  def line_index_rec "src/zed_lines.ml" 57 1522 1522 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 57 1522 1545 "src/zed_lines.ml" 57 1522 1548
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 57 1522 1552
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+type(
+  int
+)
+ident(
+  def acc "src/zed_lines.ml" 58 1559 1561 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 58 1559 1567 "src/zed_lines.ml" 58 1559 1570
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 57 1522 1545 "src/zed_lines.ml" 57 1522 1548
+)
+"src/zed_lines.ml" 59 1576 1589 "src/zed_lines.ml" 59 1576 1590
+type(
+  int
+)
+"src/zed_lines.ml" 59 1576 1582 "src/zed_lines.ml" 59 1576 1590
+type(
+  t
+)
+"src/zed_lines.ml" 60 1594 1602 "src/zed_lines.ml" 60 1594 1605
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+)
+"src/zed_lines.ml" 61 1606 1612 "src/zed_lines.ml" 61 1606 1618
+type(
+  t
+)
+"src/zed_lines.ml" 62 1622 1633 "src/zed_lines.ml" 62 1622 1636
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 57 1522 1552
+)
+"src/zed_lines.ml" 62 1622 1637 "src/zed_lines.ml" 62 1622 1638
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 62 1622 1639 "src/zed_lines.ml" 62 1622 1640
+type(
+  int
+)
+"src/zed_lines.ml" 62 1622 1633 "src/zed_lines.ml" 62 1622 1640
+type(
+  bool
+)
+"src/zed_lines.ml" 63 1646 1656 "src/zed_lines.ml" 63 1646 1659
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+)
+"src/zed_lines.ml" 65 1673 1683 "src/zed_lines.ml" 65 1673 1686
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+)
+"src/zed_lines.ml" 65 1673 1687 "src/zed_lines.ml" 65 1673 1688
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 65 1673 1689 "src/zed_lines.ml" 65 1673 1690
+type(
+  int
+)
+"src/zed_lines.ml" 65 1673 1683 "src/zed_lines.ml" 65 1673 1690
+type(
+  int
+)
+"src/zed_lines.ml" 62 1622 1630 "src/zed_lines.ml" 65 1673 1690
+type(
+  int
+)
+"src/zed_lines.ml" 66 1691 1704 "src/zed_lines.ml" 66 1691 1706
+type(
+  t
+)
+ident(
+  def s1 "src/zed_lines.ml" 67 1724 1732 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 66 1691 1708 "src/zed_lines.ml" 66 1691 1710
+type(
+  t
+)
+ident(
+  def s2 "src/zed_lines.ml" 67 1724 1732 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 66 1691 1712 "src/zed_lines.ml" 66 1691 1713
+type(
+  int
+)
+"src/zed_lines.ml" 66 1691 1715 "src/zed_lines.ml" 66 1691 1716
+type(
+  int
+)
+"src/zed_lines.ml" 66 1691 1718 "src/zed_lines.ml" 66 1691 1719
+type(
+  int
+)
+"src/zed_lines.ml" 66 1691 1697 "src/zed_lines.ml" 66 1691 1720
+type(
+  t
+)
+"src/zed_lines.ml" 67 1724 1736 "src/zed_lines.ml" 67 1724 1740
+type(
+  int
+)
+ident(
+  def len1 "src/zed_lines.ml" 68 1756 1764 "src/zed_lines.ml" 71 1832 1889
+)
+"src/zed_lines.ml" 67 1724 1743 "src/zed_lines.ml" 67 1724 1749
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 67 1724 1750 "src/zed_lines.ml" 67 1724 1752
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 66 1691 1704 "src/zed_lines.ml" 66 1691 1706
+)
+"src/zed_lines.ml" 67 1724 1743 "src/zed_lines.ml" 67 1724 1752
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 68 1756 1767 "src/zed_lines.ml" 68 1756 1770
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 57 1522 1552
+)
+"src/zed_lines.ml" 68 1756 1771 "src/zed_lines.ml" 68 1756 1772
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 68 1756 1773 "src/zed_lines.ml" 68 1756 1777
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 67 1724 1736 "src/zed_lines.ml" 67 1724 1740
+)
+"src/zed_lines.ml" 68 1756 1767 "src/zed_lines.ml" 68 1756 1777
+type(
+  bool
+)
+"src/zed_lines.ml" 69 1783 1793 "src/zed_lines.ml" 69 1783 1807
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_index_rec "src/zed_lines.ml" 57 1522 1530 "src/zed_lines.ml" 57 1522 1544
+)
+"src/zed_lines.ml" 69 1783 1808 "src/zed_lines.ml" 69 1783 1810
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 66 1691 1704 "src/zed_lines.ml" 66 1691 1706
+)
+"src/zed_lines.ml" 69 1783 1811 "src/zed_lines.ml" 69 1783 1814
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 57 1522 1552
+)
+"src/zed_lines.ml" 69 1783 1815 "src/zed_lines.ml" 69 1783 1818
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+)
+"src/zed_lines.ml" 69 1783 1793 "src/zed_lines.ml" 69 1783 1818
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 71 1832 1842 "src/zed_lines.ml" 71 1832 1856
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_index_rec "src/zed_lines.ml" 57 1522 1530 "src/zed_lines.ml" 57 1522 1544
+)
+"src/zed_lines.ml" 71 1832 1857 "src/zed_lines.ml" 71 1832 1859
+type(
+  t
+)
+ident(
+  int_ref s2 "src/zed_lines.ml" 66 1691 1708 "src/zed_lines.ml" 66 1691 1710
+)
+"src/zed_lines.ml" 71 1832 1861 "src/zed_lines.ml" 71 1832 1864
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 57 1522 1549 "src/zed_lines.ml" 57 1522 1552
+)
+"src/zed_lines.ml" 71 1832 1865 "src/zed_lines.ml" 71 1832 1866
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 71 1832 1867 "src/zed_lines.ml" 71 1832 1871
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 67 1724 1736 "src/zed_lines.ml" 67 1724 1740
+)
+"src/zed_lines.ml" 71 1832 1860 "src/zed_lines.ml" 71 1832 1872
+type(
+  int
+)
+"src/zed_lines.ml" 71 1832 1874 "src/zed_lines.ml" 71 1832 1877
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 57 1522 1553 "src/zed_lines.ml" 57 1522 1556
+)
+"src/zed_lines.ml" 71 1832 1878 "src/zed_lines.ml" 71 1832 1879
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 71 1832 1880 "src/zed_lines.ml" 71 1832 1885
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 71 1832 1886 "src/zed_lines.ml" 71 1832 1888
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 66 1691 1704 "src/zed_lines.ml" 66 1691 1706
+)
+"src/zed_lines.ml" 71 1832 1880 "src/zed_lines.ml" 71 1832 1888
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 71 1832 1873 "src/zed_lines.ml" 71 1832 1889
+type(
+  int
+)
+"src/zed_lines.ml" 71 1832 1842 "src/zed_lines.ml" 71 1832 1889
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 68 1756 1764 "src/zed_lines.ml" 71 1832 1889
+type(
+  int
+)
+"src/zed_lines.ml" 67 1724 1732 "src/zed_lines.ml" 71 1832 1889
+type(
+  int
+)
+"src/zed_lines.ml" 58 1559 1561 "src/zed_lines.ml" 71 1832 1889
+type(
+  int
+)
+"src/zed_lines.ml" 73 1891 1895 "src/zed_lines.ml" 73 1891 1905
+type(
+  t -> int -> int
+)
+ident(
+  def line_index "src/zed_lines.ml" 79 2015 2015 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 73 1891 1906 "src/zed_lines.ml" 73 1891 1909
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 73 1891 1910 "src/zed_lines.ml" 77 1985 2013
+)
+"src/zed_lines.ml" 73 1891 1910 "src/zed_lines.ml" 73 1891 1913
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 74 1916 1918 "src/zed_lines.ml" 77 1985 2013
+)
+"src/zed_lines.ml" 74 1916 1921 "src/zed_lines.ml" 74 1916 1924
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 73 1891 1910 "src/zed_lines.ml" 73 1891 1913
+)
+"src/zed_lines.ml" 74 1916 1925 "src/zed_lines.ml" 74 1916 1926
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 74 1916 1927 "src/zed_lines.ml" 74 1916 1928
+type(
+  int
+)
+"src/zed_lines.ml" 74 1916 1921 "src/zed_lines.ml" 74 1916 1928
+type(
+  bool
+)
+"src/zed_lines.ml" 74 1916 1929 "src/zed_lines.ml" 74 1916 1931
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_lines.ml" 74 1916 1932 "src/zed_lines.ml" 74 1916 1935
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 73 1891 1910 "src/zed_lines.ml" 73 1891 1913
+)
+"src/zed_lines.ml" 74 1916 1936 "src/zed_lines.ml" 74 1916 1937
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 74 1916 1938 "src/zed_lines.ml" 74 1916 1944
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 74 1916 1945 "src/zed_lines.ml" 74 1916 1948
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 73 1891 1906 "src/zed_lines.ml" 73 1891 1909
+)
+"src/zed_lines.ml" 74 1916 1938 "src/zed_lines.ml" 74 1916 1948
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 74 1916 1932 "src/zed_lines.ml" 74 1916 1948
+type(
+  bool
+)
+"src/zed_lines.ml" 74 1916 1921 "src/zed_lines.ml" 74 1916 1948
+type(
+  bool
+)
+"src/zed_lines.ml" 75 1954 1958 "src/zed_lines.ml" 75 1954 1963
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_lines.ml" 75 1954 1964 "src/zed_lines.ml" 75 1954 1977
+type(
+  exn
+)
+"src/zed_lines.ml" 75 1954 1958 "src/zed_lines.ml" 75 1954 1977
+type(
+  int
+)
+"src/zed_lines.ml" 77 1985 1989 "src/zed_lines.ml" 77 1985 2003
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_index_rec "src/zed_lines.ml" 57 1522 1530 "src/zed_lines.ml" 57 1522 1544
+)
+"src/zed_lines.ml" 77 1985 2004 "src/zed_lines.ml" 77 1985 2007
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 73 1891 1906 "src/zed_lines.ml" 73 1891 1909
+)
+"src/zed_lines.ml" 77 1985 2008 "src/zed_lines.ml" 77 1985 2011
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 73 1891 1910 "src/zed_lines.ml" 73 1891 1913
+)
+"src/zed_lines.ml" 77 1985 2012 "src/zed_lines.ml" 77 1985 2013
+type(
+  int
+)
+"src/zed_lines.ml" 77 1985 1989 "src/zed_lines.ml" 77 1985 2013
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 74 1916 1918 "src/zed_lines.ml" 77 1985 2013
+type(
+  int
+)
+"src/zed_lines.ml" 79 2015 2023 "src/zed_lines.ml" 79 2015 2037
+type(
+  t -> int -> int -> int
+)
+ident(
+  def line_start_rec "src/zed_lines.ml" 79 2015 2015 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 79 2015 2038 "src/zed_lines.ml" 79 2015 2041
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 79 2015 2045
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+type(
+  int
+)
+ident(
+  def acc "src/zed_lines.ml" 80 2052 2054 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 80 2052 2060 "src/zed_lines.ml" 80 2052 2063
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 79 2015 2038 "src/zed_lines.ml" 79 2015 2041
+)
+"src/zed_lines.ml" 81 2069 2082 "src/zed_lines.ml" 81 2069 2083
+type(
+  int
+)
+"src/zed_lines.ml" 81 2069 2075 "src/zed_lines.ml" 81 2069 2083
+type(
+  t
+)
+"src/zed_lines.ml" 82 2087 2095 "src/zed_lines.ml" 82 2087 2098
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+)
+"src/zed_lines.ml" 83 2099 2105 "src/zed_lines.ml" 83 2099 2111
+type(
+  t
+)
+"src/zed_lines.ml" 84 2115 2126 "src/zed_lines.ml" 84 2115 2129
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 79 2015 2045
+)
+"src/zed_lines.ml" 84 2115 2130 "src/zed_lines.ml" 84 2115 2131
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 84 2115 2132 "src/zed_lines.ml" 84 2115 2133
+type(
+  int
+)
+"src/zed_lines.ml" 84 2115 2126 "src/zed_lines.ml" 84 2115 2133
+type(
+  bool
+)
+"src/zed_lines.ml" 85 2139 2149 "src/zed_lines.ml" 85 2139 2152
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+)
+"src/zed_lines.ml" 87 2166 2176 "src/zed_lines.ml" 87 2166 2179
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+)
+"src/zed_lines.ml" 87 2166 2180 "src/zed_lines.ml" 87 2166 2181
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 87 2166 2182 "src/zed_lines.ml" 87 2166 2183
+type(
+  int
+)
+"src/zed_lines.ml" 87 2166 2176 "src/zed_lines.ml" 87 2166 2183
+type(
+  int
+)
+"src/zed_lines.ml" 84 2115 2123 "src/zed_lines.ml" 87 2166 2183
+type(
+  int
+)
+"src/zed_lines.ml" 88 2184 2197 "src/zed_lines.ml" 88 2184 2199
+type(
+  t
+)
+ident(
+  def s1 "src/zed_lines.ml" 89 2217 2225 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 88 2184 2201 "src/zed_lines.ml" 88 2184 2203
+type(
+  t
+)
+ident(
+  def s2 "src/zed_lines.ml" 89 2217 2225 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 88 2184 2205 "src/zed_lines.ml" 88 2184 2206
+type(
+  int
+)
+"src/zed_lines.ml" 88 2184 2208 "src/zed_lines.ml" 88 2184 2209
+type(
+  int
+)
+"src/zed_lines.ml" 88 2184 2211 "src/zed_lines.ml" 88 2184 2212
+type(
+  int
+)
+"src/zed_lines.ml" 88 2184 2190 "src/zed_lines.ml" 88 2184 2213
+type(
+  t
+)
+"src/zed_lines.ml" 89 2217 2229 "src/zed_lines.ml" 89 2217 2235
+type(
+  int
+)
+ident(
+  def count1 "src/zed_lines.ml" 90 2250 2258 "src/zed_lines.ml" 93 2329 2389
+)
+"src/zed_lines.ml" 89 2217 2238 "src/zed_lines.ml" 89 2217 2243
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 89 2217 2244 "src/zed_lines.ml" 89 2217 2246
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 88 2184 2197 "src/zed_lines.ml" 88 2184 2199
+)
+"src/zed_lines.ml" 89 2217 2238 "src/zed_lines.ml" 89 2217 2246
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 90 2250 2261 "src/zed_lines.ml" 90 2250 2264
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 79 2015 2045
+)
+"src/zed_lines.ml" 90 2250 2265 "src/zed_lines.ml" 90 2250 2267
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/zed_lines.ml" 90 2250 2268 "src/zed_lines.ml" 90 2250 2274
+type(
+  int
+)
+ident(
+  int_ref count1 "src/zed_lines.ml" 89 2217 2229 "src/zed_lines.ml" 89 2217 2235
+)
+"src/zed_lines.ml" 90 2250 2261 "src/zed_lines.ml" 90 2250 2274
+type(
+  bool
+)
+"src/zed_lines.ml" 91 2280 2290 "src/zed_lines.ml" 91 2280 2304
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_start_rec "src/zed_lines.ml" 79 2015 2023 "src/zed_lines.ml" 79 2015 2037
+)
+"src/zed_lines.ml" 91 2280 2305 "src/zed_lines.ml" 91 2280 2307
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 88 2184 2197 "src/zed_lines.ml" 88 2184 2199
+)
+"src/zed_lines.ml" 91 2280 2308 "src/zed_lines.ml" 91 2280 2311
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 79 2015 2045
+)
+"src/zed_lines.ml" 91 2280 2312 "src/zed_lines.ml" 91 2280 2315
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+)
+"src/zed_lines.ml" 91 2280 2290 "src/zed_lines.ml" 91 2280 2315
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 93 2329 2339 "src/zed_lines.ml" 93 2329 2353
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_start_rec "src/zed_lines.ml" 79 2015 2023 "src/zed_lines.ml" 79 2015 2037
+)
+"src/zed_lines.ml" 93 2329 2354 "src/zed_lines.ml" 93 2329 2356
+type(
+  t
+)
+ident(
+  int_ref s2 "src/zed_lines.ml" 88 2184 2201 "src/zed_lines.ml" 88 2184 2203
+)
+"src/zed_lines.ml" 93 2329 2358 "src/zed_lines.ml" 93 2329 2361
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 79 2015 2042 "src/zed_lines.ml" 79 2015 2045
+)
+"src/zed_lines.ml" 93 2329 2362 "src/zed_lines.ml" 93 2329 2363
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 93 2329 2364 "src/zed_lines.ml" 93 2329 2370
+type(
+  int
+)
+ident(
+  int_ref count1 "src/zed_lines.ml" 89 2217 2229 "src/zed_lines.ml" 89 2217 2235
+)
+"src/zed_lines.ml" 93 2329 2357 "src/zed_lines.ml" 93 2329 2371
+type(
+  int
+)
+"src/zed_lines.ml" 93 2329 2373 "src/zed_lines.ml" 93 2329 2376
+type(
+  int
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 79 2015 2046 "src/zed_lines.ml" 79 2015 2049
+)
+"src/zed_lines.ml" 93 2329 2377 "src/zed_lines.ml" 93 2329 2378
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 93 2329 2379 "src/zed_lines.ml" 93 2329 2385
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 93 2329 2386 "src/zed_lines.ml" 93 2329 2388
+type(
+  t
+)
+ident(
+  int_ref s1 "src/zed_lines.ml" 88 2184 2197 "src/zed_lines.ml" 88 2184 2199
+)
+"src/zed_lines.ml" 93 2329 2379 "src/zed_lines.ml" 93 2329 2388
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 93 2329 2372 "src/zed_lines.ml" 93 2329 2389
+type(
+  int
+)
+"src/zed_lines.ml" 93 2329 2339 "src/zed_lines.ml" 93 2329 2389
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 90 2250 2258 "src/zed_lines.ml" 93 2329 2389
+type(
+  int
+)
+"src/zed_lines.ml" 89 2217 2225 "src/zed_lines.ml" 93 2329 2389
+type(
+  int
+)
+"src/zed_lines.ml" 80 2052 2054 "src/zed_lines.ml" 93 2329 2389
+type(
+  int
+)
+"src/zed_lines.ml" 95 2391 2395 "src/zed_lines.ml" 95 2391 2405
+type(
+  t -> int -> int
+)
+ident(
+  def line_start "src/zed_lines.ml" 101 2514 2514 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 95 2391 2406 "src/zed_lines.ml" 95 2391 2409
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 95 2391 2410 "src/zed_lines.ml" 99 2484 2512
+)
+"src/zed_lines.ml" 95 2391 2410 "src/zed_lines.ml" 95 2391 2413
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 96 2416 2418 "src/zed_lines.ml" 99 2484 2512
+)
+"src/zed_lines.ml" 96 2416 2421 "src/zed_lines.ml" 96 2416 2424
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 95 2391 2410 "src/zed_lines.ml" 95 2391 2413
+)
+"src/zed_lines.ml" 96 2416 2425 "src/zed_lines.ml" 96 2416 2426
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 96 2416 2427 "src/zed_lines.ml" 96 2416 2428
+type(
+  int
+)
+"src/zed_lines.ml" 96 2416 2421 "src/zed_lines.ml" 96 2416 2428
+type(
+  bool
+)
+"src/zed_lines.ml" 96 2416 2429 "src/zed_lines.ml" 96 2416 2431
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_lines.ml" 96 2416 2432 "src/zed_lines.ml" 96 2416 2435
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 95 2391 2410 "src/zed_lines.ml" 95 2391 2413
+)
+"src/zed_lines.ml" 96 2416 2436 "src/zed_lines.ml" 96 2416 2437
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 96 2416 2438 "src/zed_lines.ml" 96 2416 2443
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 96 2416 2444 "src/zed_lines.ml" 96 2416 2447
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 95 2391 2406 "src/zed_lines.ml" 95 2391 2409
+)
+"src/zed_lines.ml" 96 2416 2438 "src/zed_lines.ml" 96 2416 2447
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 96 2416 2432 "src/zed_lines.ml" 96 2416 2447
+type(
+  bool
+)
+"src/zed_lines.ml" 96 2416 2421 "src/zed_lines.ml" 96 2416 2447
+type(
+  bool
+)
+"src/zed_lines.ml" 97 2453 2457 "src/zed_lines.ml" 97 2453 2462
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_lines.ml" 97 2453 2463 "src/zed_lines.ml" 97 2453 2476
+type(
+  exn
+)
+"src/zed_lines.ml" 97 2453 2457 "src/zed_lines.ml" 97 2453 2476
+type(
+  int
+)
+"src/zed_lines.ml" 99 2484 2488 "src/zed_lines.ml" 99 2484 2502
+type(
+  t -> int -> int -> int
+)
+ident(
+  int_ref line_start_rec "src/zed_lines.ml" 79 2015 2023 "src/zed_lines.ml" 79 2015 2037
+)
+"src/zed_lines.ml" 99 2484 2503 "src/zed_lines.ml" 99 2484 2506
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 95 2391 2406 "src/zed_lines.ml" 95 2391 2409
+)
+"src/zed_lines.ml" 99 2484 2507 "src/zed_lines.ml" 99 2484 2510
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 95 2391 2410 "src/zed_lines.ml" 95 2391 2413
+)
+"src/zed_lines.ml" 99 2484 2511 "src/zed_lines.ml" 99 2484 2512
+type(
+  int
+)
+"src/zed_lines.ml" 99 2484 2488 "src/zed_lines.ml" 99 2484 2512
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 96 2416 2418 "src/zed_lines.ml" 99 2484 2512
+type(
+  int
+)
+"src/zed_lines.ml" 101 2514 2518 "src/zed_lines.ml" 101 2514 2527
+type(
+  t -> int -> int
+)
+ident(
+  def line_stop "src/zed_lines.ml" 106 2614 2614 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 101 2514 2528 "src/zed_lines.ml" 101 2514 2531
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 101 2514 2532 "src/zed_lines.ml" 104 2577 2612
+)
+"src/zed_lines.ml" 101 2514 2532 "src/zed_lines.ml" 101 2514 2535
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 102 2538 2540 "src/zed_lines.ml" 104 2577 2612
+)
+"src/zed_lines.ml" 102 2538 2543 "src/zed_lines.ml" 102 2538 2546
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 101 2514 2532 "src/zed_lines.ml" 101 2514 2535
+)
+"src/zed_lines.ml" 102 2538 2547 "src/zed_lines.ml" 102 2538 2548
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 102 2538 2549 "src/zed_lines.ml" 102 2538 2554
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 102 2538 2555 "src/zed_lines.ml" 102 2538 2558
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 101 2514 2528 "src/zed_lines.ml" 101 2514 2531
+)
+"src/zed_lines.ml" 102 2538 2549 "src/zed_lines.ml" 102 2538 2558
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 102 2538 2543 "src/zed_lines.ml" 102 2538 2558
+type(
+  bool
+)
+"src/zed_lines.ml" 103 2559 2566 "src/zed_lines.ml" 103 2559 2572
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 103 2559 2573 "src/zed_lines.ml" 103 2559 2576
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 101 2514 2528 "src/zed_lines.ml" 101 2514 2531
+)
+"src/zed_lines.ml" 103 2559 2566 "src/zed_lines.ml" 103 2559 2576
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_lines.ml" 104 2577 2584 "src/zed_lines.ml" 104 2577 2594
+type(
+  t -> int -> int
+)
+ident(
+  int_ref line_start "src/zed_lines.ml" 95 2391 2395 "src/zed_lines.ml" 95 2391 2405
+)
+"src/zed_lines.ml" 104 2577 2595 "src/zed_lines.ml" 104 2577 2598
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 101 2514 2528 "src/zed_lines.ml" 101 2514 2531
+)
+"src/zed_lines.ml" 104 2577 2600 "src/zed_lines.ml" 104 2577 2603
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 101 2514 2532 "src/zed_lines.ml" 101 2514 2535
+)
+"src/zed_lines.ml" 104 2577 2604 "src/zed_lines.ml" 104 2577 2605
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 104 2577 2606 "src/zed_lines.ml" 104 2577 2607
+type(
+  int
+)
+"src/zed_lines.ml" 104 2577 2599 "src/zed_lines.ml" 104 2577 2608
+type(
+  int
+)
+"src/zed_lines.ml" 104 2577 2584 "src/zed_lines.ml" 104 2577 2608
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 104 2577 2609 "src/zed_lines.ml" 104 2577 2610
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 104 2577 2611 "src/zed_lines.ml" 104 2577 2612
+type(
+  int
+)
+"src/zed_lines.ml" 104 2577 2584 "src/zed_lines.ml" 104 2577 2612
+type(
+  int
+)
+"src/zed_lines.ml" 102 2538 2540 "src/zed_lines.ml" 104 2577 2612
+type(
+  int
+)
+"src/zed_lines.ml" 106 2614 2618 "src/zed_lines.ml" 106 2614 2629
+type(
+  t -> int -> int
+)
+ident(
+  def line_length "src/zed_lines.ml" 114 2900 2900 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 106 2614 2630 "src/zed_lines.ml" 106 2614 2633
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 106 2614 2634 "src/zed_lines.ml" 107 2640 2680
+)
+"src/zed_lines.ml" 106 2614 2634 "src/zed_lines.ml" 106 2614 2637
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 107 2640 2642 "src/zed_lines.ml" 107 2640 2680
+)
+"src/zed_lines.ml" 107 2640 2642 "src/zed_lines.ml" 107 2640 2651
+type(
+  t -> int -> int
+)
+ident(
+  int_ref line_stop "src/zed_lines.ml" 101 2514 2518 "src/zed_lines.ml" 101 2514 2527
+)
+"src/zed_lines.ml" 107 2640 2652 "src/zed_lines.ml" 107 2640 2655
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 106 2614 2630 "src/zed_lines.ml" 106 2614 2633
+)
+"src/zed_lines.ml" 107 2640 2656 "src/zed_lines.ml" 107 2640 2659
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 106 2614 2634 "src/zed_lines.ml" 106 2614 2637
+)
+"src/zed_lines.ml" 107 2640 2642 "src/zed_lines.ml" 107 2640 2659
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 107 2640 2660 "src/zed_lines.ml" 107 2640 2661
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 107 2640 2662 "src/zed_lines.ml" 107 2640 2672
+type(
+  t -> int -> int
+)
+ident(
+  int_ref line_start "src/zed_lines.ml" 95 2391 2395 "src/zed_lines.ml" 95 2391 2405
+)
+"src/zed_lines.ml" 107 2640 2673 "src/zed_lines.ml" 107 2640 2676
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 106 2614 2630 "src/zed_lines.ml" 106 2614 2633
+)
+"src/zed_lines.ml" 107 2640 2677 "src/zed_lines.ml" 107 2640 2680
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 106 2614 2634 "src/zed_lines.ml" 106 2614 2637
+)
+"src/zed_lines.ml" 107 2640 2662 "src/zed_lines.ml" 107 2640 2680
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 107 2640 2642 "src/zed_lines.ml" 107 2640 2680
+type(
+  int
+)
+"src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+type(
+  t -> t -> t
+)
+ident(
+  def concat "src/zed_lines.ml" 120 3059 3059 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 114 2900 2911 "src/zed_lines.ml" 114 2900 2915
+type(
+  t
+)
+ident(
+  def set1 "src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 118 3014 3057
+)
+"src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 114 2900 2920
+type(
+  t
+)
+ident(
+  def set2 "src/zed_lines.ml" 115 2923 2925 "src/zed_lines.ml" 118 3014 3057
+)
+"src/zed_lines.ml" 115 2923 2932 "src/zed_lines.ml" 115 2923 2936
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 114 2900 2911 "src/zed_lines.ml" 114 2900 2915
+)
+"src/zed_lines.ml" 115 2923 2938 "src/zed_lines.ml" 115 2923 2942
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 114 2900 2920
+)
+"src/zed_lines.ml" 116 2944 2953 "src/zed_lines.ml" 116 2944 2959
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 116 2944 2960 "src/zed_lines.ml" 116 2944 2964
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 114 2900 2911 "src/zed_lines.ml" 114 2900 2915
+)
+"src/zed_lines.ml" 116 2944 2953 "src/zed_lines.ml" 116 2944 2964
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 116 2944 2965 "src/zed_lines.ml" 116 2944 2966
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 116 2944 2967 "src/zed_lines.ml" 116 2944 2973
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 116 2944 2974 "src/zed_lines.ml" 116 2944 2978
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 114 2900 2920
+)
+"src/zed_lines.ml" 116 2944 2967 "src/zed_lines.ml" 116 2944 2978
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 116 2944 2953 "src/zed_lines.ml" 116 2944 2978
+type(
+  int
+)
+"src/zed_lines.ml" 117 2980 2989 "src/zed_lines.ml" 117 2980 2994
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 117 2980 2995 "src/zed_lines.ml" 117 2980 2999
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 114 2900 2911 "src/zed_lines.ml" 114 2900 2915
+)
+"src/zed_lines.ml" 117 2980 2989 "src/zed_lines.ml" 117 2980 2999
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 117 2980 3000 "src/zed_lines.ml" 117 2980 3001
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 117 2980 3002 "src/zed_lines.ml" 117 2980 3007
+type(
+  t -> int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 38 1047 1051 "src/zed_lines.ml" 38 1047 1056
+)
+"src/zed_lines.ml" 117 2980 3008 "src/zed_lines.ml" 117 2980 3012
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 114 2900 2920
+)
+"src/zed_lines.ml" 117 2980 3002 "src/zed_lines.ml" 117 2980 3012
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 117 2980 2989 "src/zed_lines.ml" 117 2980 3012
+type(
+  int
+)
+"src/zed_lines.ml" 118 3014 3023 "src/zed_lines.ml" 118 3014 3024
+type(
+  int
+)
+"src/zed_lines.ml" 118 3014 3025 "src/zed_lines.ml" 118 3014 3026
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 118 3014 3027 "src/zed_lines.ml" 118 3014 3030
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/zed_lines.ml" 118 3014 3032 "src/zed_lines.ml" 118 3014 3037
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 118 3014 3038 "src/zed_lines.ml" 118 3014 3042
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 114 2900 2911 "src/zed_lines.ml" 114 2900 2915
+)
+"src/zed_lines.ml" 118 3014 3031 "src/zed_lines.ml" 118 3014 3043
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 118 3014 3045 "src/zed_lines.ml" 118 3014 3050
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 118 3014 3051 "src/zed_lines.ml" 118 3014 3055
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 114 2900 2916 "src/zed_lines.ml" 114 2900 2920
+)
+"src/zed_lines.ml" 118 3014 3044 "src/zed_lines.ml" 118 3014 3056
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 118 3014 3027 "src/zed_lines.ml" 118 3014 3056
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 118 3014 3023 "src/zed_lines.ml" 118 3014 3056
+type(
+  int
+)
+"src/zed_lines.ml" 115 2923 2925 "src/zed_lines.ml" 118 3014 3057
+type(
+  t
+)
+"src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+type(
+  t -> t -> t
+)
+ident(
+  def append "src/zed_lines.ml" 163 4750 4750 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+type(
+  t
+)
+ident(
+  def set1 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 161 4722 4748
+)
+"src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+type(
+  t
+)
+ident(
+  def set2 "src/zed_lines.ml" 121 3082 3084 "src/zed_lines.ml" 161 4722 4748
+)
+"src/zed_lines.ml" 121 3082 3090 "src/zed_lines.ml" 121 3082 3094
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 121 3082 3096 "src/zed_lines.ml" 121 3082 3100
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 121 3082 3090 "src/zed_lines.ml" 121 3082 3100
+type(
+  t * t
+)
+"src/zed_lines.ml" 122 3106 3119 "src/zed_lines.ml" 122 3106 3120
+type(
+  int
+)
+"src/zed_lines.ml" 122 3106 3112 "src/zed_lines.ml" 122 3106 3120
+type(
+  t
+)
+"src/zed_lines.ml" 122 3106 3122 "src/zed_lines.ml" 122 3106 3123
+type(
+  t
+)
+"src/zed_lines.ml" 122 3106 3112 "src/zed_lines.ml" 122 3106 3123
+type(
+  t * t
+)
+"src/zed_lines.ml" 122 3106 3127 "src/zed_lines.ml" 122 3106 3131
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 123 3132 3138 "src/zed_lines.ml" 123 3132 3139
+type(
+  t
+)
+"src/zed_lines.ml" 123 3132 3148 "src/zed_lines.ml" 123 3132 3149
+type(
+  int
+)
+"src/zed_lines.ml" 123 3132 3141 "src/zed_lines.ml" 123 3132 3149
+type(
+  t
+)
+"src/zed_lines.ml" 123 3132 3138 "src/zed_lines.ml" 123 3132 3149
+type(
+  t * t
+)
+"src/zed_lines.ml" 123 3132 3153 "src/zed_lines.ml" 123 3132 3157
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 124 3158 3171 "src/zed_lines.ml" 124 3158 3175
+type(
+  int
+)
+ident(
+  def len1 "src/zed_lines.ml" 125 3192 3200 "src/zed_lines.ml" 125 3192 3219
+)
+"src/zed_lines.ml" 124 3158 3164 "src/zed_lines.ml" 124 3158 3175
+type(
+  t
+)
+"src/zed_lines.ml" 124 3158 3184 "src/zed_lines.ml" 124 3158 3188
+type(
+  int
+)
+ident(
+  def len2 "src/zed_lines.ml" 125 3192 3200 "src/zed_lines.ml" 125 3192 3219
+)
+"src/zed_lines.ml" 124 3158 3177 "src/zed_lines.ml" 124 3158 3188
+type(
+  t
+)
+"src/zed_lines.ml" 124 3158 3164 "src/zed_lines.ml" 124 3158 3188
+type(
+  t * t
+)
+"src/zed_lines.ml" 125 3192 3207 "src/zed_lines.ml" 125 3192 3211
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 124 3158 3171 "src/zed_lines.ml" 124 3158 3175
+)
+"src/zed_lines.ml" 125 3192 3212 "src/zed_lines.ml" 125 3192 3213
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 125 3192 3214 "src/zed_lines.ml" 125 3192 3218
+type(
+  int
+)
+ident(
+  int_ref len2 "src/zed_lines.ml" 124 3158 3184 "src/zed_lines.ml" 124 3158 3188
+)
+"src/zed_lines.ml" 125 3192 3206 "src/zed_lines.ml" 125 3192 3219
+type(
+  int
+)
+"src/zed_lines.ml" 125 3192 3200 "src/zed_lines.ml" 125 3192 3219
+type(
+  t
+)
+"src/zed_lines.ml" 126 3220 3233 "src/zed_lines.ml" 126 3220 3237
+type(
+  int
+)
+ident(
+  def len1 "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3226 "src/zed_lines.ml" 126 3220 3237
+type(
+  t
+)
+"src/zed_lines.ml" 126 3220 3253 "src/zed_lines.ml" 126 3220 3257
+type(
+  int
+)
+ident(
+  def len2 "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3246 "src/zed_lines.ml" 126 3220 3257
+type(
+  t
+)
+"src/zed_lines.ml" 126 3220 3259 "src/zed_lines.ml" 126 3220 3262
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3264 "src/zed_lines.ml" 126 3220 3267
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3269 "src/zed_lines.ml" 126 3220 3274
+type(
+  int
+)
+ident(
+  def count "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3276 "src/zed_lines.ml" 126 3220 3277
+type(
+  int
+)
+ident(
+  def h "src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+)
+"src/zed_lines.ml" 126 3220 3239 "src/zed_lines.ml" 126 3220 3278
+type(
+  t
+)
+"src/zed_lines.ml" 126 3220 3226 "src/zed_lines.ml" 126 3220 3278
+type(
+  t * t
+)
+"src/zed_lines.ml" 127 3282 3304 "src/zed_lines.ml" 127 3282 3308
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 126 3220 3233 "src/zed_lines.ml" 126 3220 3237
+)
+"src/zed_lines.ml" 127 3282 3309 "src/zed_lines.ml" 127 3282 3310
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 127 3282 3311 "src/zed_lines.ml" 127 3282 3315
+type(
+  int
+)
+ident(
+  int_ref len2 "src/zed_lines.ml" 126 3220 3253 "src/zed_lines.ml" 126 3220 3257
+)
+"src/zed_lines.ml" 127 3282 3303 "src/zed_lines.ml" 127 3282 3316
+type(
+  int
+)
+"src/zed_lines.ml" 127 3282 3297 "src/zed_lines.ml" 127 3282 3316
+type(
+  t
+)
+"src/zed_lines.ml" 127 3282 3318 "src/zed_lines.ml" 127 3282 3321
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 126 3220 3259 "src/zed_lines.ml" 126 3220 3262
+)
+"src/zed_lines.ml" 127 3282 3323 "src/zed_lines.ml" 127 3282 3326
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 126 3220 3264 "src/zed_lines.ml" 126 3220 3267
+)
+"src/zed_lines.ml" 127 3282 3327 "src/zed_lines.ml" 127 3282 3328
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 127 3282 3329 "src/zed_lines.ml" 127 3282 3333
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 126 3220 3233 "src/zed_lines.ml" 126 3220 3237
+)
+"src/zed_lines.ml" 127 3282 3323 "src/zed_lines.ml" 127 3282 3333
+type(
+  int
+)
+"src/zed_lines.ml" 127 3282 3335 "src/zed_lines.ml" 127 3282 3340
+type(
+  int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 126 3220 3269 "src/zed_lines.ml" 126 3220 3274
+)
+"src/zed_lines.ml" 127 3282 3342 "src/zed_lines.ml" 127 3282 3343
+type(
+  int
+)
+ident(
+  int_ref h "src/zed_lines.ml" 126 3220 3276 "src/zed_lines.ml" 126 3220 3277
+)
+"src/zed_lines.ml" 127 3282 3290 "src/zed_lines.ml" 127 3282 3344
+type(
+  t
+)
+"src/zed_lines.ml" 128 3345 3358 "src/zed_lines.ml" 128 3345 3361
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3370 "src/zed_lines.ml" 128 3345 3374
+type(
+  int
+)
+ident(
+  def len1 "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3363 "src/zed_lines.ml" 128 3345 3374
+type(
+  t
+)
+"src/zed_lines.ml" 128 3345 3376 "src/zed_lines.ml" 128 3345 3379
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3381 "src/zed_lines.ml" 128 3345 3386
+type(
+  int
+)
+ident(
+  def count "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3388 "src/zed_lines.ml" 128 3345 3389
+type(
+  int
+)
+ident(
+  def h "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3351 "src/zed_lines.ml" 128 3345 3390
+type(
+  t
+)
+"src/zed_lines.ml" 128 3345 3399 "src/zed_lines.ml" 128 3345 3403
+type(
+  int
+)
+ident(
+  def len2 "src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+)
+"src/zed_lines.ml" 128 3345 3392 "src/zed_lines.ml" 128 3345 3403
+type(
+  t
+)
+"src/zed_lines.ml" 128 3345 3351 "src/zed_lines.ml" 128 3345 3403
+type(
+  t * t
+)
+"src/zed_lines.ml" 129 3407 3422 "src/zed_lines.ml" 129 3407 3425
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 128 3345 3358 "src/zed_lines.ml" 128 3345 3361
+)
+"src/zed_lines.ml" 129 3407 3434 "src/zed_lines.ml" 129 3407 3438
+type(
+  int
+)
+ident(
+  int_ref len1 "src/zed_lines.ml" 128 3345 3370 "src/zed_lines.ml" 128 3345 3374
+)
+"src/zed_lines.ml" 129 3407 3439 "src/zed_lines.ml" 129 3407 3440
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 129 3407 3441 "src/zed_lines.ml" 129 3407 3445
+type(
+  int
+)
+ident(
+  int_ref len2 "src/zed_lines.ml" 128 3345 3399 "src/zed_lines.ml" 128 3345 3403
+)
+"src/zed_lines.ml" 129 3407 3433 "src/zed_lines.ml" 129 3407 3446
+type(
+  int
+)
+"src/zed_lines.ml" 129 3407 3427 "src/zed_lines.ml" 129 3407 3446
+type(
+  t
+)
+"src/zed_lines.ml" 129 3407 3448 "src/zed_lines.ml" 129 3407 3451
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 128 3345 3376 "src/zed_lines.ml" 128 3345 3379
+)
+"src/zed_lines.ml" 129 3407 3452 "src/zed_lines.ml" 129 3407 3453
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 129 3407 3454 "src/zed_lines.ml" 129 3407 3458
+type(
+  int
+)
+ident(
+  int_ref len2 "src/zed_lines.ml" 128 3345 3399 "src/zed_lines.ml" 128 3345 3403
+)
+"src/zed_lines.ml" 129 3407 3448 "src/zed_lines.ml" 129 3407 3458
+type(
+  int
+)
+"src/zed_lines.ml" 129 3407 3460 "src/zed_lines.ml" 129 3407 3465
+type(
+  int
+)
+ident(
+  int_ref count "src/zed_lines.ml" 128 3345 3381 "src/zed_lines.ml" 128 3345 3386
+)
+"src/zed_lines.ml" 129 3407 3467 "src/zed_lines.ml" 129 3407 3468
+type(
+  int
+)
+ident(
+  int_ref h "src/zed_lines.ml" 128 3345 3388 "src/zed_lines.ml" 128 3345 3389
+)
+"src/zed_lines.ml" 129 3407 3415 "src/zed_lines.ml" 129 3407 3469
+type(
+  t
+)
+"src/zed_lines.ml" 130 3470 3476 "src/zed_lines.ml" 130 3470 3477
+type(
+  t * t
+)
+"src/zed_lines.ml" 131 3481 3493 "src/zed_lines.ml" 131 3481 3495
+type(
+  int
+)
+ident(
+  def d1 "src/zed_lines.ml" 132 3532 3540 "src/zed_lines.ml" 161 4722 4748
+)
+"src/zed_lines.ml" 131 3481 3498 "src/zed_lines.ml" 131 3481 3503
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 131 3481 3504 "src/zed_lines.ml" 131 3481 3508
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 131 3481 3498 "src/zed_lines.ml" 131 3481 3508
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 131 3481 3513 "src/zed_lines.ml" 131 3481 3515
+type(
+  int
+)
+ident(
+  def d2 "src/zed_lines.ml" 132 3532 3540 "src/zed_lines.ml" 161 4722 4748
+)
+"src/zed_lines.ml" 131 3481 3518 "src/zed_lines.ml" 131 3481 3523
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 131 3481 3524 "src/zed_lines.ml" 131 3481 3528
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 131 3481 3518 "src/zed_lines.ml" 131 3481 3528
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 132 3532 3543 "src/zed_lines.ml" 132 3532 3545
+type(
+  int
+)
+ident(
+  int_ref d1 "src/zed_lines.ml" 131 3481 3493 "src/zed_lines.ml" 131 3481 3495
+)
+"src/zed_lines.ml" 132 3532 3546 "src/zed_lines.ml" 132 3532 3547
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 132 3532 3548 "src/zed_lines.ml" 132 3532 3550
+type(
+  int
+)
+ident(
+  int_ref d2 "src/zed_lines.ml" 131 3481 3513 "src/zed_lines.ml" 131 3481 3515
+)
+"src/zed_lines.ml" 132 3532 3551 "src/zed_lines.ml" 132 3532 3552
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 132 3532 3553 "src/zed_lines.ml" 132 3532 3554
+type(
+  int
+)
+"src/zed_lines.ml" 132 3532 3548 "src/zed_lines.ml" 132 3532 3554
+type(
+  int
+)
+"src/zed_lines.ml" 132 3532 3543 "src/zed_lines.ml" 132 3532 3554
+type(
+  bool
+)
+"src/zed_lines.ml" 133 3566 3582 "src/zed_lines.ml" 133 3566 3586
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 134 3592 3613 "src/zed_lines.ml" 134 3592 3614
+type(
+  int
+)
+"src/zed_lines.ml" 134 3592 3606 "src/zed_lines.ml" 134 3592 3614
+type(
+  t
+)
+"src/zed_lines.ml" 134 3592 3617 "src/zed_lines.ml" 134 3592 3623
+type(
+  t
+)
+"src/zed_lines.ml" 134 3592 3606 "src/zed_lines.ml" 134 3592 3623
+type(
+  t
+)
+"src/zed_lines.ml" 135 3627 3650 "src/zed_lines.ml" 135 3627 3655
+type(
+  bool
+)
+"src/zed_lines.ml" 135 3627 3643 "src/zed_lines.ml" 135 3627 3655
+type(
+  t
+)
+"src/zed_lines.ml" 136 3656 3677 "src/zed_lines.ml" 136 3656 3683
+type(
+  t
+)
+ident(
+  def set1_1 "src/zed_lines.ml" 137 3705 3721 "src/zed_lines.ml" 145 4094 4113
+)
+"src/zed_lines.ml" 136 3656 3685 "src/zed_lines.ml" 136 3656 3691
+type(
+  t
+)
+ident(
+  def set1_2 "src/zed_lines.ml" 137 3705 3721 "src/zed_lines.ml" 145 4094 4113
+)
+"src/zed_lines.ml" 136 3656 3693 "src/zed_lines.ml" 136 3656 3694
+type(
+  int
+)
+"src/zed_lines.ml" 136 3656 3696 "src/zed_lines.ml" 136 3656 3697
+type(
+  int
+)
+"src/zed_lines.ml" 136 3656 3699 "src/zed_lines.ml" 136 3656 3700
+type(
+  int
+)
+"src/zed_lines.ml" 136 3656 3670 "src/zed_lines.ml" 136 3656 3701
+type(
+  t
+)
+"src/zed_lines.ml" 137 3705 3724 "src/zed_lines.ml" 137 3705 3729
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 137 3705 3730 "src/zed_lines.ml" 137 3705 3736
+type(
+  t
+)
+ident(
+  int_ref set1_1 "src/zed_lines.ml" 136 3656 3677 "src/zed_lines.ml" 136 3656 3683
+)
+"src/zed_lines.ml" 137 3705 3724 "src/zed_lines.ml" 137 3705 3736
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 137 3705 3737 "src/zed_lines.ml" 137 3705 3739
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/zed_lines.ml" 137 3705 3740 "src/zed_lines.ml" 137 3705 3745
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 137 3705 3746 "src/zed_lines.ml" 137 3705 3752
+type(
+  t
+)
+ident(
+  int_ref set1_2 "src/zed_lines.ml" 136 3656 3685 "src/zed_lines.ml" 136 3656 3691
+)
+"src/zed_lines.ml" 137 3705 3740 "src/zed_lines.ml" 137 3705 3752
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 137 3705 3724 "src/zed_lines.ml" 137 3705 3752
+type(
+  bool
+)
+"src/zed_lines.ml" 138 3758 3776 "src/zed_lines.ml" 138 3758 3782
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 138 3758 3783 "src/zed_lines.ml" 138 3758 3789
+type(
+  t
+)
+ident(
+  int_ref set1_1 "src/zed_lines.ml" 136 3656 3677 "src/zed_lines.ml" 136 3656 3683
+)
+"src/zed_lines.ml" 138 3758 3791 "src/zed_lines.ml" 138 3758 3797
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 138 3758 3798 "src/zed_lines.ml" 138 3758 3804
+type(
+  t
+)
+ident(
+  int_ref set1_2 "src/zed_lines.ml" 136 3656 3685 "src/zed_lines.ml" 136 3656 3691
+)
+"src/zed_lines.ml" 138 3758 3805 "src/zed_lines.ml" 138 3758 3809
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 138 3758 3790 "src/zed_lines.ml" 138 3758 3810
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 138 3758 3776 "src/zed_lines.ml" 138 3758 3810
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 140 3838 3862 "src/zed_lines.ml" 140 3838 3868
+type(
+  t
+)
+ident(
+  int_ref set1_2 "src/zed_lines.ml" 136 3656 3685 "src/zed_lines.ml" 136 3656 3691
+)
+"src/zed_lines.ml" 141 3874 3903 "src/zed_lines.ml" 141 3874 3904
+type(
+  int
+)
+"src/zed_lines.ml" 141 3874 3896 "src/zed_lines.ml" 141 3874 3904
+type(
+  t
+)
+"src/zed_lines.ml" 141 3874 3907 "src/zed_lines.ml" 141 3874 3913
+type(
+  t
+)
+"src/zed_lines.ml" 141 3874 3896 "src/zed_lines.ml" 141 3874 3913
+type(
+  t
+)
+"src/zed_lines.ml" 142 3917 3948 "src/zed_lines.ml" 142 3917 3953
+type(
+  bool
+)
+"src/zed_lines.ml" 142 3917 3941 "src/zed_lines.ml" 142 3917 3953
+type(
+  t
+)
+"src/zed_lines.ml" 143 3954 3983 "src/zed_lines.ml" 143 3954 3991
+type(
+  t
+)
+ident(
+  def set1_2_1 "src/zed_lines.ml" 144 4015 4039 "src/zed_lines.ml" 144 4015 4093
+)
+"src/zed_lines.ml" 143 3954 3993 "src/zed_lines.ml" 143 3954 4001
+type(
+  t
+)
+ident(
+  def set1_2_2 "src/zed_lines.ml" 144 4015 4039 "src/zed_lines.ml" 144 4015 4093
+)
+"src/zed_lines.ml" 143 3954 4003 "src/zed_lines.ml" 143 3954 4004
+type(
+  int
+)
+"src/zed_lines.ml" 143 3954 4006 "src/zed_lines.ml" 143 3954 4007
+type(
+  int
+)
+"src/zed_lines.ml" 143 3954 4009 "src/zed_lines.ml" 143 3954 4010
+type(
+  int
+)
+"src/zed_lines.ml" 143 3954 3976 "src/zed_lines.ml" 143 3954 4011
+type(
+  t
+)
+"src/zed_lines.ml" 144 4015 4039 "src/zed_lines.ml" 144 4015 4045
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 144 4015 4047 "src/zed_lines.ml" 144 4015 4053
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 144 4015 4054 "src/zed_lines.ml" 144 4015 4060
+type(
+  t
+)
+ident(
+  int_ref set1_1 "src/zed_lines.ml" 136 3656 3677 "src/zed_lines.ml" 136 3656 3683
+)
+"src/zed_lines.ml" 144 4015 4061 "src/zed_lines.ml" 144 4015 4069
+type(
+  t
+)
+ident(
+  int_ref set1_2_1 "src/zed_lines.ml" 143 3954 3983 "src/zed_lines.ml" 143 3954 3991
+)
+"src/zed_lines.ml" 144 4015 4046 "src/zed_lines.ml" 144 4015 4070
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 144 4015 4072 "src/zed_lines.ml" 144 4015 4078
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 144 4015 4079 "src/zed_lines.ml" 144 4015 4087
+type(
+  t
+)
+ident(
+  int_ref set1_2_2 "src/zed_lines.ml" 143 3954 3993 "src/zed_lines.ml" 143 3954 4001
+)
+"src/zed_lines.ml" 144 4015 4088 "src/zed_lines.ml" 144 4015 4092
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 144 4015 4071 "src/zed_lines.ml" 144 4015 4093
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 144 4015 4039 "src/zed_lines.ml" 144 4015 4093
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 139 3811 3832 "src/zed_lines.ml" 145 4094 4113
+type(
+  t
+)
+"src/zed_lines.ml" 137 3705 3721 "src/zed_lines.ml" 145 4094 4113
+type(
+  t
+)
+"src/zed_lines.ml" 132 3532 3560 "src/zed_lines.ml" 146 4114 4125
+type(
+  t
+)
+"src/zed_lines.ml" 146 4114 4134 "src/zed_lines.ml" 146 4114 4136
+type(
+  int
+)
+ident(
+  int_ref d2 "src/zed_lines.ml" 131 3481 3513 "src/zed_lines.ml" 131 3481 3515
+)
+"src/zed_lines.ml" 146 4114 4137 "src/zed_lines.ml" 146 4114 4138
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 146 4114 4139 "src/zed_lines.ml" 146 4114 4141
+type(
+  int
+)
+ident(
+  int_ref d1 "src/zed_lines.ml" 131 3481 3493 "src/zed_lines.ml" 131 3481 3495
+)
+"src/zed_lines.ml" 146 4114 4142 "src/zed_lines.ml" 146 4114 4143
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 146 4114 4144 "src/zed_lines.ml" 146 4114 4145
+type(
+  int
+)
+"src/zed_lines.ml" 146 4114 4139 "src/zed_lines.ml" 146 4114 4145
+type(
+  int
+)
+"src/zed_lines.ml" 146 4114 4134 "src/zed_lines.ml" 146 4114 4145
+type(
+  bool
+)
+"src/zed_lines.ml" 147 4157 4173 "src/zed_lines.ml" 147 4157 4177
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 148 4183 4204 "src/zed_lines.ml" 148 4183 4205
+type(
+  int
+)
+"src/zed_lines.ml" 148 4183 4197 "src/zed_lines.ml" 148 4183 4205
+type(
+  t
+)
+"src/zed_lines.ml" 148 4183 4208 "src/zed_lines.ml" 148 4183 4214
+type(
+  t
+)
+"src/zed_lines.ml" 148 4183 4197 "src/zed_lines.ml" 148 4183 4214
+type(
+  t
+)
+"src/zed_lines.ml" 149 4218 4241 "src/zed_lines.ml" 149 4218 4246
+type(
+  bool
+)
+"src/zed_lines.ml" 149 4218 4234 "src/zed_lines.ml" 149 4218 4246
+type(
+  t
+)
+"src/zed_lines.ml" 150 4247 4268 "src/zed_lines.ml" 150 4247 4274
+type(
+  t
+)
+ident(
+  def set2_1 "src/zed_lines.ml" 151 4296 4312 "src/zed_lines.ml" 159 4685 4704
+)
+"src/zed_lines.ml" 150 4247 4276 "src/zed_lines.ml" 150 4247 4282
+type(
+  t
+)
+ident(
+  def set2_2 "src/zed_lines.ml" 151 4296 4312 "src/zed_lines.ml" 159 4685 4704
+)
+"src/zed_lines.ml" 150 4247 4284 "src/zed_lines.ml" 150 4247 4285
+type(
+  int
+)
+"src/zed_lines.ml" 150 4247 4287 "src/zed_lines.ml" 150 4247 4288
+type(
+  int
+)
+"src/zed_lines.ml" 150 4247 4290 "src/zed_lines.ml" 150 4247 4291
+type(
+  int
+)
+"src/zed_lines.ml" 150 4247 4261 "src/zed_lines.ml" 150 4247 4292
+type(
+  t
+)
+"src/zed_lines.ml" 151 4296 4315 "src/zed_lines.ml" 151 4296 4320
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 151 4296 4321 "src/zed_lines.ml" 151 4296 4327
+type(
+  t
+)
+ident(
+  int_ref set2_2 "src/zed_lines.ml" 150 4247 4276 "src/zed_lines.ml" 150 4247 4282
+)
+"src/zed_lines.ml" 151 4296 4315 "src/zed_lines.ml" 151 4296 4327
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 151 4296 4328 "src/zed_lines.ml" 151 4296 4330
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/zed_lines.ml" 151 4296 4331 "src/zed_lines.ml" 151 4296 4336
+type(
+  t -> int
+)
+ident(
+  int_ref depth "src/zed_lines.ml" 43 1142 1146 "src/zed_lines.ml" 43 1142 1151
+)
+"src/zed_lines.ml" 151 4296 4337 "src/zed_lines.ml" 151 4296 4343
+type(
+  t
+)
+ident(
+  int_ref set2_1 "src/zed_lines.ml" 150 4247 4268 "src/zed_lines.ml" 150 4247 4274
+)
+"src/zed_lines.ml" 151 4296 4331 "src/zed_lines.ml" 151 4296 4343
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 151 4296 4315 "src/zed_lines.ml" 151 4296 4343
+type(
+  bool
+)
+"src/zed_lines.ml" 152 4349 4367 "src/zed_lines.ml" 152 4349 4373
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 152 4349 4375 "src/zed_lines.ml" 152 4349 4381
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 152 4349 4382 "src/zed_lines.ml" 152 4349 4386
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 152 4349 4387 "src/zed_lines.ml" 152 4349 4393
+type(
+  t
+)
+ident(
+  int_ref set2_1 "src/zed_lines.ml" 150 4247 4268 "src/zed_lines.ml" 150 4247 4274
+)
+"src/zed_lines.ml" 152 4349 4374 "src/zed_lines.ml" 152 4349 4394
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 152 4349 4395 "src/zed_lines.ml" 152 4349 4401
+type(
+  t
+)
+ident(
+  int_ref set2_2 "src/zed_lines.ml" 150 4247 4276 "src/zed_lines.ml" 150 4247 4282
+)
+"src/zed_lines.ml" 152 4349 4367 "src/zed_lines.ml" 152 4349 4401
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 154 4429 4453 "src/zed_lines.ml" 154 4429 4459
+type(
+  t
+)
+ident(
+  int_ref set2_1 "src/zed_lines.ml" 150 4247 4268 "src/zed_lines.ml" 150 4247 4274
+)
+"src/zed_lines.ml" 155 4465 4494 "src/zed_lines.ml" 155 4465 4495
+type(
+  int
+)
+"src/zed_lines.ml" 155 4465 4487 "src/zed_lines.ml" 155 4465 4495
+type(
+  t
+)
+"src/zed_lines.ml" 155 4465 4498 "src/zed_lines.ml" 155 4465 4504
+type(
+  t
+)
+"src/zed_lines.ml" 155 4465 4487 "src/zed_lines.ml" 155 4465 4504
+type(
+  t
+)
+"src/zed_lines.ml" 156 4508 4539 "src/zed_lines.ml" 156 4508 4544
+type(
+  bool
+)
+"src/zed_lines.ml" 156 4508 4532 "src/zed_lines.ml" 156 4508 4544
+type(
+  t
+)
+"src/zed_lines.ml" 157 4545 4574 "src/zed_lines.ml" 157 4545 4582
+type(
+  t
+)
+ident(
+  def set2_1_1 "src/zed_lines.ml" 158 4606 4630 "src/zed_lines.ml" 158 4606 4684
+)
+"src/zed_lines.ml" 157 4545 4584 "src/zed_lines.ml" 157 4545 4592
+type(
+  t
+)
+ident(
+  def set2_1_2 "src/zed_lines.ml" 158 4606 4630 "src/zed_lines.ml" 158 4606 4684
+)
+"src/zed_lines.ml" 157 4545 4594 "src/zed_lines.ml" 157 4545 4595
+type(
+  int
+)
+"src/zed_lines.ml" 157 4545 4597 "src/zed_lines.ml" 157 4545 4598
+type(
+  int
+)
+"src/zed_lines.ml" 157 4545 4600 "src/zed_lines.ml" 157 4545 4601
+type(
+  int
+)
+"src/zed_lines.ml" 157 4545 4567 "src/zed_lines.ml" 157 4545 4602
+type(
+  t
+)
+"src/zed_lines.ml" 158 4606 4630 "src/zed_lines.ml" 158 4606 4636
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 158 4606 4638 "src/zed_lines.ml" 158 4606 4644
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 158 4606 4645 "src/zed_lines.ml" 158 4606 4649
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 158 4606 4650 "src/zed_lines.ml" 158 4606 4658
+type(
+  t
+)
+ident(
+  int_ref set2_1_1 "src/zed_lines.ml" 157 4545 4574 "src/zed_lines.ml" 157 4545 4582
+)
+"src/zed_lines.ml" 158 4606 4637 "src/zed_lines.ml" 158 4606 4659
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 158 4606 4661 "src/zed_lines.ml" 158 4606 4667
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 158 4606 4668 "src/zed_lines.ml" 158 4606 4676
+type(
+  t
+)
+ident(
+  int_ref set2_1_2 "src/zed_lines.ml" 157 4545 4584 "src/zed_lines.ml" 157 4545 4592
+)
+"src/zed_lines.ml" 158 4606 4677 "src/zed_lines.ml" 158 4606 4683
+type(
+  t
+)
+ident(
+  int_ref set2_2 "src/zed_lines.ml" 150 4247 4276 "src/zed_lines.ml" 150 4247 4282
+)
+"src/zed_lines.ml" 158 4606 4660 "src/zed_lines.ml" 158 4606 4684
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 158 4606 4630 "src/zed_lines.ml" 158 4606 4684
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 153 4402 4423 "src/zed_lines.ml" 159 4685 4704
+type(
+  t
+)
+"src/zed_lines.ml" 151 4296 4312 "src/zed_lines.ml" 159 4685 4704
+type(
+  t
+)
+"src/zed_lines.ml" 146 4114 4151 "src/zed_lines.ml" 160 4705 4716
+type(
+  t
+)
+"src/zed_lines.ml" 161 4722 4732 "src/zed_lines.ml" 161 4722 4738
+type(
+  t -> t -> t
+)
+ident(
+  int_ref concat "src/zed_lines.ml" 114 2900 2904 "src/zed_lines.ml" 114 2900 2910
+)
+"src/zed_lines.ml" 161 4722 4739 "src/zed_lines.ml" 161 4722 4743
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 120 3059 3070 "src/zed_lines.ml" 120 3059 3074
+)
+"src/zed_lines.ml" 161 4722 4744 "src/zed_lines.ml" 161 4722 4748
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 120 3059 3075 "src/zed_lines.ml" 120 3059 3079
+)
+"src/zed_lines.ml" 161 4722 4732 "src/zed_lines.ml" 161 4722 4748
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 146 4114 4131 "src/zed_lines.ml" 161 4722 4748
+type(
+  t
+)
+"src/zed_lines.ml" 132 3532 3540 "src/zed_lines.ml" 161 4722 4748
+type(
+  t
+)
+"src/zed_lines.ml" 131 3481 3489 "src/zed_lines.ml" 161 4722 4748
+type(
+  t
+)
+"src/zed_lines.ml" 121 3082 3084 "src/zed_lines.ml" 161 4722 4748
+type(
+  t
+)
+"src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+type(
+  t -> int -> int -> t
+)
+ident(
+  def unsafe_sub "src/zed_lines.ml" 163 4750 4750 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 163 4750 4769 "src/zed_lines.ml" 163 4750 4772
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 164 4783 4785 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 164 4783 4791 "src/zed_lines.ml" 164 4783 4794
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 163 4750 4769 "src/zed_lines.ml" 163 4750 4772
+)
+"src/zed_lines.ml" 165 4800 4813 "src/zed_lines.ml" 165 4800 4814
+type(
+  int
+)
+"src/zed_lines.ml" 165 4800 4806 "src/zed_lines.ml" 165 4800 4814
+type(
+  t
+)
+"src/zed_lines.ml" 166 4818 4833 "src/zed_lines.ml" 166 4818 4836
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 166 4818 4826 "src/zed_lines.ml" 166 4818 4836
+type(
+  t
+)
+"src/zed_lines.ml" 167 4837 4843 "src/zed_lines.ml" 167 4837 4849
+type(
+  t
+)
+"src/zed_lines.ml" 168 4853 4864 "src/zed_lines.ml" 168 4853 4867
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 168 4853 4868 "src/zed_lines.ml" 168 4853 4869
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 168 4853 4870 "src/zed_lines.ml" 168 4853 4871
+type(
+  int
+)
+"src/zed_lines.ml" 168 4853 4864 "src/zed_lines.ml" 168 4853 4871
+type(
+  bool
+)
+"src/zed_lines.ml" 169 4877 4887 "src/zed_lines.ml" 169 4877 4893
+type(
+  t
+)
+"src/zed_lines.ml" 171 4907 4924 "src/zed_lines.ml" 171 4907 4925
+type(
+  int
+)
+"src/zed_lines.ml" 171 4907 4917 "src/zed_lines.ml" 171 4907 4925
+type(
+  t
+)
+"src/zed_lines.ml" 168 4853 4861 "src/zed_lines.ml" 171 4907 4925
+type(
+  t
+)
+"src/zed_lines.ml" 172 4926 4939 "src/zed_lines.ml" 172 4926 4944
+type(
+  t
+)
+ident(
+  def set_l "src/zed_lines.ml" 173 4968 4976 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 172 4926 4946 "src/zed_lines.ml" 172 4926 4951
+type(
+  t
+)
+ident(
+  def set_r "src/zed_lines.ml" 173 4968 4976 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 172 4926 4953 "src/zed_lines.ml" 172 4926 4957
+type(
+  int
+)
+ident(
+  def len' "src/zed_lines.ml" 173 4968 4976 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 172 4926 4959 "src/zed_lines.ml" 172 4926 4960
+type(
+  int
+)
+"src/zed_lines.ml" 172 4926 4962 "src/zed_lines.ml" 172 4926 4963
+type(
+  int
+)
+"src/zed_lines.ml" 172 4926 4932 "src/zed_lines.ml" 172 4926 4964
+type(
+  t
+)
+"src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+type(
+  int
+)
+ident(
+  def len_l "src/zed_lines.ml" 174 5004 5012 "src/zed_lines.ml" 183 5278 5330
+)
+"src/zed_lines.ml" 173 4968 4988 "src/zed_lines.ml" 173 4968 4994
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 173 4968 4995 "src/zed_lines.ml" 173 4968 5000
+type(
+  t
+)
+ident(
+  int_ref set_l "src/zed_lines.ml" 172 4926 4939 "src/zed_lines.ml" 172 4926 4944
+)
+"src/zed_lines.ml" 173 4968 4988 "src/zed_lines.ml" 173 4968 5000
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 174 5004 5015 "src/zed_lines.ml" 174 5004 5018
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 174 5004 5019 "src/zed_lines.ml" 174 5004 5020
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 174 5004 5021 "src/zed_lines.ml" 174 5004 5025
+type(
+  int
+)
+ident(
+  int_ref len' "src/zed_lines.ml" 172 4926 4953 "src/zed_lines.ml" 172 4926 4957
+)
+"src/zed_lines.ml" 174 5004 5015 "src/zed_lines.ml" 174 5004 5025
+type(
+  bool
+)
+"src/zed_lines.ml" 175 5031 5041 "src/zed_lines.ml" 175 5031 5044
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 163 4750 4769 "src/zed_lines.ml" 163 4750 4772
+)
+"src/zed_lines.ml" 176 5045 5061 "src/zed_lines.ml" 176 5045 5064
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 176 5045 5065 "src/zed_lines.ml" 176 5045 5067
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/zed_lines.ml" 176 5045 5068 "src/zed_lines.ml" 176 5045 5073
+type(
+  int
+)
+ident(
+  int_ref len_l "src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+)
+"src/zed_lines.ml" 176 5045 5061 "src/zed_lines.ml" 176 5045 5073
+type(
+  bool
+)
+"src/zed_lines.ml" 177 5079 5089 "src/zed_lines.ml" 177 5079 5099
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 177 5079 5100 "src/zed_lines.ml" 177 5079 5105
+type(
+  t
+)
+ident(
+  int_ref set_r "src/zed_lines.ml" 172 4926 4946 "src/zed_lines.ml" 172 4926 4951
+)
+"src/zed_lines.ml" 177 5079 5107 "src/zed_lines.ml" 177 5079 5110
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 177 5079 5111 "src/zed_lines.ml" 177 5079 5112
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 177 5079 5113 "src/zed_lines.ml" 177 5079 5118
+type(
+  int
+)
+ident(
+  int_ref len_l "src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+)
+"src/zed_lines.ml" 177 5079 5106 "src/zed_lines.ml" 177 5079 5119
+type(
+  int
+)
+"src/zed_lines.ml" 177 5079 5120 "src/zed_lines.ml" 177 5079 5123
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 177 5079 5089 "src/zed_lines.ml" 177 5079 5123
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 178 5124 5140 "src/zed_lines.ml" 178 5124 5143
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 178 5124 5144 "src/zed_lines.ml" 178 5124 5145
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 178 5124 5146 "src/zed_lines.ml" 178 5124 5149
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 178 5124 5140 "src/zed_lines.ml" 178 5124 5149
+type(
+  int
+)
+"src/zed_lines.ml" 178 5124 5150 "src/zed_lines.ml" 178 5124 5152
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/zed_lines.ml" 178 5124 5153 "src/zed_lines.ml" 178 5124 5158
+type(
+  int
+)
+ident(
+  int_ref len_l "src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+)
+"src/zed_lines.ml" 178 5124 5140 "src/zed_lines.ml" 178 5124 5158
+type(
+  bool
+)
+"src/zed_lines.ml" 179 5164 5174 "src/zed_lines.ml" 179 5164 5184
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 179 5164 5185 "src/zed_lines.ml" 179 5164 5190
+type(
+  t
+)
+ident(
+  int_ref set_l "src/zed_lines.ml" 172 4926 4939 "src/zed_lines.ml" 172 4926 4944
+)
+"src/zed_lines.ml" 179 5164 5191 "src/zed_lines.ml" 179 5164 5194
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 179 5164 5195 "src/zed_lines.ml" 179 5164 5198
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 179 5164 5174 "src/zed_lines.ml" 179 5164 5198
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 181 5212 5222 "src/zed_lines.ml" 181 5212 5228
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 182 5229 5242 "src/zed_lines.ml" 182 5229 5252
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 182 5229 5253 "src/zed_lines.ml" 182 5229 5258
+type(
+  t
+)
+ident(
+  int_ref set_l "src/zed_lines.ml" 172 4926 4939 "src/zed_lines.ml" 172 4926 4944
+)
+"src/zed_lines.ml" 182 5229 5259 "src/zed_lines.ml" 182 5229 5262
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 182 5229 5264 "src/zed_lines.ml" 182 5229 5269
+type(
+  int
+)
+ident(
+  int_ref len_l "src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+)
+"src/zed_lines.ml" 182 5229 5270 "src/zed_lines.ml" 182 5229 5271
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 182 5229 5272 "src/zed_lines.ml" 182 5229 5275
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 182 5229 5263 "src/zed_lines.ml" 182 5229 5276
+type(
+  int
+)
+"src/zed_lines.ml" 182 5229 5241 "src/zed_lines.ml" 182 5229 5277
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 183 5278 5291 "src/zed_lines.ml" 183 5278 5301
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 183 5278 5302 "src/zed_lines.ml" 183 5278 5307
+type(
+  t
+)
+ident(
+  int_ref set_r "src/zed_lines.ml" 172 4926 4946 "src/zed_lines.ml" 172 4926 4951
+)
+"src/zed_lines.ml" 183 5278 5308 "src/zed_lines.ml" 183 5278 5309
+type(
+  int
+)
+"src/zed_lines.ml" 183 5278 5311 "src/zed_lines.ml" 183 5278 5314
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 163 4750 4777 "src/zed_lines.ml" 163 4750 4780
+)
+"src/zed_lines.ml" 183 5278 5315 "src/zed_lines.ml" 183 5278 5316
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 183 5278 5317 "src/zed_lines.ml" 183 5278 5322
+type(
+  int
+)
+ident(
+  int_ref len_l "src/zed_lines.ml" 173 4968 4980 "src/zed_lines.ml" 173 4968 4985
+)
+"src/zed_lines.ml" 183 5278 5311 "src/zed_lines.ml" 183 5278 5322
+type(
+  int
+)
+"src/zed_lines.ml" 183 5278 5323 "src/zed_lines.ml" 183 5278 5324
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 183 5278 5325 "src/zed_lines.ml" 183 5278 5328
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 163 4750 4773 "src/zed_lines.ml" 163 4750 4776
+)
+"src/zed_lines.ml" 183 5278 5310 "src/zed_lines.ml" 183 5278 5329
+type(
+  int
+)
+"src/zed_lines.ml" 183 5278 5290 "src/zed_lines.ml" 183 5278 5330
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 181 5212 5222 "src/zed_lines.ml" 183 5278 5330
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 178 5124 5137 "src/zed_lines.ml" 183 5278 5330
+type(
+  t
+)
+"src/zed_lines.ml" 176 5045 5058 "src/zed_lines.ml" 183 5278 5330
+type(
+  t
+)
+"src/zed_lines.ml" 174 5004 5012 "src/zed_lines.ml" 183 5278 5330
+type(
+  t
+)
+"src/zed_lines.ml" 173 4968 4976 "src/zed_lines.ml" 183 5278 5330
+type(
+  t
+)
+"src/zed_lines.ml" 164 4783 4785 "src/zed_lines.ml" 183 5278 5330
+type(
+  t
+)
+"src/zed_lines.ml" 185 5332 5336 "src/zed_lines.ml" 185 5332 5339
+type(
+  t -> int -> int -> t
+)
+ident(
+  def sub "src/zed_lines.ml" 191 5468 5468 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 185 5332 5340 "src/zed_lines.ml" 185 5332 5343
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 185 5332 5344 "src/zed_lines.ml" 189 5440 5466
+)
+"src/zed_lines.ml" 185 5332 5344 "src/zed_lines.ml" 185 5332 5347
+type(
+  int
+)
+ident(
+  def idx "src/zed_lines.ml" 185 5332 5348 "src/zed_lines.ml" 189 5440 5466
+)
+"src/zed_lines.ml" 185 5332 5348 "src/zed_lines.ml" 185 5332 5351
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 186 5354 5356 "src/zed_lines.ml" 189 5440 5466
+)
+"src/zed_lines.ml" 186 5354 5359 "src/zed_lines.ml" 186 5354 5362
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 185 5332 5344 "src/zed_lines.ml" 185 5332 5347
+)
+"src/zed_lines.ml" 186 5354 5363 "src/zed_lines.ml" 186 5354 5364
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 186 5354 5365 "src/zed_lines.ml" 186 5354 5366
+type(
+  int
+)
+"src/zed_lines.ml" 186 5354 5359 "src/zed_lines.ml" 186 5354 5366
+type(
+  bool
+)
+"src/zed_lines.ml" 186 5354 5367 "src/zed_lines.ml" 186 5354 5369
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_lines.ml" 186 5354 5370 "src/zed_lines.ml" 186 5354 5373
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 185 5332 5348 "src/zed_lines.ml" 185 5332 5351
+)
+"src/zed_lines.ml" 186 5354 5374 "src/zed_lines.ml" 186 5354 5375
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 186 5354 5376 "src/zed_lines.ml" 186 5354 5377
+type(
+  int
+)
+"src/zed_lines.ml" 186 5354 5370 "src/zed_lines.ml" 186 5354 5377
+type(
+  bool
+)
+"src/zed_lines.ml" 186 5354 5378 "src/zed_lines.ml" 186 5354 5380
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_lines.ml" 186 5354 5381 "src/zed_lines.ml" 186 5354 5384
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 185 5332 5344 "src/zed_lines.ml" 185 5332 5347
+)
+"src/zed_lines.ml" 186 5354 5385 "src/zed_lines.ml" 186 5354 5386
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 186 5354 5387 "src/zed_lines.ml" 186 5354 5390
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 185 5332 5348 "src/zed_lines.ml" 185 5332 5351
+)
+"src/zed_lines.ml" 186 5354 5381 "src/zed_lines.ml" 186 5354 5390
+type(
+  int
+)
+"src/zed_lines.ml" 186 5354 5391 "src/zed_lines.ml" 186 5354 5392
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 186 5354 5393 "src/zed_lines.ml" 186 5354 5399
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 186 5354 5400 "src/zed_lines.ml" 186 5354 5403
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 185 5332 5340 "src/zed_lines.ml" 185 5332 5343
+)
+"src/zed_lines.ml" 186 5354 5393 "src/zed_lines.ml" 186 5354 5403
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 186 5354 5381 "src/zed_lines.ml" 186 5354 5403
+type(
+  bool
+)
+"src/zed_lines.ml" 186 5354 5370 "src/zed_lines.ml" 186 5354 5403
+type(
+  bool
+)
+"src/zed_lines.ml" 186 5354 5359 "src/zed_lines.ml" 186 5354 5403
+type(
+  bool
+)
+"src/zed_lines.ml" 187 5409 5413 "src/zed_lines.ml" 187 5409 5418
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_lines.ml" 187 5409 5419 "src/zed_lines.ml" 187 5409 5432
+type(
+  exn
+)
+"src/zed_lines.ml" 187 5409 5413 "src/zed_lines.ml" 187 5409 5432
+type(
+  t
+)
+"src/zed_lines.ml" 189 5440 5444 "src/zed_lines.ml" 189 5440 5454
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 189 5440 5455 "src/zed_lines.ml" 189 5440 5458
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 185 5332 5340 "src/zed_lines.ml" 185 5332 5343
+)
+"src/zed_lines.ml" 189 5440 5459 "src/zed_lines.ml" 189 5440 5462
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_lines.ml" 185 5332 5344 "src/zed_lines.ml" 185 5332 5347
+)
+"src/zed_lines.ml" 189 5440 5463 "src/zed_lines.ml" 189 5440 5466
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 185 5332 5348 "src/zed_lines.ml" 185 5332 5351
+)
+"src/zed_lines.ml" 189 5440 5444 "src/zed_lines.ml" 189 5440 5466
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 186 5354 5356 "src/zed_lines.ml" 189 5440 5466
+type(
+  t
+)
+"src/zed_lines.ml" 191 5468 5472 "src/zed_lines.ml" 191 5468 5477
+type(
+  t -> int -> t * t
+)
+ident(
+  def break "src/zed_lines.ml" 198 5636 5636 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 191 5468 5478 "src/zed_lines.ml" 191 5468 5481
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 196 5576 5634
+)
+"src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 192 5488 5490 "src/zed_lines.ml" 196 5576 5634
+)
+"src/zed_lines.ml" 192 5488 5494 "src/zed_lines.ml" 192 5488 5497
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 193 5514 5516 "src/zed_lines.ml" 196 5576 5634
+)
+"src/zed_lines.ml" 192 5488 5500 "src/zed_lines.ml" 192 5488 5506
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 192 5488 5507 "src/zed_lines.ml" 192 5488 5510
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 191 5468 5478 "src/zed_lines.ml" 191 5468 5481
+)
+"src/zed_lines.ml" 192 5488 5500 "src/zed_lines.ml" 192 5488 5510
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 193 5514 5519 "src/zed_lines.ml" 193 5514 5522
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+)
+"src/zed_lines.ml" 193 5514 5523 "src/zed_lines.ml" 193 5514 5524
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_lines.ml" 193 5514 5525 "src/zed_lines.ml" 193 5514 5526
+type(
+  int
+)
+"src/zed_lines.ml" 193 5514 5519 "src/zed_lines.ml" 193 5514 5526
+type(
+  bool
+)
+"src/zed_lines.ml" 193 5514 5527 "src/zed_lines.ml" 193 5514 5529
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_lines.ml" 193 5514 5530 "src/zed_lines.ml" 193 5514 5533
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+)
+"src/zed_lines.ml" 193 5514 5534 "src/zed_lines.ml" 193 5514 5535
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_lines.ml" 193 5514 5536 "src/zed_lines.ml" 193 5514 5539
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 192 5488 5494 "src/zed_lines.ml" 192 5488 5497
+)
+"src/zed_lines.ml" 193 5514 5530 "src/zed_lines.ml" 193 5514 5539
+type(
+  bool
+)
+"src/zed_lines.ml" 193 5514 5519 "src/zed_lines.ml" 193 5514 5539
+type(
+  bool
+)
+"src/zed_lines.ml" 194 5545 5549 "src/zed_lines.ml" 194 5545 5554
+type(
+  exn -> t * t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_lines.ml" 194 5545 5555 "src/zed_lines.ml" 194 5545 5568
+type(
+  exn
+)
+"src/zed_lines.ml" 194 5545 5549 "src/zed_lines.ml" 194 5545 5568
+type(
+  t * t
+)
+"src/zed_lines.ml" 196 5576 5581 "src/zed_lines.ml" 196 5576 5591
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 196 5576 5592 "src/zed_lines.ml" 196 5576 5595
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 191 5468 5478 "src/zed_lines.ml" 191 5468 5481
+)
+"src/zed_lines.ml" 196 5576 5596 "src/zed_lines.ml" 196 5576 5597
+type(
+  int
+)
+"src/zed_lines.ml" 196 5576 5598 "src/zed_lines.ml" 196 5576 5601
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+)
+"src/zed_lines.ml" 196 5576 5581 "src/zed_lines.ml" 196 5576 5601
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 196 5576 5603 "src/zed_lines.ml" 196 5576 5613
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref unsafe_sub "src/zed_lines.ml" 163 4750 4758 "src/zed_lines.ml" 163 4750 4768
+)
+"src/zed_lines.ml" 196 5576 5614 "src/zed_lines.ml" 196 5576 5617
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 191 5468 5478 "src/zed_lines.ml" 191 5468 5481
+)
+"src/zed_lines.ml" 196 5576 5618 "src/zed_lines.ml" 196 5576 5621
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+)
+"src/zed_lines.ml" 196 5576 5623 "src/zed_lines.ml" 196 5576 5626
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 192 5488 5494 "src/zed_lines.ml" 192 5488 5497
+)
+"src/zed_lines.ml" 196 5576 5627 "src/zed_lines.ml" 196 5576 5628
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 196 5576 5629 "src/zed_lines.ml" 196 5576 5632
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 191 5468 5482 "src/zed_lines.ml" 191 5468 5485
+)
+"src/zed_lines.ml" 196 5576 5622 "src/zed_lines.ml" 196 5576 5633
+type(
+  int
+)
+"src/zed_lines.ml" 196 5576 5603 "src/zed_lines.ml" 196 5576 5633
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 196 5576 5580 "src/zed_lines.ml" 196 5576 5634
+type(
+  t * t
+)
+"src/zed_lines.ml" 193 5514 5516 "src/zed_lines.ml" 196 5576 5634
+type(
+  t * t
+)
+"src/zed_lines.ml" 192 5488 5490 "src/zed_lines.ml" 196 5576 5634
+type(
+  t * t
+)
+"src/zed_lines.ml" 198 5636 5640 "src/zed_lines.ml" 198 5636 5646
+type(
+  t -> int -> t -> t
+)
+ident(
+  def insert "src/zed_lines.ml" 202 5732 5732 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 198 5636 5647 "src/zed_lines.ml" 198 5636 5650
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 198 5636 5651 "src/zed_lines.ml" 200 5698 5730
+)
+"src/zed_lines.ml" 198 5636 5651 "src/zed_lines.ml" 198 5636 5654
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 198 5636 5655 "src/zed_lines.ml" 200 5698 5730
+)
+"src/zed_lines.ml" 198 5636 5655 "src/zed_lines.ml" 198 5636 5659
+type(
+  t
+)
+ident(
+  def set' "src/zed_lines.ml" 199 5662 5664 "src/zed_lines.ml" 200 5698 5730
+)
+"src/zed_lines.ml" 199 5662 5668 "src/zed_lines.ml" 199 5662 5672
+type(
+  t
+)
+ident(
+  def set1 "src/zed_lines.ml" 200 5698 5700 "src/zed_lines.ml" 200 5698 5730
+)
+"src/zed_lines.ml" 199 5662 5674 "src/zed_lines.ml" 199 5662 5678
+type(
+  t
+)
+ident(
+  def set2 "src/zed_lines.ml" 200 5698 5700 "src/zed_lines.ml" 200 5698 5730
+)
+"src/zed_lines.ml" 199 5662 5668 "src/zed_lines.ml" 199 5662 5678
+type(
+  t * t
+)
+"src/zed_lines.ml" 199 5662 5681 "src/zed_lines.ml" 199 5662 5686
+type(
+  t -> int -> t * t
+)
+ident(
+  int_ref break "src/zed_lines.ml" 191 5468 5472 "src/zed_lines.ml" 191 5468 5477
+)
+"src/zed_lines.ml" 199 5662 5687 "src/zed_lines.ml" 199 5662 5690
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 198 5636 5647 "src/zed_lines.ml" 198 5636 5650
+)
+"src/zed_lines.ml" 199 5662 5691 "src/zed_lines.ml" 199 5662 5694
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 198 5636 5651 "src/zed_lines.ml" 198 5636 5654
+)
+"src/zed_lines.ml" 199 5662 5681 "src/zed_lines.ml" 199 5662 5694
+call(
+  stack
+)
+type(
+  t * t
+)
+"src/zed_lines.ml" 200 5698 5700 "src/zed_lines.ml" 200 5698 5706
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 200 5698 5707 "src/zed_lines.ml" 200 5698 5711
+type(
+  t
+)
+ident(
+  int_ref set1 "src/zed_lines.ml" 199 5662 5668 "src/zed_lines.ml" 199 5662 5672
+)
+"src/zed_lines.ml" 200 5698 5713 "src/zed_lines.ml" 200 5698 5719
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 200 5698 5720 "src/zed_lines.ml" 200 5698 5724
+type(
+  t
+)
+ident(
+  int_ref set' "src/zed_lines.ml" 198 5636 5655 "src/zed_lines.ml" 198 5636 5659
+)
+"src/zed_lines.ml" 200 5698 5725 "src/zed_lines.ml" 200 5698 5729
+type(
+  t
+)
+ident(
+  int_ref set2 "src/zed_lines.ml" 199 5662 5674 "src/zed_lines.ml" 199 5662 5678
+)
+"src/zed_lines.ml" 200 5698 5712 "src/zed_lines.ml" 200 5698 5730
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 200 5698 5700 "src/zed_lines.ml" 200 5698 5730
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 199 5662 5664 "src/zed_lines.ml" 200 5698 5730
+type(
+  t
+)
+"src/zed_lines.ml" 202 5732 5736 "src/zed_lines.ml" 202 5732 5742
+type(
+  t -> int -> int -> t
+)
+ident(
+  def remove "src/zed_lines.ml" 205 5830 5830 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 202 5732 5743 "src/zed_lines.ml" 202 5732 5746
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 202 5732 5747 "src/zed_lines.ml" 203 5757 5828
+)
+"src/zed_lines.ml" 202 5732 5747 "src/zed_lines.ml" 202 5732 5750
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 202 5732 5751 "src/zed_lines.ml" 203 5757 5828
+)
+"src/zed_lines.ml" 202 5732 5751 "src/zed_lines.ml" 202 5732 5754
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 203 5757 5759 "src/zed_lines.ml" 203 5757 5828
+)
+"src/zed_lines.ml" 203 5757 5759 "src/zed_lines.ml" 203 5757 5765
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 203 5757 5767 "src/zed_lines.ml" 203 5757 5770
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref sub "src/zed_lines.ml" 185 5332 5336 "src/zed_lines.ml" 185 5332 5339
+)
+"src/zed_lines.ml" 203 5757 5771 "src/zed_lines.ml" 203 5757 5774
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 202 5732 5743 "src/zed_lines.ml" 202 5732 5746
+)
+"src/zed_lines.ml" 203 5757 5775 "src/zed_lines.ml" 203 5757 5776
+type(
+  int
+)
+"src/zed_lines.ml" 203 5757 5777 "src/zed_lines.ml" 203 5757 5780
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 202 5732 5747 "src/zed_lines.ml" 202 5732 5750
+)
+"src/zed_lines.ml" 203 5757 5766 "src/zed_lines.ml" 203 5757 5781
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 203 5757 5783 "src/zed_lines.ml" 203 5757 5786
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref sub "src/zed_lines.ml" 185 5332 5336 "src/zed_lines.ml" 185 5332 5339
+)
+"src/zed_lines.ml" 203 5757 5787 "src/zed_lines.ml" 203 5757 5790
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 202 5732 5743 "src/zed_lines.ml" 202 5732 5746
+)
+"src/zed_lines.ml" 203 5757 5792 "src/zed_lines.ml" 203 5757 5795
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 202 5732 5747 "src/zed_lines.ml" 202 5732 5750
+)
+"src/zed_lines.ml" 203 5757 5796 "src/zed_lines.ml" 203 5757 5797
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 203 5757 5798 "src/zed_lines.ml" 203 5757 5801
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 202 5732 5751 "src/zed_lines.ml" 202 5732 5754
+)
+"src/zed_lines.ml" 203 5757 5791 "src/zed_lines.ml" 203 5757 5802
+type(
+  int
+)
+"src/zed_lines.ml" 203 5757 5804 "src/zed_lines.ml" 203 5757 5810
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 203 5757 5811 "src/zed_lines.ml" 203 5757 5814
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 202 5732 5743 "src/zed_lines.ml" 202 5732 5746
+)
+"src/zed_lines.ml" 203 5757 5804 "src/zed_lines.ml" 203 5757 5814
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 203 5757 5815 "src/zed_lines.ml" 203 5757 5816
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 203 5757 5817 "src/zed_lines.ml" 203 5757 5820
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 202 5732 5747 "src/zed_lines.ml" 202 5732 5750
+)
+"src/zed_lines.ml" 203 5757 5804 "src/zed_lines.ml" 203 5757 5820
+type(
+  int
+)
+"src/zed_lines.ml" 203 5757 5821 "src/zed_lines.ml" 203 5757 5822
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 203 5757 5823 "src/zed_lines.ml" 203 5757 5826
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 202 5732 5751 "src/zed_lines.ml" 202 5732 5754
+)
+"src/zed_lines.ml" 203 5757 5803 "src/zed_lines.ml" 203 5757 5827
+type(
+  int
+)
+"src/zed_lines.ml" 203 5757 5782 "src/zed_lines.ml" 203 5757 5828
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 203 5757 5759 "src/zed_lines.ml" 203 5757 5828
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 205 5830 5834 "src/zed_lines.ml" 205 5830 5841
+type(
+  t -> int -> int -> t -> t
+)
+ident(
+  def replace "src/zed_lines.ml" 212 6165 6165 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 205 5830 5842 "src/zed_lines.ml" 205 5830 5845
+type(
+  t
+)
+ident(
+  def set "src/zed_lines.ml" 205 5830 5846 "src/zed_lines.ml" 206 5861 5946
+)
+"src/zed_lines.ml" 205 5830 5846 "src/zed_lines.ml" 205 5830 5849
+type(
+  int
+)
+ident(
+  def ofs "src/zed_lines.ml" 205 5830 5850 "src/zed_lines.ml" 206 5861 5946
+)
+"src/zed_lines.ml" 205 5830 5850 "src/zed_lines.ml" 205 5830 5853
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 205 5830 5854 "src/zed_lines.ml" 206 5861 5946
+)
+"src/zed_lines.ml" 205 5830 5854 "src/zed_lines.ml" 205 5830 5858
+type(
+  t
+)
+ident(
+  def repl "src/zed_lines.ml" 206 5861 5863 "src/zed_lines.ml" 206 5861 5946
+)
+"src/zed_lines.ml" 206 5861 5863 "src/zed_lines.ml" 206 5861 5869
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 206 5861 5871 "src/zed_lines.ml" 206 5861 5874
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref sub "src/zed_lines.ml" 185 5332 5336 "src/zed_lines.ml" 185 5332 5339
+)
+"src/zed_lines.ml" 206 5861 5875 "src/zed_lines.ml" 206 5861 5878
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 205 5830 5842 "src/zed_lines.ml" 205 5830 5845
+)
+"src/zed_lines.ml" 206 5861 5879 "src/zed_lines.ml" 206 5861 5880
+type(
+  int
+)
+"src/zed_lines.ml" 206 5861 5881 "src/zed_lines.ml" 206 5861 5884
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 205 5830 5846 "src/zed_lines.ml" 205 5830 5849
+)
+"src/zed_lines.ml" 206 5861 5870 "src/zed_lines.ml" 206 5861 5885
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 206 5861 5887 "src/zed_lines.ml" 206 5861 5893
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 206 5861 5894 "src/zed_lines.ml" 206 5861 5898
+type(
+  t
+)
+ident(
+  int_ref repl "src/zed_lines.ml" 205 5830 5854 "src/zed_lines.ml" 205 5830 5858
+)
+"src/zed_lines.ml" 206 5861 5900 "src/zed_lines.ml" 206 5861 5903
+type(
+  t -> int -> int -> t
+)
+ident(
+  int_ref sub "src/zed_lines.ml" 185 5332 5336 "src/zed_lines.ml" 185 5332 5339
+)
+"src/zed_lines.ml" 206 5861 5904 "src/zed_lines.ml" 206 5861 5907
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 205 5830 5842 "src/zed_lines.ml" 205 5830 5845
+)
+"src/zed_lines.ml" 206 5861 5909 "src/zed_lines.ml" 206 5861 5912
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 205 5830 5846 "src/zed_lines.ml" 205 5830 5849
+)
+"src/zed_lines.ml" 206 5861 5913 "src/zed_lines.ml" 206 5861 5914
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 206 5861 5915 "src/zed_lines.ml" 206 5861 5918
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 205 5830 5850 "src/zed_lines.ml" 205 5830 5853
+)
+"src/zed_lines.ml" 206 5861 5908 "src/zed_lines.ml" 206 5861 5919
+type(
+  int
+)
+"src/zed_lines.ml" 206 5861 5921 "src/zed_lines.ml" 206 5861 5927
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/zed_lines.ml" 33 951 955 "src/zed_lines.ml" 33 951 961
+)
+"src/zed_lines.ml" 206 5861 5928 "src/zed_lines.ml" 206 5861 5931
+type(
+  t
+)
+ident(
+  int_ref set "src/zed_lines.ml" 205 5830 5842 "src/zed_lines.ml" 205 5830 5845
+)
+"src/zed_lines.ml" 206 5861 5921 "src/zed_lines.ml" 206 5861 5931
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 206 5861 5932 "src/zed_lines.ml" 206 5861 5933
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 206 5861 5934 "src/zed_lines.ml" 206 5861 5937
+type(
+  int
+)
+ident(
+  int_ref ofs "src/zed_lines.ml" 205 5830 5846 "src/zed_lines.ml" 205 5830 5849
+)
+"src/zed_lines.ml" 206 5861 5921 "src/zed_lines.ml" 206 5861 5937
+type(
+  int
+)
+"src/zed_lines.ml" 206 5861 5938 "src/zed_lines.ml" 206 5861 5939
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_lines.ml" 206 5861 5940 "src/zed_lines.ml" 206 5861 5943
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 205 5830 5850 "src/zed_lines.ml" 205 5830 5853
+)
+"src/zed_lines.ml" 206 5861 5920 "src/zed_lines.ml" 206 5861 5944
+type(
+  int
+)
+"src/zed_lines.ml" 206 5861 5899 "src/zed_lines.ml" 206 5861 5945
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 206 5861 5886 "src/zed_lines.ml" 206 5861 5946
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 206 5861 5863 "src/zed_lines.ml" 206 5861 5946
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 212 6165 6169 "src/zed_lines.ml" 212 6165 6176
+type(
+  Zed_rope.rope -> t
+)
+ident(
+  def of_rope "src/zed_lines.ml" 232 6700 6742 "src/zed_lines.ml" 1 0 -1
+)
+"src/zed_lines.ml" 212 6165 6177 "src/zed_lines.ml" 212 6165 6181
+type(
+  Zed_rope.rope
+)
+ident(
+  def rope "src/zed_lines.ml" 213 6184 6186 "src/zed_lines.ml" 232 6700 6742
+)
+"src/zed_lines.ml" 213 6184 6194 "src/zed_lines.ml" 213 6184 6198
+type(
+  Zed_rope.Zip.t -> int -> t -> t
+)
+ident(
+  def loop "src/zed_lines.ml" 213 6184 6186 "src/zed_lines.ml" 232 6700 6742
+)
+"src/zed_lines.ml" 213 6184 6199 "src/zed_lines.ml" 213 6184 6202
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  def zip "src/zed_lines.ml" 213 6184 6203 "src/zed_lines.ml" 221 6437 6467
+)
+"src/zed_lines.ml" 213 6184 6203 "src/zed_lines.ml" 213 6184 6206
+type(
+  int
+)
+ident(
+  def len "src/zed_lines.ml" 213 6184 6207 "src/zed_lines.ml" 221 6437 6467
+)
+"src/zed_lines.ml" 213 6184 6207 "src/zed_lines.ml" 213 6184 6210
+type(
+  t
+)
+ident(
+  def acc "src/zed_lines.ml" 214 6213 6217 "src/zed_lines.ml" 221 6437 6467
+)
+"src/zed_lines.ml" 214 6213 6220 "src/zed_lines.ml" 214 6213 6239
+type(
+  Zed_rope.Zip.t -> bool
+)
+ident(
+  ext_ref Zed_rope.Zip.at_eos
+)
+"src/zed_lines.ml" 214 6213 6240 "src/zed_lines.ml" 214 6213 6243
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 213 6184 6199 "src/zed_lines.ml" 213 6184 6202
+)
+"src/zed_lines.ml" 214 6213 6220 "src/zed_lines.ml" 214 6213 6243
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_lines.ml" 215 6249 6255 "src/zed_lines.ml" 215 6249 6261
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 215 6249 6262 "src/zed_lines.ml" 215 6249 6265
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 213 6184 6207 "src/zed_lines.ml" 213 6184 6210
+)
+"src/zed_lines.ml" 215 6249 6274 "src/zed_lines.ml" 215 6249 6277
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 213 6184 6203 "src/zed_lines.ml" 213 6184 6206
+)
+"src/zed_lines.ml" 215 6249 6266 "src/zed_lines.ml" 215 6249 6278
+type(
+  t
+)
+"src/zed_lines.ml" 215 6249 6255 "src/zed_lines.ml" 215 6249 6278
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 217 6288 6298 "src/zed_lines.ml" 217 6288 6300
+type(
+  CamomileLibrary.UChar.t
+)
+ident(
+  def ch "src/zed_lines.ml" 218 6333 6339 "src/zed_lines.ml" 221 6437 6467
+)
+"src/zed_lines.ml" 217 6288 6302 "src/zed_lines.ml" 217 6288 6305
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  def zip "src/zed_lines.ml" 218 6333 6339 "src/zed_lines.ml" 221 6437 6467
+)
+"src/zed_lines.ml" 217 6288 6298 "src/zed_lines.ml" 217 6288 6305
+type(
+  CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+"src/zed_lines.ml" 217 6288 6308 "src/zed_lines.ml" 217 6288 6325
+type(
+  Zed_rope.Zip.t -> CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+ident(
+  ext_ref Zed_rope.Zip.next
+)
+"src/zed_lines.ml" 217 6288 6326 "src/zed_lines.ml" 217 6288 6329
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 213 6184 6199 "src/zed_lines.ml" 213 6184 6202
+)
+"src/zed_lines.ml" 217 6288 6308 "src/zed_lines.ml" 217 6288 6329
+call(
+  stack
+)
+type(
+  CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+"src/zed_lines.ml" 218 6333 6342 "src/zed_lines.ml" 218 6333 6352
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/zed_lines.ml" 218 6333 6353 "src/zed_lines.ml" 218 6333 6355
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/zed_lines.ml" 217 6288 6298 "src/zed_lines.ml" 217 6288 6300
+)
+"src/zed_lines.ml" 218 6333 6342 "src/zed_lines.ml" 218 6333 6355
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 218 6333 6356 "src/zed_lines.ml" 218 6333 6357
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 218 6333 6358 "src/zed_lines.ml" 218 6333 6360
+type(
+  int
+)
+"src/zed_lines.ml" 218 6333 6342 "src/zed_lines.ml" 218 6333 6360
+type(
+  bool
+)
+"src/zed_lines.ml" 219 6366 6374 "src/zed_lines.ml" 219 6366 6379
+type(
+  Zed_rope.Zip.t -> t -> t
+)
+ident(
+  int_ref loop0 "src/zed_lines.ml" 222 6468 6474 "src/zed_lines.ml" 222 6468 6479
+)
+"src/zed_lines.ml" 219 6366 6380 "src/zed_lines.ml" 219 6366 6383
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 217 6288 6302 "src/zed_lines.ml" 217 6288 6305
+)
+"src/zed_lines.ml" 219 6366 6385 "src/zed_lines.ml" 219 6366 6391
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 219 6366 6393 "src/zed_lines.ml" 219 6366 6399
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 219 6366 6400 "src/zed_lines.ml" 219 6366 6403
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 213 6184 6207 "src/zed_lines.ml" 213 6184 6210
+)
+"src/zed_lines.ml" 219 6366 6412 "src/zed_lines.ml" 219 6366 6415
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 213 6184 6203 "src/zed_lines.ml" 213 6184 6206
+)
+"src/zed_lines.ml" 219 6366 6404 "src/zed_lines.ml" 219 6366 6416
+type(
+  t
+)
+"src/zed_lines.ml" 219 6366 6392 "src/zed_lines.ml" 219 6366 6417
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 219 6366 6418 "src/zed_lines.ml" 219 6366 6424
+type(
+  t
+)
+"src/zed_lines.ml" 219 6366 6384 "src/zed_lines.ml" 219 6366 6425
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 219 6366 6374 "src/zed_lines.ml" 219 6366 6425
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 221 6437 6445 "src/zed_lines.ml" 221 6437 6449
+type(
+  Zed_rope.Zip.t -> int -> t -> t
+)
+ident(
+  int_ref loop "src/zed_lines.ml" 213 6184 6194 "src/zed_lines.ml" 213 6184 6198
+)
+"src/zed_lines.ml" 221 6437 6450 "src/zed_lines.ml" 221 6437 6453
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 217 6288 6302 "src/zed_lines.ml" 217 6288 6305
+)
+"src/zed_lines.ml" 221 6437 6455 "src/zed_lines.ml" 221 6437 6458
+type(
+  int
+)
+ident(
+  int_ref len "src/zed_lines.ml" 213 6184 6203 "src/zed_lines.ml" 213 6184 6206
+)
+"src/zed_lines.ml" 221 6437 6459 "src/zed_lines.ml" 221 6437 6460
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_lines.ml" 221 6437 6461 "src/zed_lines.ml" 221 6437 6462
+type(
+  int
+)
+"src/zed_lines.ml" 221 6437 6454 "src/zed_lines.ml" 221 6437 6463
+type(
+  int
+)
+"src/zed_lines.ml" 221 6437 6464 "src/zed_lines.ml" 221 6437 6467
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 213 6184 6207 "src/zed_lines.ml" 213 6184 6210
+)
+"src/zed_lines.ml" 221 6437 6445 "src/zed_lines.ml" 221 6437 6467
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 218 6333 6339 "src/zed_lines.ml" 221 6437 6467
+type(
+  t
+)
+"src/zed_lines.ml" 217 6288 6294 "src/zed_lines.ml" 221 6437 6467
+type(
+  t
+)
+"src/zed_lines.ml" 214 6213 6217 "src/zed_lines.ml" 221 6437 6467
+type(
+  t
+)
+"src/zed_lines.ml" 222 6468 6474 "src/zed_lines.ml" 222 6468 6479
+type(
+  Zed_rope.Zip.t -> t -> t
+)
+ident(
+  def loop0 "src/zed_lines.ml" 213 6184 6186 "src/zed_lines.ml" 232 6700 6742
+)
+"src/zed_lines.ml" 222 6468 6480 "src/zed_lines.ml" 222 6468 6483
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  def zip "src/zed_lines.ml" 222 6468 6484 "src/zed_lines.ml" 230 6672 6694
+)
+"src/zed_lines.ml" 222 6468 6484 "src/zed_lines.ml" 222 6468 6487
+type(
+  t
+)
+ident(
+  def acc "src/zed_lines.ml" 223 6490 6494 "src/zed_lines.ml" 230 6672 6694
+)
+"src/zed_lines.ml" 223 6490 6497 "src/zed_lines.ml" 223 6490 6516
+type(
+  Zed_rope.Zip.t -> bool
+)
+ident(
+  ext_ref Zed_rope.Zip.at_eos
+)
+"src/zed_lines.ml" 223 6490 6517 "src/zed_lines.ml" 223 6490 6520
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 222 6468 6480 "src/zed_lines.ml" 222 6468 6483
+)
+"src/zed_lines.ml" 223 6490 6497 "src/zed_lines.ml" 223 6490 6520
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_lines.ml" 224 6526 6532 "src/zed_lines.ml" 224 6526 6535
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 222 6468 6484 "src/zed_lines.ml" 222 6468 6487
+)
+"src/zed_lines.ml" 226 6545 6555 "src/zed_lines.ml" 226 6545 6557
+type(
+  CamomileLibrary.UChar.t
+)
+ident(
+  def ch "src/zed_lines.ml" 227 6590 6596 "src/zed_lines.ml" 230 6672 6694
+)
+"src/zed_lines.ml" 226 6545 6559 "src/zed_lines.ml" 226 6545 6562
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  def zip "src/zed_lines.ml" 227 6590 6596 "src/zed_lines.ml" 230 6672 6694
+)
+"src/zed_lines.ml" 226 6545 6555 "src/zed_lines.ml" 226 6545 6562
+type(
+  CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+"src/zed_lines.ml" 226 6545 6565 "src/zed_lines.ml" 226 6545 6582
+type(
+  Zed_rope.Zip.t -> CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+ident(
+  ext_ref Zed_rope.Zip.next
+)
+"src/zed_lines.ml" 226 6545 6583 "src/zed_lines.ml" 226 6545 6586
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 222 6468 6480 "src/zed_lines.ml" 222 6468 6483
+)
+"src/zed_lines.ml" 226 6545 6565 "src/zed_lines.ml" 226 6545 6586
+call(
+  stack
+)
+type(
+  CamomileLibrary.UChar.t * Zed_rope.Zip.t
+)
+"src/zed_lines.ml" 227 6590 6599 "src/zed_lines.ml" 227 6590 6609
+type(
+  CamomileLibraryDyn.Camomile.UChar.t -> int
+)
+ident(
+  ext_ref CamomileLibraryDyn.Camomile.UChar.code
+)
+"src/zed_lines.ml" 227 6590 6610 "src/zed_lines.ml" 227 6590 6612
+type(
+  CamomileLibraryDyn.Camomile.UChar.t
+)
+ident(
+  int_ref ch "src/zed_lines.ml" 226 6545 6555 "src/zed_lines.ml" 226 6545 6557
+)
+"src/zed_lines.ml" 227 6590 6599 "src/zed_lines.ml" 227 6590 6612
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_lines.ml" 227 6590 6613 "src/zed_lines.ml" 227 6590 6614
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/zed_lines.ml" 227 6590 6615 "src/zed_lines.ml" 227 6590 6617
+type(
+  int
+)
+"src/zed_lines.ml" 227 6590 6599 "src/zed_lines.ml" 227 6590 6617
+type(
+  bool
+)
+"src/zed_lines.ml" 228 6623 6631 "src/zed_lines.ml" 228 6623 6636
+type(
+  Zed_rope.Zip.t -> t -> t
+)
+ident(
+  int_ref loop0 "src/zed_lines.ml" 222 6468 6474 "src/zed_lines.ml" 222 6468 6479
+)
+"src/zed_lines.ml" 228 6623 6637 "src/zed_lines.ml" 228 6623 6640
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 226 6545 6559 "src/zed_lines.ml" 226 6545 6562
+)
+"src/zed_lines.ml" 228 6623 6642 "src/zed_lines.ml" 228 6623 6648
+type(
+  t -> t -> t
+)
+ident(
+  int_ref append "src/zed_lines.ml" 120 3059 3063 "src/zed_lines.ml" 120 3059 3069
+)
+"src/zed_lines.ml" 228 6623 6649 "src/zed_lines.ml" 228 6623 6652
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 222 6468 6484 "src/zed_lines.ml" 222 6468 6487
+)
+"src/zed_lines.ml" 228 6623 6653 "src/zed_lines.ml" 228 6623 6659
+type(
+  t
+)
+"src/zed_lines.ml" 228 6623 6641 "src/zed_lines.ml" 228 6623 6660
+call(
+  stack
+)
+type(
+  t
+)
+"src/zed_lines.ml" 228 6623 6631 "src/zed_lines.ml" 228 6623 6660
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 230 6672 6680 "src/zed_lines.ml" 230 6672 6684
+type(
+  Zed_rope.Zip.t -> int -> t -> t
+)
+ident(
+  int_ref loop "src/zed_lines.ml" 213 6184 6194 "src/zed_lines.ml" 213 6184 6198
+)
+"src/zed_lines.ml" 230 6672 6685 "src/zed_lines.ml" 230 6672 6688
+type(
+  Zed_rope.Zip.t
+)
+ident(
+  int_ref zip "src/zed_lines.ml" 226 6545 6559 "src/zed_lines.ml" 226 6545 6562
+)
+"src/zed_lines.ml" 230 6672 6689 "src/zed_lines.ml" 230 6672 6690
+type(
+  int
+)
+"src/zed_lines.ml" 230 6672 6691 "src/zed_lines.ml" 230 6672 6694
+type(
+  t
+)
+ident(
+  int_ref acc "src/zed_lines.ml" 222 6468 6484 "src/zed_lines.ml" 222 6468 6487
+)
+"src/zed_lines.ml" 230 6672 6680 "src/zed_lines.ml" 230 6672 6694
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 227 6590 6596 "src/zed_lines.ml" 230 6672 6694
+type(
+  t
+)
+"src/zed_lines.ml" 226 6545 6551 "src/zed_lines.ml" 230 6672 6694
+type(
+  t
+)
+"src/zed_lines.ml" 223 6490 6494 "src/zed_lines.ml" 230 6672 6694
+type(
+  t
+)
+"src/zed_lines.ml" 232 6700 6702 "src/zed_lines.ml" 232 6700 6707
+type(
+  Zed_rope.Zip.t -> t -> t
+)
+ident(
+  int_ref loop0 "src/zed_lines.ml" 222 6468 6474 "src/zed_lines.ml" 222 6468 6479
+)
+"src/zed_lines.ml" 232 6700 6709 "src/zed_lines.ml" 232 6700 6728
+type(
+  Zed_rope.rope -> int -> Zed_rope.Zip.t
+)
+ident(
+  ext_ref Zed_rope.Zip.make_f
+)
+"src/zed_lines.ml" 232 6700 6729 "src/zed_lines.ml" 232 6700 6733
+type(
+  Zed_rope.rope
+)
+ident(
+  int_ref rope "src/zed_lines.ml" 212 6165 6177 "src/zed_lines.ml" 212 6165 6181
+)
+"src/zed_lines.ml" 232 6700 6734 "src/zed_lines.ml" 232 6700 6735
+type(
+  int
+)
+"src/zed_lines.ml" 232 6700 6708 "src/zed_lines.ml" 232 6700 6736
+call(
+  stack
+)
+type(
+  Zed_rope.Zip.t
+)
+"src/zed_lines.ml" 232 6700 6737 "src/zed_lines.ml" 232 6700 6742
+type(
+  t
+)
+ident(
+  int_ref empty "src/zed_lines.ml" 51 1283 1287 "src/zed_lines.ml" 51 1283 1292
+)
+"src/zed_lines.ml" 232 6700 6702 "src/zed_lines.ml" 232 6700 6742
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_lines.ml" 213 6184 6186 "src/zed_lines.ml" 232 6700 6742
+type(
+  t
+)

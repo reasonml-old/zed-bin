@@ -1,0 +1,2059 @@
+"src/zed_cursor.ml" 31 620 624 "src/zed_cursor.ml" 31 620 630
+type(
+  int ->
+  (int * int * int) React.event -> (unit -> Zed_lines.t) -> int -> int -> t
+)
+ident(
+  def create "src/zed_cursor.ml" 82 2355 2355 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 31 620 631 "src/zed_cursor.ml" 31 620 637
+type(
+  int
+)
+ident(
+  def length "src/zed_cursor.ml" 31 620 638 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 31 620 638 "src/zed_cursor.ml" 31 620 645
+type(
+  (int * int * int) React.event
+)
+ident(
+  def changes "src/zed_cursor.ml" 31 620 646 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 31 620 646 "src/zed_cursor.ml" 31 620 655
+type(
+  unit -> Zed_lines.t
+)
+ident(
+  def get_lines "src/zed_cursor.ml" 31 620 656 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 31 620 656 "src/zed_cursor.ml" 31 620 664
+type(
+  int
+)
+ident(
+  def position "src/zed_cursor.ml" 31 620 665 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 31 620 665 "src/zed_cursor.ml" 31 620 678
+type(
+  int
+)
+ident(
+  def wanted_column "src/zed_cursor.ml" 32 681 683 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 32 681 686 "src/zed_cursor.ml" 32 681 694
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 31 620 656 "src/zed_cursor.ml" 31 620 664
+)
+"src/zed_cursor.ml" 32 681 695 "src/zed_cursor.ml" 32 681 696
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_cursor.ml" 32 681 697 "src/zed_cursor.ml" 32 681 698
+type(
+  int
+)
+"src/zed_cursor.ml" 32 681 686 "src/zed_cursor.ml" 32 681 698
+type(
+  bool
+)
+"src/zed_cursor.ml" 32 681 699 "src/zed_cursor.ml" 32 681 701
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_cursor.ml" 32 681 702 "src/zed_cursor.ml" 32 681 710
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 31 620 656 "src/zed_cursor.ml" 31 620 664
+)
+"src/zed_cursor.ml" 32 681 711 "src/zed_cursor.ml" 32 681 712
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_cursor.ml" 32 681 713 "src/zed_cursor.ml" 32 681 719
+type(
+  int
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 31 620 631 "src/zed_cursor.ml" 31 620 637
+)
+"src/zed_cursor.ml" 32 681 702 "src/zed_cursor.ml" 32 681 719
+type(
+  bool
+)
+"src/zed_cursor.ml" 32 681 686 "src/zed_cursor.ml" 32 681 719
+type(
+  bool
+)
+"src/zed_cursor.ml" 32 681 725 "src/zed_cursor.ml" 32 681 730
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_cursor.ml" 32 681 731 "src/zed_cursor.ml" 32 681 744
+type(
+  exn
+)
+"src/zed_cursor.ml" 32 681 725 "src/zed_cursor.ml" 32 681 744
+type(
+  unit
+)
+"src/zed_cursor.ml" 32 681 683 "src/zed_cursor.ml" 32 681 744
+type(
+  unit
+)
+"src/zed_cursor.ml" 33 746 752 "src/zed_cursor.ml" 33 746 758
+type(
+  int ref
+)
+ident(
+  def length "src/zed_cursor.ml" 34 775 777 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 33 746 761 "src/zed_cursor.ml" 33 746 764
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/zed_cursor.ml" 33 746 765 "src/zed_cursor.ml" 33 746 771
+type(
+  int
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 31 620 631 "src/zed_cursor.ml" 31 620 637
+)
+"src/zed_cursor.ml" 33 746 761 "src/zed_cursor.ml" 33 746 771
+type(
+  int ref
+)
+"src/zed_cursor.ml" 34 775 781 "src/zed_cursor.ml" 34 775 791
+type(
+  action React.event
+)
+ident(
+  def user_moves "src/zed_cursor.ml" 35 815 817 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 34 775 793 "src/zed_cursor.ml" 34 775 797
+type(
+  ?step:React.step -> action -> unit
+)
+ident(
+  def send "src/zed_cursor.ml" 35 815 817 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 34 775 781 "src/zed_cursor.ml" 34 775 797
+type(
+  action React.event * (?step:React.step -> action -> unit)
+)
+"src/zed_cursor.ml" 34 775 800 "src/zed_cursor.ml" 34 775 808
+type(
+  unit -> action React.event * (?step:React.step -> action -> unit)
+)
+ident(
+  ext_ref React.E.create
+)
+"src/zed_cursor.ml" 34 775 809 "src/zed_cursor.ml" 34 775 811
+type(
+  unit
+)
+"src/zed_cursor.ml" 34 775 800 "src/zed_cursor.ml" 34 775 811
+call(
+  stack
+)
+type(
+  action React.event * (?step:React.step -> action -> unit)
+)
+"src/zed_cursor.ml" 35 815 821 "src/zed_cursor.ml" 35 815 836
+type(
+  int -> action -> int
+)
+ident(
+  def update_position "src/zed_cursor.ml" 58 1665 1667 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+type(
+  int
+)
+ident(
+  def position "src/zed_cursor.ml" 35 815 846 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 35 815 846 "src/zed_cursor.ml" 35 815 852
+type(
+  action
+)
+ident(
+  def action "src/zed_cursor.ml" 36 855 859 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 36 855 865 "src/zed_cursor.ml" 36 855 871
+type(
+  action
+)
+ident(
+  int_ref action "src/zed_cursor.ml" 35 815 846 "src/zed_cursor.ml" 35 815 852
+)
+"src/zed_cursor.ml" 37 877 893 "src/zed_cursor.ml" 37 877 896
+type(
+  int
+)
+ident(
+  def pos "src/zed_cursor.ml" 37 877 900 "src/zed_cursor.ml" 37 877 903
+)
+"src/zed_cursor.ml" 37 877 883 "src/zed_cursor.ml" 37 877 896
+type(
+  action
+)
+"src/zed_cursor.ml" 37 877 900 "src/zed_cursor.ml" 37 877 903
+type(
+  int
+)
+ident(
+  int_ref pos "src/zed_cursor.ml" 37 877 893 "src/zed_cursor.ml" 37 877 896
+)
+"src/zed_cursor.ml" 38 904 929 "src/zed_cursor.ml" 38 904 934
+type(
+  int
+)
+ident(
+  def start "src/zed_cursor.ml" 39 955 961 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 38 904 936 "src/zed_cursor.ml" 38 904 941
+type(
+  int
+)
+ident(
+  def added "src/zed_cursor.ml" 39 955 961 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 38 904 943 "src/zed_cursor.ml" 38 904 950
+type(
+  int
+)
+ident(
+  def removed "src/zed_cursor.ml" 39 955 961 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 38 904 928 "src/zed_cursor.ml" 38 904 951
+type(
+  int * int * int
+)
+"src/zed_cursor.ml" 38 904 910 "src/zed_cursor.ml" 38 904 951
+type(
+  action
+)
+"src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+type(
+  int
+)
+ident(
+  def delta "src/zed_cursor.ml" 40 992 998 "src/zed_cursor.ml" 56 1643 1659
+)
+"src/zed_cursor.ml" 39 955 973 "src/zed_cursor.ml" 39 955 978
+type(
+  int
+)
+ident(
+  int_ref added "src/zed_cursor.ml" 38 904 936 "src/zed_cursor.ml" 38 904 941
+)
+"src/zed_cursor.ml" 39 955 979 "src/zed_cursor.ml" 39 955 980
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_cursor.ml" 39 955 981 "src/zed_cursor.ml" 39 955 988
+type(
+  int
+)
+ident(
+  int_ref removed "src/zed_cursor.ml" 38 904 943 "src/zed_cursor.ml" 38 904 950
+)
+"src/zed_cursor.ml" 39 955 973 "src/zed_cursor.ml" 39 955 988
+type(
+  int
+)
+"src/zed_cursor.ml" 40 992 998 "src/zed_cursor.ml" 40 992 1004
+type(
+  int ref
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 33 746 752 "src/zed_cursor.ml" 33 746 758
+)
+"src/zed_cursor.ml" 40 992 1005 "src/zed_cursor.ml" 40 992 1007
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/zed_cursor.ml" 40 992 1008 "src/zed_cursor.ml" 40 992 1009
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/zed_cursor.ml" 40 992 1009 "src/zed_cursor.ml" 40 992 1015
+type(
+  int ref
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 33 746 752 "src/zed_cursor.ml" 33 746 758
+)
+"src/zed_cursor.ml" 40 992 1008 "src/zed_cursor.ml" 40 992 1015
+type(
+  int
+)
+"src/zed_cursor.ml" 40 992 1016 "src/zed_cursor.ml" 40 992 1017
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_cursor.ml" 40 992 1018 "src/zed_cursor.ml" 40 992 1023
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+)
+"src/zed_cursor.ml" 40 992 1008 "src/zed_cursor.ml" 40 992 1023
+type(
+  int
+)
+"src/zed_cursor.ml" 40 992 998 "src/zed_cursor.ml" 40 992 1023
+type(
+  unit
+)
+"src/zed_cursor.ml" 41 1025 1034 "src/zed_cursor.ml" 41 1025 1035
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/zed_cursor.ml" 41 1025 1035 "src/zed_cursor.ml" 41 1025 1041
+type(
+  int ref
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 33 746 752 "src/zed_cursor.ml" 33 746 758
+)
+"src/zed_cursor.ml" 41 1025 1034 "src/zed_cursor.ml" 41 1025 1041
+type(
+  int
+)
+"src/zed_cursor.ml" 41 1025 1042 "src/zed_cursor.ml" 41 1025 1043
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_cursor.ml" 41 1025 1044 "src/zed_cursor.ml" 41 1025 1045
+type(
+  int
+)
+"src/zed_cursor.ml" 41 1025 1034 "src/zed_cursor.ml" 41 1025 1045
+type(
+  bool
+)
+"src/zed_cursor.ml" 41 1025 1051 "src/zed_cursor.ml" 41 1025 1056
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_cursor.ml" 41 1025 1057 "src/zed_cursor.ml" 41 1025 1070
+type(
+  exn
+)
+"src/zed_cursor.ml" 41 1025 1051 "src/zed_cursor.ml" 41 1025 1070
+type(
+  unit
+)
+"src/zed_cursor.ml" 41 1025 1031 "src/zed_cursor.ml" 41 1025 1070
+type(
+  unit
+)
+"src/zed_cursor.ml" 43 1141 1150 "src/zed_cursor.ml" 43 1141 1158
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+)
+"src/zed_cursor.ml" 43 1141 1159 "src/zed_cursor.ml" 43 1141 1160
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_cursor.ml" 43 1141 1161 "src/zed_cursor.ml" 43 1141 1166
+type(
+  int
+)
+ident(
+  int_ref start "src/zed_cursor.ml" 38 904 929 "src/zed_cursor.ml" 38 904 934
+)
+"src/zed_cursor.ml" 43 1141 1150 "src/zed_cursor.ml" 43 1141 1166
+type(
+  bool
+)
+"src/zed_cursor.ml" 44 1178 1189 "src/zed_cursor.ml" 44 1178 1194
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+)
+"src/zed_cursor.ml" 44 1178 1195 "src/zed_cursor.ml" 44 1178 1197
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/zed_cursor.ml" 44 1178 1198 "src/zed_cursor.ml" 44 1178 1199
+type(
+  int
+)
+"src/zed_cursor.ml" 44 1178 1189 "src/zed_cursor.ml" 44 1178 1199
+type(
+  bool
+)
+"src/zed_cursor.ml" 46 1265 1275 "src/zed_cursor.ml" 46 1265 1283
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+)
+"src/zed_cursor.ml" 46 1265 1284 "src/zed_cursor.ml" 46 1265 1285
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_cursor.ml" 46 1265 1286 "src/zed_cursor.ml" 46 1265 1291
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+)
+"src/zed_cursor.ml" 46 1265 1275 "src/zed_cursor.ml" 46 1265 1291
+type(
+  int
+)
+"src/zed_cursor.ml" 47 1292 1308 "src/zed_cursor.ml" 47 1292 1316
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+)
+"src/zed_cursor.ml" 47 1292 1317 "src/zed_cursor.ml" 47 1292 1318
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_cursor.ml" 47 1292 1319 "src/zed_cursor.ml" 47 1292 1324
+type(
+  int
+)
+ident(
+  int_ref start "src/zed_cursor.ml" 38 904 929 "src/zed_cursor.ml" 38 904 934
+)
+"src/zed_cursor.ml" 47 1292 1325 "src/zed_cursor.ml" 47 1292 1326
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_cursor.ml" 47 1292 1327 "src/zed_cursor.ml" 47 1292 1332
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+)
+"src/zed_cursor.ml" 47 1292 1319 "src/zed_cursor.ml" 47 1292 1332
+type(
+  int
+)
+"src/zed_cursor.ml" 47 1292 1308 "src/zed_cursor.ml" 47 1292 1332
+type(
+  bool
+)
+"src/zed_cursor.ml" 50 1480 1490 "src/zed_cursor.ml" 50 1480 1495
+type(
+  int
+)
+ident(
+  int_ref start "src/zed_cursor.ml" 38 904 929 "src/zed_cursor.ml" 38 904 934
+)
+"src/zed_cursor.ml" 54 1601 1611 "src/zed_cursor.ml" 54 1601 1619
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+)
+"src/zed_cursor.ml" 54 1601 1620 "src/zed_cursor.ml" 54 1601 1621
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_cursor.ml" 54 1601 1622 "src/zed_cursor.ml" 54 1601 1627
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 39 955 965 "src/zed_cursor.ml" 39 955 970
+)
+"src/zed_cursor.ml" 54 1601 1611 "src/zed_cursor.ml" 54 1601 1627
+type(
+  int
+)
+"src/zed_cursor.ml" 47 1292 1305 "src/zed_cursor.ml" 54 1601 1627
+type(
+  int
+)
+"src/zed_cursor.ml" 43 1141 1172 "src/zed_cursor.ml" 55 1628 1637
+type(
+  int
+)
+"src/zed_cursor.ml" 56 1643 1651 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 35 815 837 "src/zed_cursor.ml" 35 815 845
+)
+"src/zed_cursor.ml" 43 1141 1147 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+"src/zed_cursor.ml" 41 1025 1031 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+"src/zed_cursor.ml" 40 992 998 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+"src/zed_cursor.ml" 39 955 961 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+"src/zed_cursor.ml" 36 855 859 "src/zed_cursor.ml" 56 1643 1659
+type(
+  int
+)
+"src/zed_cursor.ml" 58 1665 1671 "src/zed_cursor.ml" 58 1665 1689
+type(
+  action React.event
+)
+ident(
+  def text_modifications "src/zed_cursor.ml" 59 1740 1742 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 58 1665 1692 "src/zed_cursor.ml" 58 1665 1697
+type(
+  (int * int * int -> action) ->
+  (int * int * int) React.event -> action React.event
+)
+ident(
+  ext_ref React.E.map
+)
+"src/zed_cursor.ml" 58 1665 1703 "src/zed_cursor.ml" 58 1665 1704
+type(
+  int * int * int
+)
+ident(
+  def x "src/zed_cursor.ml" 58 1665 1708 "src/zed_cursor.ml" 58 1665 1727
+)
+"src/zed_cursor.ml" 58 1665 1726 "src/zed_cursor.ml" 58 1665 1727
+type(
+  int * int * int
+)
+ident(
+  int_ref x "src/zed_cursor.ml" 58 1665 1703 "src/zed_cursor.ml" 58 1665 1704
+)
+"src/zed_cursor.ml" 58 1665 1708 "src/zed_cursor.ml" 58 1665 1727
+type(
+  action
+)
+"src/zed_cursor.ml" 58 1665 1698 "src/zed_cursor.ml" 58 1665 1728
+type(
+  int * int * int -> action
+)
+"src/zed_cursor.ml" 58 1665 1729 "src/zed_cursor.ml" 58 1665 1736
+type(
+  (int * int * int) React.event
+)
+ident(
+  int_ref changes "src/zed_cursor.ml" 31 620 638 "src/zed_cursor.ml" 31 620 645
+)
+"src/zed_cursor.ml" 58 1665 1692 "src/zed_cursor.ml" 58 1665 1736
+call(
+  stack
+)
+type(
+  action React.event
+)
+"src/zed_cursor.ml" 59 1740 1746 "src/zed_cursor.ml" 59 1740 1754
+type(
+  int React.signal
+)
+ident(
+  def position "src/zed_cursor.ml" 62 1842 1844 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 60 1757 1761 "src/zed_cursor.ml" 60 1757 1767
+type(
+  ?eq:(int -> int -> bool) ->
+  (int -> action -> int) -> int -> action React.event -> int React.signal
+)
+ident(
+  ext_ref React.S.fold
+)
+"src/zed_cursor.ml" 60 1757 1768 "src/zed_cursor.ml" 60 1757 1783
+type(
+  int -> action -> int
+)
+ident(
+  int_ref update_position "src/zed_cursor.ml" 35 815 821 "src/zed_cursor.ml" 35 815 836
+)
+"src/zed_cursor.ml" 60 1757 1784 "src/zed_cursor.ml" 60 1757 1792
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 31 620 656 "src/zed_cursor.ml" 31 620 664
+)
+"src/zed_cursor.ml" 60 1757 1794 "src/zed_cursor.ml" 60 1757 1802
+type(
+  action React.event list -> action React.event
+)
+ident(
+  ext_ref React.E.select
+)
+"src/zed_cursor.ml" 60 1757 1804 "src/zed_cursor.ml" 60 1757 1814
+type(
+  action React.event
+)
+ident(
+  int_ref user_moves "src/zed_cursor.ml" 34 775 781 "src/zed_cursor.ml" 34 775 791
+)
+"src/zed_cursor.ml" 60 1757 1816 "src/zed_cursor.ml" 60 1757 1834
+type(
+  action React.event
+)
+ident(
+  int_ref text_modifications "src/zed_cursor.ml" 58 1665 1671 "src/zed_cursor.ml" 58 1665 1689
+)
+"src/zed_cursor.ml" 60 1757 1803 "src/zed_cursor.ml" 60 1757 1835
+type(
+  action React.event list
+)
+"src/zed_cursor.ml" 60 1757 1793 "src/zed_cursor.ml" 60 1757 1836
+call(
+  stack
+)
+type(
+  action React.event
+)
+"src/zed_cursor.ml" 60 1757 1761 "src/zed_cursor.ml" 60 1757 1836
+call(
+  stack
+)
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 62 1842 1848 "src/zed_cursor.ml" 62 1842 1867
+type(
+  int -> int * int
+)
+ident(
+  def compute_coordinates "src/zed_cursor.ml" 67 2028 2030 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 62 1842 1868 "src/zed_cursor.ml" 62 1842 1876
+type(
+  int
+)
+ident(
+  def position "src/zed_cursor.ml" 63 1879 1883 "src/zed_cursor.ml" 65 1966 2022
+)
+"src/zed_cursor.ml" 63 1879 1887 "src/zed_cursor.ml" 63 1879 1892
+type(
+  Zed_lines.t
+)
+ident(
+  def lines "src/zed_cursor.ml" 64 1911 1915 "src/zed_cursor.ml" 65 1966 2022
+)
+"src/zed_cursor.ml" 63 1879 1895 "src/zed_cursor.ml" 63 1879 1904
+type(
+  unit -> Zed_lines.t
+)
+ident(
+  int_ref get_lines "src/zed_cursor.ml" 31 620 646 "src/zed_cursor.ml" 31 620 655
+)
+"src/zed_cursor.ml" 63 1879 1905 "src/zed_cursor.ml" 63 1879 1907
+type(
+  unit
+)
+"src/zed_cursor.ml" 63 1879 1895 "src/zed_cursor.ml" 63 1879 1907
+call(
+  stack
+)
+type(
+  Zed_lines.t
+)
+"src/zed_cursor.ml" 64 1911 1919 "src/zed_cursor.ml" 64 1911 1924
+type(
+  int
+)
+ident(
+  def index "src/zed_cursor.ml" 65 1966 1970 "src/zed_cursor.ml" 65 1966 2022
+)
+"src/zed_cursor.ml" 64 1911 1927 "src/zed_cursor.ml" 64 1911 1947
+type(
+  Zed_lines.t -> int -> int
+)
+ident(
+  ext_ref Zed_lines.line_index
+)
+"src/zed_cursor.ml" 64 1911 1948 "src/zed_cursor.ml" 64 1911 1953
+type(
+  Zed_lines.t
+)
+ident(
+  int_ref lines "src/zed_cursor.ml" 63 1879 1887 "src/zed_cursor.ml" 63 1879 1892
+)
+"src/zed_cursor.ml" 64 1911 1954 "src/zed_cursor.ml" 64 1911 1962
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 62 1842 1868 "src/zed_cursor.ml" 62 1842 1876
+)
+"src/zed_cursor.ml" 64 1911 1927 "src/zed_cursor.ml" 64 1911 1962
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 65 1966 1971 "src/zed_cursor.ml" 65 1966 1976
+type(
+  int
+)
+ident(
+  int_ref index "src/zed_cursor.ml" 64 1911 1919 "src/zed_cursor.ml" 64 1911 1924
+)
+"src/zed_cursor.ml" 65 1966 1978 "src/zed_cursor.ml" 65 1966 1986
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 62 1842 1868 "src/zed_cursor.ml" 62 1842 1876
+)
+"src/zed_cursor.ml" 65 1966 1987 "src/zed_cursor.ml" 65 1966 1988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/zed_cursor.ml" 65 1966 1989 "src/zed_cursor.ml" 65 1966 2009
+type(
+  Zed_lines.t -> int -> int
+)
+ident(
+  ext_ref Zed_lines.line_start
+)
+"src/zed_cursor.ml" 65 1966 2010 "src/zed_cursor.ml" 65 1966 2015
+type(
+  Zed_lines.t
+)
+ident(
+  int_ref lines "src/zed_cursor.ml" 63 1879 1887 "src/zed_cursor.ml" 63 1879 1892
+)
+"src/zed_cursor.ml" 65 1966 2016 "src/zed_cursor.ml" 65 1966 2021
+type(
+  int
+)
+ident(
+  int_ref index "src/zed_cursor.ml" 64 1911 1919 "src/zed_cursor.ml" 64 1911 1924
+)
+"src/zed_cursor.ml" 65 1966 1989 "src/zed_cursor.ml" 65 1966 2021
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 65 1966 1978 "src/zed_cursor.ml" 65 1966 2021
+type(
+  int
+)
+"src/zed_cursor.ml" 65 1966 1970 "src/zed_cursor.ml" 65 1966 2022
+type(
+  int * int
+)
+"src/zed_cursor.ml" 64 1911 1915 "src/zed_cursor.ml" 65 1966 2022
+type(
+  int * int
+)
+"src/zed_cursor.ml" 63 1879 1883 "src/zed_cursor.ml" 65 1966 2022
+type(
+  int * int
+)
+"src/zed_cursor.ml" 67 2028 2034 "src/zed_cursor.ml" 67 2028 2045
+type(
+  (int * int) React.signal
+)
+ident(
+  def coordinates "src/zed_cursor.ml" 68 2086 2088 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 67 2028 2048 "src/zed_cursor.ml" 67 2028 2053
+type(
+  ?eq:(int * int -> int * int -> bool) ->
+  (int -> int * int) -> int React.signal -> (int * int) React.signal
+)
+ident(
+  ext_ref React.S.map
+)
+"src/zed_cursor.ml" 67 2028 2054 "src/zed_cursor.ml" 67 2028 2073
+type(
+  int -> int * int
+)
+ident(
+  int_ref compute_coordinates "src/zed_cursor.ml" 62 1842 1848 "src/zed_cursor.ml" 62 1842 1867
+)
+"src/zed_cursor.ml" 67 2028 2074 "src/zed_cursor.ml" 67 2028 2082
+type(
+  int React.signal
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 59 1740 1746 "src/zed_cursor.ml" 59 1740 1754
+)
+"src/zed_cursor.ml" 67 2028 2048 "src/zed_cursor.ml" 67 2028 2082
+call(
+  stack
+)
+type(
+  (int * int) React.signal
+)
+"src/zed_cursor.ml" 68 2086 2092 "src/zed_cursor.ml" 68 2086 2105
+type(
+  int React.signal
+)
+ident(
+  def wanted_column "src/zed_cursor.ml" 69 2153 2155 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 68 2086 2107 "src/zed_cursor.ml" 68 2086 2124
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  def set_wanted_column "src/zed_cursor.ml" 69 2153 2155 "src/zed_cursor.ml" 80 2350 2353
+)
+"src/zed_cursor.ml" 68 2086 2092 "src/zed_cursor.ml" 68 2086 2124
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_cursor.ml" 68 2086 2127 "src/zed_cursor.ml" 68 2086 2135
+type(
+  ?eq:(int -> int -> bool) ->
+  int -> int React.signal * (?step:React.step -> int -> unit)
+)
+ident(
+  ext_ref React.S.create
+)
+"src/zed_cursor.ml" 68 2086 2136 "src/zed_cursor.ml" 68 2086 2149
+type(
+  int
+)
+ident(
+  int_ref wanted_column "src/zed_cursor.ml" 31 620 665 "src/zed_cursor.ml" 31 620 678
+)
+"src/zed_cursor.ml" 68 2086 2127 "src/zed_cursor.ml" 68 2086 2149
+call(
+  stack
+)
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_cursor.ml" 70 2157 2161 "src/zed_cursor.ml" 70 2157 2169
+type(
+  int React.signal
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 59 1740 1746 "src/zed_cursor.ml" 59 1740 1754
+)
+"src/zed_cursor.ml" 71 2171 2175 "src/zed_cursor.ml" 71 2171 2179
+call(
+  tail
+)
+type(
+  ?step:React.step -> action -> unit
+)
+ident(
+  int_ref send "src/zed_cursor.ml" 34 775 793 "src/zed_cursor.ml" 34 775 797
+)
+"src/zed_cursor.ml" 72 2181 2185 "src/zed_cursor.ml" 72 2181 2191
+type(
+  int ref
+)
+ident(
+  int_ref length "src/zed_cursor.ml" 33 746 752 "src/zed_cursor.ml" 33 746 758
+)
+"src/zed_cursor.ml" 73 2193 2197 "src/zed_cursor.ml" 73 2193 2204
+type(
+  (int * int * int) React.event
+)
+ident(
+  int_ref changes "src/zed_cursor.ml" 31 620 638 "src/zed_cursor.ml" 31 620 645
+)
+"src/zed_cursor.ml" 74 2206 2210 "src/zed_cursor.ml" 74 2206 2219
+type(
+  unit -> Zed_lines.t
+)
+ident(
+  int_ref get_lines "src/zed_cursor.ml" 31 620 646 "src/zed_cursor.ml" 31 620 655
+)
+"src/zed_cursor.ml" 75 2221 2225 "src/zed_cursor.ml" 75 2221 2236
+type(
+  (int * int) React.signal
+)
+ident(
+  int_ref coordinates "src/zed_cursor.ml" 67 2028 2034 "src/zed_cursor.ml" 67 2028 2045
+)
+"src/zed_cursor.ml" 76 2238 2249 "src/zed_cursor.ml" 76 2238 2254
+type(
+  ?eq:(int -> int -> bool) ->
+  (int * int -> int) -> (int * int) React.signal -> int React.signal
+)
+ident(
+  ext_ref React.S.map
+)
+"src/zed_cursor.ml" 76 2238 2255 "src/zed_cursor.ml" 76 2238 2258
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/zed_cursor.ml" 76 2238 2259 "src/zed_cursor.ml" 76 2238 2270
+type(
+  (int * int) React.signal
+)
+ident(
+  int_ref coordinates "src/zed_cursor.ml" 67 2028 2034 "src/zed_cursor.ml" 67 2028 2045
+)
+"src/zed_cursor.ml" 76 2238 2249 "src/zed_cursor.ml" 76 2238 2270
+call(
+  stack
+)
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 77 2272 2285 "src/zed_cursor.ml" 77 2272 2290
+type(
+  ?eq:(int -> int -> bool) ->
+  (int * int -> int) -> (int * int) React.signal -> int React.signal
+)
+ident(
+  ext_ref React.S.map
+)
+"src/zed_cursor.ml" 77 2272 2291 "src/zed_cursor.ml" 77 2272 2294
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/zed_cursor.ml" 77 2272 2295 "src/zed_cursor.ml" 77 2272 2306
+type(
+  (int * int) React.signal
+)
+ident(
+  int_ref coordinates "src/zed_cursor.ml" 67 2028 2034 "src/zed_cursor.ml" 67 2028 2045
+)
+"src/zed_cursor.ml" 77 2272 2285 "src/zed_cursor.ml" 77 2272 2306
+call(
+  stack
+)
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 78 2308 2312 "src/zed_cursor.ml" 78 2308 2325
+type(
+  int React.signal
+)
+ident(
+  int_ref wanted_column "src/zed_cursor.ml" 68 2086 2092 "src/zed_cursor.ml" 68 2086 2105
+)
+"src/zed_cursor.ml" 79 2327 2331 "src/zed_cursor.ml" 79 2327 2348
+call(
+  tail
+)
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  int_ref set_wanted_column "src/zed_cursor.ml" 68 2086 2107 "src/zed_cursor.ml" 68 2086 2124
+)
+"src/zed_cursor.ml" 69 2153 2155 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 68 2086 2088 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 67 2028 2030 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 62 1842 1844 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 59 1740 1742 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 58 1665 1667 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 35 815 817 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 34 775 777 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 33 746 748 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 32 681 683 "src/zed_cursor.ml" 80 2350 2353
+type(
+  t
+)
+"src/zed_cursor.ml" 82 2355 2359 "src/zed_cursor.ml" 82 2355 2363
+type(
+  t -> t
+)
+ident(
+  def copy "src/zed_cursor.ml" 90 2509 2509 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 83 2373 2375 "src/zed_cursor.ml" 88 2473 2507
+)
+"src/zed_cursor.ml" 83 2373 2375 "src/zed_cursor.ml" 83 2373 2381
+type(
+  int ->
+  (int * int * int) React.event -> (unit -> Zed_lines.t) -> int -> int -> t
+)
+ident(
+  int_ref create "src/zed_cursor.ml" 31 620 624 "src/zed_cursor.ml" 31 620 630
+)
+"src/zed_cursor.ml" 84 2382 2386 "src/zed_cursor.ml" 84 2382 2387
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/zed_cursor.ml" 84 2382 2388 "src/zed_cursor.ml" 84 2382 2394
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+)
+"src/zed_cursor.ml" 84 2382 2387 "src/zed_cursor.ml" 84 2382 2402
+type(
+  int ref
+)
+"src/zed_cursor.ml" 84 2382 2386 "src/zed_cursor.ml" 84 2382 2402
+type(
+  int
+)
+"src/zed_cursor.ml" 85 2403 2407 "src/zed_cursor.ml" 85 2403 2413
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+)
+"src/zed_cursor.ml" 85 2403 2407 "src/zed_cursor.ml" 85 2403 2421
+type(
+  (int * int * int) React.event
+)
+"src/zed_cursor.ml" 86 2422 2426 "src/zed_cursor.ml" 86 2422 2432
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+)
+"src/zed_cursor.ml" 86 2422 2426 "src/zed_cursor.ml" 86 2422 2442
+type(
+  unit -> Zed_lines.t
+)
+"src/zed_cursor.ml" 87 2443 2448 "src/zed_cursor.ml" 87 2443 2455
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 87 2443 2456 "src/zed_cursor.ml" 87 2443 2462
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+)
+"src/zed_cursor.ml" 87 2443 2456 "src/zed_cursor.ml" 87 2443 2471
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 87 2443 2447 "src/zed_cursor.ml" 87 2443 2472
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 88 2473 2478 "src/zed_cursor.ml" 88 2473 2485
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 88 2473 2486 "src/zed_cursor.ml" 88 2473 2492
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 82 2355 2364 "src/zed_cursor.ml" 82 2355 2370
+)
+"src/zed_cursor.ml" 88 2473 2486 "src/zed_cursor.ml" 88 2473 2506
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 88 2473 2477 "src/zed_cursor.ml" 88 2473 2507
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 83 2373 2375 "src/zed_cursor.ml" 88 2473 2507
+call(
+  tail
+)
+type(
+  t
+)
+"src/zed_cursor.ml" 90 2509 2513 "src/zed_cursor.ml" 90 2509 2521
+type(
+  t -> int React.signal
+)
+ident(
+  def position "src/zed_cursor.ml" 91 2547 2547 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 90 2509 2522 "src/zed_cursor.ml" 90 2509 2528
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 90 2509 2531 "src/zed_cursor.ml" 90 2509 2546
+)
+"src/zed_cursor.ml" 90 2509 2531 "src/zed_cursor.ml" 90 2509 2537
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 90 2509 2522 "src/zed_cursor.ml" 90 2509 2528
+)
+"src/zed_cursor.ml" 90 2509 2531 "src/zed_cursor.ml" 90 2509 2546
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 91 2547 2551 "src/zed_cursor.ml" 91 2547 2563
+type(
+  t -> int
+)
+ident(
+  def get_position "src/zed_cursor.ml" 92 2597 2597 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 91 2547 2564 "src/zed_cursor.ml" 91 2547 2570
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 91 2547 2573 "src/zed_cursor.ml" 91 2547 2596
+)
+"src/zed_cursor.ml" 91 2547 2573 "src/zed_cursor.ml" 91 2547 2580
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 91 2547 2581 "src/zed_cursor.ml" 91 2547 2587
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 91 2547 2564 "src/zed_cursor.ml" 91 2547 2570
+)
+"src/zed_cursor.ml" 91 2547 2581 "src/zed_cursor.ml" 91 2547 2596
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 91 2547 2573 "src/zed_cursor.ml" 91 2547 2596
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 92 2597 2601 "src/zed_cursor.ml" 92 2597 2605
+type(
+  t -> int React.signal
+)
+ident(
+  def line "src/zed_cursor.ml" 93 2627 2627 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 92 2597 2606 "src/zed_cursor.ml" 92 2597 2612
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 92 2597 2615 "src/zed_cursor.ml" 92 2597 2626
+)
+"src/zed_cursor.ml" 92 2597 2615 "src/zed_cursor.ml" 92 2597 2621
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 92 2597 2606 "src/zed_cursor.ml" 92 2597 2612
+)
+"src/zed_cursor.ml" 92 2597 2615 "src/zed_cursor.ml" 92 2597 2626
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 93 2627 2631 "src/zed_cursor.ml" 93 2627 2639
+type(
+  t -> int
+)
+ident(
+  def get_line "src/zed_cursor.ml" 94 2669 2669 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 93 2627 2640 "src/zed_cursor.ml" 93 2627 2646
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 93 2627 2649 "src/zed_cursor.ml" 93 2627 2668
+)
+"src/zed_cursor.ml" 93 2627 2649 "src/zed_cursor.ml" 93 2627 2656
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 93 2627 2657 "src/zed_cursor.ml" 93 2627 2663
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 93 2627 2640 "src/zed_cursor.ml" 93 2627 2646
+)
+"src/zed_cursor.ml" 93 2627 2657 "src/zed_cursor.ml" 93 2627 2668
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 93 2627 2649 "src/zed_cursor.ml" 93 2627 2668
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 94 2669 2673 "src/zed_cursor.ml" 94 2669 2679
+type(
+  t -> int React.signal
+)
+ident(
+  def column "src/zed_cursor.ml" 95 2703 2703 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 94 2669 2680 "src/zed_cursor.ml" 94 2669 2686
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 94 2669 2689 "src/zed_cursor.ml" 94 2669 2702
+)
+"src/zed_cursor.ml" 94 2669 2689 "src/zed_cursor.ml" 94 2669 2695
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 94 2669 2680 "src/zed_cursor.ml" 94 2669 2686
+)
+"src/zed_cursor.ml" 94 2669 2689 "src/zed_cursor.ml" 94 2669 2702
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 95 2703 2707 "src/zed_cursor.ml" 95 2703 2717
+type(
+  t -> int
+)
+ident(
+  def get_column "src/zed_cursor.ml" 96 2749 2749 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 95 2703 2718 "src/zed_cursor.ml" 95 2703 2724
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 95 2703 2727 "src/zed_cursor.ml" 95 2703 2748
+)
+"src/zed_cursor.ml" 95 2703 2727 "src/zed_cursor.ml" 95 2703 2734
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 95 2703 2735 "src/zed_cursor.ml" 95 2703 2741
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 95 2703 2718 "src/zed_cursor.ml" 95 2703 2724
+)
+"src/zed_cursor.ml" 95 2703 2735 "src/zed_cursor.ml" 95 2703 2748
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 95 2703 2727 "src/zed_cursor.ml" 95 2703 2748
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 96 2749 2753 "src/zed_cursor.ml" 96 2749 2764
+type(
+  t -> (int * int) React.signal
+)
+ident(
+  def coordinates "src/zed_cursor.ml" 97 2793 2793 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 96 2749 2765 "src/zed_cursor.ml" 96 2749 2771
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 96 2749 2774 "src/zed_cursor.ml" 96 2749 2792
+)
+"src/zed_cursor.ml" 96 2749 2774 "src/zed_cursor.ml" 96 2749 2780
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 96 2749 2765 "src/zed_cursor.ml" 96 2749 2771
+)
+"src/zed_cursor.ml" 96 2749 2774 "src/zed_cursor.ml" 96 2749 2792
+type(
+  (int * int) React.signal
+)
+"src/zed_cursor.ml" 97 2793 2797 "src/zed_cursor.ml" 97 2793 2812
+type(
+  t -> int * int
+)
+ident(
+  def get_coordinates "src/zed_cursor.ml" 98 2849 2849 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 97 2793 2813 "src/zed_cursor.ml" 97 2793 2819
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 97 2793 2822 "src/zed_cursor.ml" 97 2793 2848
+)
+"src/zed_cursor.ml" 97 2793 2822 "src/zed_cursor.ml" 97 2793 2829
+type(
+  (int * int) React.signal -> int * int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 97 2793 2830 "src/zed_cursor.ml" 97 2793 2836
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 97 2793 2813 "src/zed_cursor.ml" 97 2793 2819
+)
+"src/zed_cursor.ml" 97 2793 2830 "src/zed_cursor.ml" 97 2793 2848
+type(
+  (int * int) React.signal
+)
+"src/zed_cursor.ml" 97 2793 2822 "src/zed_cursor.ml" 97 2793 2848
+call(
+  tail
+)
+type(
+  int * int
+)
+"src/zed_cursor.ml" 98 2849 2853 "src/zed_cursor.ml" 98 2849 2866
+type(
+  t -> int React.signal
+)
+ident(
+  def wanted_column "src/zed_cursor.ml" 99 2897 2897 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 98 2849 2867 "src/zed_cursor.ml" 98 2849 2873
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 98 2849 2876 "src/zed_cursor.ml" 98 2849 2896
+)
+"src/zed_cursor.ml" 98 2849 2876 "src/zed_cursor.ml" 98 2849 2882
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 98 2849 2867 "src/zed_cursor.ml" 98 2849 2873
+)
+"src/zed_cursor.ml" 98 2849 2876 "src/zed_cursor.ml" 98 2849 2896
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 99 2897 2901 "src/zed_cursor.ml" 99 2897 2918
+type(
+  t -> int
+)
+ident(
+  def get_wanted_column "src/zed_cursor.ml" 100 2957 2957 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 99 2897 2919 "src/zed_cursor.ml" 99 2897 2925
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 99 2897 2928 "src/zed_cursor.ml" 99 2897 2956
+)
+"src/zed_cursor.ml" 99 2897 2928 "src/zed_cursor.ml" 99 2897 2935
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 99 2897 2936 "src/zed_cursor.ml" 99 2897 2942
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 99 2897 2919 "src/zed_cursor.ml" 99 2897 2925
+)
+"src/zed_cursor.ml" 99 2897 2936 "src/zed_cursor.ml" 99 2897 2956
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 99 2897 2928 "src/zed_cursor.ml" 99 2897 2956
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 100 2957 2961 "src/zed_cursor.ml" 100 2957 2978
+type(
+  t -> int -> unit
+)
+ident(
+  def set_wanted_column "src/zed_cursor.ml" 102 3028 3028 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 100 2957 2979 "src/zed_cursor.ml" 100 2957 2985
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 100 2957 2986 "src/zed_cursor.ml" 100 2957 3026
+)
+"src/zed_cursor.ml" 100 2957 2986 "src/zed_cursor.ml" 100 2957 2992
+type(
+  int
+)
+ident(
+  def column "src/zed_cursor.ml" 100 2957 2995 "src/zed_cursor.ml" 100 2957 3026
+)
+"src/zed_cursor.ml" 100 2957 2995 "src/zed_cursor.ml" 100 2957 3001
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 100 2957 2979 "src/zed_cursor.ml" 100 2957 2985
+)
+"src/zed_cursor.ml" 100 2957 2995 "src/zed_cursor.ml" 100 2957 3019
+type(
+  int -> unit
+)
+"src/zed_cursor.ml" 100 2957 3020 "src/zed_cursor.ml" 100 2957 3026
+type(
+  int
+)
+ident(
+  int_ref column "src/zed_cursor.ml" 100 2957 2986 "src/zed_cursor.ml" 100 2957 2992
+)
+"src/zed_cursor.ml" 100 2957 2995 "src/zed_cursor.ml" 100 2957 3026
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_cursor.ml" 102 3028 3032 "src/zed_cursor.ml" 102 3028 3036
+type(
+  t -> ?set_wanted_column:bool -> int -> unit
+)
+ident(
+  def move "src/zed_cursor.ml" 111 3361 3361 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 102 3028 3044 "src/zed_cursor.ml" 109 3354 3359
+)
+"src/zed_cursor.ml" 102 3028 3046 "src/zed_cursor.ml" 102 3028 3063
+type(
+  bool
+)
+"src/zed_cursor.ml" 102 3028 3064 "src/zed_cursor.ml" 102 3028 3068
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/zed_cursor.ml" 102 3028 3064 "src/zed_cursor.ml" 102 3028 3068
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/zed_cursor.ml" 102 3028 3070 "src/zed_cursor.ml" 102 3028 3075
+type(
+  int
+)
+ident(
+  def delta "src/zed_cursor.ml" 103 3078 3080 "src/zed_cursor.ml" 109 3354 3359
+)
+"src/zed_cursor.ml" 103 3078 3084 "src/zed_cursor.ml" 103 3078 3096
+type(
+  int
+)
+ident(
+  def new_position "src/zed_cursor.ml" 104 3134 3136 "src/zed_cursor.ml" 109 3354 3359
+)
+"src/zed_cursor.ml" 103 3078 3099 "src/zed_cursor.ml" 103 3078 3106
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 103 3078 3107 "src/zed_cursor.ml" 103 3078 3113
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+)
+"src/zed_cursor.ml" 103 3078 3107 "src/zed_cursor.ml" 103 3078 3122
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 103 3078 3099 "src/zed_cursor.ml" 103 3078 3122
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 103 3078 3123 "src/zed_cursor.ml" 103 3078 3124
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_cursor.ml" 103 3078 3125 "src/zed_cursor.ml" 103 3078 3130
+type(
+  int
+)
+ident(
+  int_ref delta "src/zed_cursor.ml" 102 3028 3070 "src/zed_cursor.ml" 102 3028 3075
+)
+"src/zed_cursor.ml" 103 3078 3099 "src/zed_cursor.ml" 103 3078 3130
+type(
+  int
+)
+"src/zed_cursor.ml" 104 3134 3139 "src/zed_cursor.ml" 104 3134 3151
+type(
+  int
+)
+ident(
+  int_ref new_position "src/zed_cursor.ml" 103 3078 3084 "src/zed_cursor.ml" 103 3078 3096
+)
+"src/zed_cursor.ml" 104 3134 3152 "src/zed_cursor.ml" 104 3134 3153
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_cursor.ml" 104 3134 3154 "src/zed_cursor.ml" 104 3134 3155
+type(
+  int
+)
+"src/zed_cursor.ml" 104 3134 3139 "src/zed_cursor.ml" 104 3134 3155
+type(
+  bool
+)
+"src/zed_cursor.ml" 104 3134 3156 "src/zed_cursor.ml" 104 3134 3158
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_cursor.ml" 104 3134 3159 "src/zed_cursor.ml" 104 3134 3171
+type(
+  int
+)
+ident(
+  int_ref new_position "src/zed_cursor.ml" 103 3078 3084 "src/zed_cursor.ml" 103 3078 3096
+)
+"src/zed_cursor.ml" 104 3134 3172 "src/zed_cursor.ml" 104 3134 3173
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_cursor.ml" 104 3134 3174 "src/zed_cursor.ml" 104 3134 3175
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/zed_cursor.ml" 104 3134 3176 "src/zed_cursor.ml" 104 3134 3182
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+)
+"src/zed_cursor.ml" 104 3134 3175 "src/zed_cursor.ml" 104 3134 3190
+type(
+  int ref
+)
+"src/zed_cursor.ml" 104 3134 3174 "src/zed_cursor.ml" 104 3134 3190
+type(
+  int
+)
+"src/zed_cursor.ml" 104 3134 3159 "src/zed_cursor.ml" 104 3134 3190
+type(
+  bool
+)
+"src/zed_cursor.ml" 104 3134 3139 "src/zed_cursor.ml" 104 3134 3190
+type(
+  bool
+)
+"src/zed_cursor.ml" 105 3196 3200 "src/zed_cursor.ml" 105 3196 3205
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_cursor.ml" 105 3196 3206 "src/zed_cursor.ml" 105 3196 3219
+type(
+  exn
+)
+"src/zed_cursor.ml" 105 3196 3200 "src/zed_cursor.ml" 105 3196 3219
+type(
+  unit
+)
+"src/zed_cursor.ml" 107 3233 3237 "src/zed_cursor.ml" 107 3233 3243
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+)
+"src/zed_cursor.ml" 107 3233 3237 "src/zed_cursor.ml" 107 3233 3248
+type(
+  action -> unit
+)
+"src/zed_cursor.ml" 107 3233 3260 "src/zed_cursor.ml" 107 3233 3272
+type(
+  int
+)
+ident(
+  int_ref new_position "src/zed_cursor.ml" 103 3078 3084 "src/zed_cursor.ml" 103 3078 3096
+)
+"src/zed_cursor.ml" 107 3233 3249 "src/zed_cursor.ml" 107 3233 3273
+type(
+  action
+)
+"src/zed_cursor.ml" 107 3233 3237 "src/zed_cursor.ml" 107 3233 3273
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_cursor.ml" 108 3275 3282 "src/zed_cursor.ml" 108 3275 3299
+type(
+  bool
+)
+ident(
+  int_ref set_wanted_column "src/zed_cursor.ml" 102 3028 3046 "src/zed_cursor.ml" 102 3028 3063
+)
+"src/zed_cursor.ml" 108 3275 3305 "src/zed_cursor.ml" 108 3275 3311
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+)
+"src/zed_cursor.ml" 108 3275 3305 "src/zed_cursor.ml" 108 3275 3329
+type(
+  int -> unit
+)
+"src/zed_cursor.ml" 108 3275 3331 "src/zed_cursor.ml" 108 3275 3338
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 108 3275 3339 "src/zed_cursor.ml" 108 3275 3345
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 102 3028 3037 "src/zed_cursor.ml" 102 3028 3043
+)
+"src/zed_cursor.ml" 108 3275 3339 "src/zed_cursor.ml" 108 3275 3352
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 108 3275 3330 "src/zed_cursor.ml" 108 3275 3353
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 108 3275 3305 "src/zed_cursor.ml" 108 3275 3353
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_cursor.ml" 108 3275 3279 "src/zed_cursor.ml" 108 3275 3353
+type(
+  unit
+)
+"src/zed_cursor.ml" 106 3220 3227 "src/zed_cursor.ml" 109 3354 3359
+type(
+  unit
+)
+"src/zed_cursor.ml" 104 3134 3136 "src/zed_cursor.ml" 109 3354 3359
+type(
+  unit
+)
+"src/zed_cursor.ml" 103 3078 3080 "src/zed_cursor.ml" 109 3354 3359
+type(
+  unit
+)
+"src/zed_cursor.ml" 111 3361 3365 "src/zed_cursor.ml" 111 3361 3369
+type(
+  t -> ?set_wanted_column:bool -> int -> unit
+)
+ident(
+  def goto "src/zed_cursor.ml" 117 3622 3627 "src/zed_cursor.ml" 1 0 -1
+)
+"src/zed_cursor.ml" 111 3361 3370 "src/zed_cursor.ml" 111 3361 3376
+type(
+  t
+)
+ident(
+  def cursor "src/zed_cursor.ml" 111 3361 3377 "src/zed_cursor.ml" 117 3622 3627
+)
+"src/zed_cursor.ml" 111 3361 3379 "src/zed_cursor.ml" 111 3361 3396
+type(
+  bool
+)
+"src/zed_cursor.ml" 111 3361 3397 "src/zed_cursor.ml" 111 3361 3401
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/zed_cursor.ml" 111 3361 3397 "src/zed_cursor.ml" 111 3361 3401
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/zed_cursor.ml" 111 3361 3403 "src/zed_cursor.ml" 111 3361 3411
+type(
+  int
+)
+ident(
+  def position "src/zed_cursor.ml" 112 3414 3416 "src/zed_cursor.ml" 117 3622 3627
+)
+"src/zed_cursor.ml" 112 3414 3419 "src/zed_cursor.ml" 112 3414 3427
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 111 3361 3403 "src/zed_cursor.ml" 111 3361 3411
+)
+"src/zed_cursor.ml" 112 3414 3428 "src/zed_cursor.ml" 112 3414 3429
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/zed_cursor.ml" 112 3414 3430 "src/zed_cursor.ml" 112 3414 3431
+type(
+  int
+)
+"src/zed_cursor.ml" 112 3414 3419 "src/zed_cursor.ml" 112 3414 3431
+type(
+  bool
+)
+"src/zed_cursor.ml" 112 3414 3432 "src/zed_cursor.ml" 112 3414 3434
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/zed_cursor.ml" 112 3414 3435 "src/zed_cursor.ml" 112 3414 3443
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 111 3361 3403 "src/zed_cursor.ml" 111 3361 3411
+)
+"src/zed_cursor.ml" 112 3414 3444 "src/zed_cursor.ml" 112 3414 3445
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/zed_cursor.ml" 112 3414 3446 "src/zed_cursor.ml" 112 3414 3447
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/zed_cursor.ml" 112 3414 3448 "src/zed_cursor.ml" 112 3414 3454
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 111 3361 3370 "src/zed_cursor.ml" 111 3361 3376
+)
+"src/zed_cursor.ml" 112 3414 3447 "src/zed_cursor.ml" 112 3414 3462
+type(
+  int ref
+)
+"src/zed_cursor.ml" 112 3414 3446 "src/zed_cursor.ml" 112 3414 3462
+type(
+  int
+)
+"src/zed_cursor.ml" 112 3414 3435 "src/zed_cursor.ml" 112 3414 3462
+type(
+  bool
+)
+"src/zed_cursor.ml" 112 3414 3419 "src/zed_cursor.ml" 112 3414 3462
+type(
+  bool
+)
+"src/zed_cursor.ml" 113 3468 3472 "src/zed_cursor.ml" 113 3468 3477
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/zed_cursor.ml" 113 3468 3478 "src/zed_cursor.ml" 113 3468 3491
+type(
+  exn
+)
+"src/zed_cursor.ml" 113 3468 3472 "src/zed_cursor.ml" 113 3468 3491
+type(
+  unit
+)
+"src/zed_cursor.ml" 115 3505 3509 "src/zed_cursor.ml" 115 3505 3515
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 111 3361 3370 "src/zed_cursor.ml" 111 3361 3376
+)
+"src/zed_cursor.ml" 115 3505 3509 "src/zed_cursor.ml" 115 3505 3520
+type(
+  action -> unit
+)
+"src/zed_cursor.ml" 115 3505 3532 "src/zed_cursor.ml" 115 3505 3540
+type(
+  int
+)
+ident(
+  int_ref position "src/zed_cursor.ml" 111 3361 3403 "src/zed_cursor.ml" 111 3361 3411
+)
+"src/zed_cursor.ml" 115 3505 3521 "src/zed_cursor.ml" 115 3505 3541
+type(
+  action
+)
+"src/zed_cursor.ml" 115 3505 3509 "src/zed_cursor.ml" 115 3505 3541
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_cursor.ml" 116 3543 3550 "src/zed_cursor.ml" 116 3543 3567
+type(
+  bool
+)
+ident(
+  int_ref set_wanted_column "src/zed_cursor.ml" 111 3361 3379 "src/zed_cursor.ml" 111 3361 3396
+)
+"src/zed_cursor.ml" 116 3543 3573 "src/zed_cursor.ml" 116 3543 3579
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 111 3361 3370 "src/zed_cursor.ml" 111 3361 3376
+)
+"src/zed_cursor.ml" 116 3543 3573 "src/zed_cursor.ml" 116 3543 3597
+type(
+  int -> unit
+)
+"src/zed_cursor.ml" 116 3543 3599 "src/zed_cursor.ml" 116 3543 3606
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_cursor.ml" 116 3543 3607 "src/zed_cursor.ml" 116 3543 3613
+type(
+  t
+)
+ident(
+  int_ref cursor "src/zed_cursor.ml" 111 3361 3370 "src/zed_cursor.ml" 111 3361 3376
+)
+"src/zed_cursor.ml" 116 3543 3607 "src/zed_cursor.ml" 116 3543 3620
+type(
+  int React.signal
+)
+"src/zed_cursor.ml" 116 3543 3598 "src/zed_cursor.ml" 116 3543 3621
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_cursor.ml" 116 3543 3573 "src/zed_cursor.ml" 116 3543 3621
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_cursor.ml" 116 3543 3547 "src/zed_cursor.ml" 116 3543 3621
+type(
+  unit
+)
+"src/zed_cursor.ml" 114 3492 3499 "src/zed_cursor.ml" 117 3622 3627
+type(
+  unit
+)
+"src/zed_cursor.ml" 112 3414 3416 "src/zed_cursor.ml" 117 3622 3627
+type(
+  unit
+)

@@ -1,0 +1,49 @@
+{
+  "name": "zed-bin",
+  "version": "1.4.0",
+  "description": "bin wrapper for zed",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "eval $(dependencyEnv) && nopam && make install"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "exportedEnvVars": {
+      "PATH": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/bin"
+      },
+      "version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "1.4.0"
+      },
+      "zed_version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "1.4.0"
+      },
+      "FINDLIB": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/lib"
+      }
+  },
+  "dependencies": {
+      "react": "https://github.com/reasonml/react-bin",
+      "ocamlfind": "https://github.com/npm-opam/ocamlfind",
+      "camomile": "https://github.com/npm-opam/camomile",
+      "dependency-env": "https://github.com/npm-ml/dependency-env.git",
+      "base-bytes": "https://github.com/npm-opam/base-bytes",
+      "nopam": "https://github.com/yunxing/nopam.git"
+  }
+}
