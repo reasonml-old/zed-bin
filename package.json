@@ -34,7 +34,7 @@
       }
   },
   "dependencies": {
-      "react": "https://github.com/reasonml/react-bin",
+      "react-bin": "https://github.com/reasonml/react-bin",
       "ocamlfind": "https://github.com/npm-opam/ocamlfind",
       "camomile": "https://github.com/npm-opam/camomile",
       "dependency-env": "https://github.com/npm-ml/dependency-env.git",
