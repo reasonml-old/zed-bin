@@ -1,0 +1,1072 @@
+"src/zed_macro.ml" 23 421 425 "src/zed_macro.ml" 23 421 431
+type(
+  'a list -> 'a t
+)
+ident(
+  def create "src/zed_macro.ml" 38 703 703 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 23 421 432 "src/zed_macro.ml" 23 421 437
+type(
+  'a list
+)
+ident(
+  def macro "src/zed_macro.ml" 24 440 442 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 24 440 446 "src/zed_macro.ml" 24 440 455
+type(
+  bool React.signal
+)
+ident(
+  def recording "src/zed_macro.ml" 25 491 493 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 24 440 457 "src/zed_macro.ml" 24 440 470
+type(
+  ?step:React.step -> bool -> unit
+)
+ident(
+  def set_recording "src/zed_macro.ml" 25 491 493 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 24 440 446 "src/zed_macro.ml" 24 440 470
+type(
+  bool React.signal * (?step:React.step -> bool -> unit)
+)
+"src/zed_macro.ml" 24 440 473 "src/zed_macro.ml" 24 440 481
+type(
+  ?eq:(bool -> bool -> bool) ->
+  bool -> bool React.signal * (?step:React.step -> bool -> unit)
+)
+ident(
+  ext_ref React.S.create
+)
+"src/zed_macro.ml" 24 440 482 "src/zed_macro.ml" 24 440 487
+type(
+  bool
+)
+"src/zed_macro.ml" 24 440 473 "src/zed_macro.ml" 24 440 487
+call(
+  stack
+)
+type(
+  bool React.signal * (?step:React.step -> bool -> unit)
+)
+"src/zed_macro.ml" 25 491 497 "src/zed_macro.ml" 25 491 502
+type(
+  int React.signal
+)
+ident(
+  def count "src/zed_macro.ml" 26 530 532 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 25 491 504 "src/zed_macro.ml" 25 491 513
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  def set_count "src/zed_macro.ml" 26 530 532 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 25 491 497 "src/zed_macro.ml" 25 491 513
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_macro.ml" 25 491 516 "src/zed_macro.ml" 25 491 524
+type(
+  ?eq:(int -> int -> bool) ->
+  int -> int React.signal * (?step:React.step -> int -> unit)
+)
+ident(
+  ext_ref React.S.create
+)
+"src/zed_macro.ml" 25 491 525 "src/zed_macro.ml" 25 491 526
+type(
+  int
+)
+"src/zed_macro.ml" 25 491 516 "src/zed_macro.ml" 25 491 526
+call(
+  stack
+)
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_macro.ml" 26 530 536 "src/zed_macro.ml" 26 530 543
+type(
+  int React.signal
+)
+ident(
+  def counter "src/zed_macro.ml" 27 573 575 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 26 530 545 "src/zed_macro.ml" 26 530 556
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  def set_counter "src/zed_macro.ml" 27 573 575 "src/zed_macro.ml" 36 698 701
+)
+"src/zed_macro.ml" 26 530 536 "src/zed_macro.ml" 26 530 556
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_macro.ml" 26 530 559 "src/zed_macro.ml" 26 530 567
+type(
+  ?eq:(int -> int -> bool) ->
+  int -> int React.signal * (?step:React.step -> int -> unit)
+)
+ident(
+  ext_ref React.S.create
+)
+"src/zed_macro.ml" 26 530 568 "src/zed_macro.ml" 26 530 569
+type(
+  int
+)
+"src/zed_macro.ml" 26 530 559 "src/zed_macro.ml" 26 530 569
+call(
+  stack
+)
+type(
+  int React.signal * (?step:React.step -> int -> unit)
+)
+"src/zed_macro.ml" 28 577 581 "src/zed_macro.ml" 28 577 590
+type(
+  bool React.signal
+)
+ident(
+  int_ref recording "src/zed_macro.ml" 24 440 446 "src/zed_macro.ml" 24 440 455
+)
+"src/zed_macro.ml" 29 592 596 "src/zed_macro.ml" 29 592 609
+call(
+  tail
+)
+type(
+  ?step:React.step -> bool -> unit
+)
+ident(
+  int_ref set_recording "src/zed_macro.ml" 24 440 457 "src/zed_macro.ml" 24 440 470
+)
+"src/zed_macro.ml" 30 611 615 "src/zed_macro.ml" 30 611 620
+type(
+  'a list
+)
+ident(
+  int_ref macro "src/zed_macro.ml" 23 421 432 "src/zed_macro.ml" 23 421 437
+)
+"src/zed_macro.ml" 31 622 638 "src/zed_macro.ml" 31 622 640
+type(
+  'a list
+)
+"src/zed_macro.ml" 32 642 646 "src/zed_macro.ml" 32 642 651
+type(
+  int React.signal
+)
+ident(
+  int_ref count "src/zed_macro.ml" 25 491 497 "src/zed_macro.ml" 25 491 502
+)
+"src/zed_macro.ml" 33 653 657 "src/zed_macro.ml" 33 653 666
+call(
+  tail
+)
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  int_ref set_count "src/zed_macro.ml" 25 491 504 "src/zed_macro.ml" 25 491 513
+)
+"src/zed_macro.ml" 34 668 672 "src/zed_macro.ml" 34 668 679
+type(
+  int React.signal
+)
+ident(
+  int_ref counter "src/zed_macro.ml" 26 530 536 "src/zed_macro.ml" 26 530 543
+)
+"src/zed_macro.ml" 35 681 685 "src/zed_macro.ml" 35 681 696
+call(
+  tail
+)
+type(
+  ?step:React.step -> int -> unit
+)
+ident(
+  int_ref set_counter "src/zed_macro.ml" 26 530 545 "src/zed_macro.ml" 26 530 556
+)
+"src/zed_macro.ml" 27 573 575 "src/zed_macro.ml" 36 698 701
+type(
+  'a t
+)
+"src/zed_macro.ml" 26 530 532 "src/zed_macro.ml" 36 698 701
+type(
+  'a t
+)
+"src/zed_macro.ml" 25 491 493 "src/zed_macro.ml" 36 698 701
+type(
+  'a t
+)
+"src/zed_macro.ml" 24 440 442 "src/zed_macro.ml" 36 698 701
+type(
+  'a t
+)
+"src/zed_macro.ml" 38 703 707 "src/zed_macro.ml" 38 703 716
+type(
+  'a t -> bool React.signal
+)
+ident(
+  def recording "src/zed_macro.ml" 40 734 734 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 38 703 717 "src/zed_macro.ml" 38 703 718
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 38 703 721 "src/zed_macro.ml" 38 703 732
+)
+"src/zed_macro.ml" 38 703 721 "src/zed_macro.ml" 38 703 722
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 38 703 717 "src/zed_macro.ml" 38 703 718
+)
+"src/zed_macro.ml" 38 703 721 "src/zed_macro.ml" 38 703 732
+type(
+  bool React.signal
+)
+"src/zed_macro.ml" 40 734 738 "src/zed_macro.ml" 40 734 751
+type(
+  'a t -> bool
+)
+ident(
+  def get_recording "src/zed_macro.ml" 42 777 777 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 40 734 752 "src/zed_macro.ml" 40 734 753
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 40 734 756 "src/zed_macro.ml" 40 734 775
+)
+"src/zed_macro.ml" 40 734 756 "src/zed_macro.ml" 40 734 763
+type(
+  bool React.signal -> bool
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 40 734 764 "src/zed_macro.ml" 40 734 765
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 40 734 752 "src/zed_macro.ml" 40 734 753
+)
+"src/zed_macro.ml" 40 734 764 "src/zed_macro.ml" 40 734 775
+type(
+  bool React.signal
+)
+"src/zed_macro.ml" 40 734 756 "src/zed_macro.ml" 40 734 775
+call(
+  tail
+)
+type(
+  bool
+)
+"src/zed_macro.ml" 42 777 781 "src/zed_macro.ml" 42 777 794
+type(
+  'a t -> bool -> unit
+)
+ident(
+  def set_recording "src/zed_macro.ml" 57 1141 1141 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 42 777 797 "src/zed_macro.ml" 55 1128 1139
+)
+"src/zed_macro.ml" 42 777 797 "src/zed_macro.ml" 42 777 802
+type(
+  bool
+)
+ident(
+  def state "src/zed_macro.ml" 43 805 807 "src/zed_macro.ml" 55 1128 1139
+)
+"src/zed_macro.ml" 43 805 813 "src/zed_macro.ml" 43 805 818
+type(
+  bool
+)
+ident(
+  int_ref state "src/zed_macro.ml" 42 777 797 "src/zed_macro.ml" 42 777 802
+)
+"src/zed_macro.ml" 44 824 830 "src/zed_macro.ml" 44 824 834
+type(
+  bool
+)
+"src/zed_macro.ml" 45 838 846 "src/zed_macro.ml" 45 838 847
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 45 838 861 "src/zed_macro.ml" 45 838 863
+type(
+  'a list
+)
+"src/zed_macro.ml" 45 838 846 "src/zed_macro.ml" 45 838 863
+type(
+  unit
+)
+"src/zed_macro.ml" 46 865 873 "src/zed_macro.ml" 46 865 874
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 46 865 873 "src/zed_macro.ml" 46 865 888
+type(
+  bool -> unit
+)
+"src/zed_macro.ml" 46 865 889 "src/zed_macro.ml" 46 865 893
+type(
+  bool
+)
+"src/zed_macro.ml" 46 865 873 "src/zed_macro.ml" 46 865 893
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 47 895 903 "src/zed_macro.ml" 47 895 904
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 47 895 903 "src/zed_macro.ml" 47 895 914
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 47 895 915 "src/zed_macro.ml" 47 895 916
+type(
+  int
+)
+"src/zed_macro.ml" 47 895 903 "src/zed_macro.ml" 47 895 916
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 48 918 926 "src/zed_macro.ml" 48 918 927
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 48 918 926 "src/zed_macro.ml" 48 918 939
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 48 918 940 "src/zed_macro.ml" 48 918 941
+type(
+  int
+)
+"src/zed_macro.ml" 48 918 926 "src/zed_macro.ml" 48 918 941
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 47 895 903 "src/zed_macro.ml" 48 918 941
+type(
+  unit
+)
+"src/zed_macro.ml" 46 865 873 "src/zed_macro.ml" 48 918 941
+type(
+  unit
+)
+"src/zed_macro.ml" 45 838 846 "src/zed_macro.ml" 48 918 941
+type(
+  unit
+)
+"src/zed_macro.ml" 49 942 948 "src/zed_macro.ml" 49 942 953
+type(
+  bool
+)
+"src/zed_macro.ml" 50 957 968 "src/zed_macro.ml" 50 957 975
+type(
+  bool React.signal -> bool
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 50 957 976 "src/zed_macro.ml" 50 957 977
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 50 957 976 "src/zed_macro.ml" 50 957 987
+type(
+  bool React.signal
+)
+"src/zed_macro.ml" 50 957 968 "src/zed_macro.ml" 50 957 987
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_macro.ml" 51 999 1009 "src/zed_macro.ml" 51 999 1010
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 51 999 1020 "src/zed_macro.ml" 51 999 1028
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.rev
+)
+"src/zed_macro.ml" 51 999 1029 "src/zed_macro.ml" 51 999 1030
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 51 999 1029 "src/zed_macro.ml" 51 999 1040
+type(
+  'a list
+)
+"src/zed_macro.ml" 51 999 1020 "src/zed_macro.ml" 51 999 1040
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/zed_macro.ml" 51 999 1009 "src/zed_macro.ml" 51 999 1040
+type(
+  unit
+)
+"src/zed_macro.ml" 52 1042 1052 "src/zed_macro.ml" 52 1042 1053
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 52 1042 1067 "src/zed_macro.ml" 52 1042 1069
+type(
+  'a list
+)
+"src/zed_macro.ml" 52 1042 1052 "src/zed_macro.ml" 52 1042 1069
+type(
+  unit
+)
+"src/zed_macro.ml" 53 1071 1081 "src/zed_macro.ml" 53 1071 1082
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 53 1071 1081 "src/zed_macro.ml" 53 1071 1096
+type(
+  bool -> unit
+)
+"src/zed_macro.ml" 53 1071 1097 "src/zed_macro.ml" 53 1071 1102
+type(
+  bool
+)
+"src/zed_macro.ml" 53 1071 1081 "src/zed_macro.ml" 53 1071 1102
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 54 1104 1114 "src/zed_macro.ml" 54 1104 1115
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 42 777 795 "src/zed_macro.ml" 42 777 796
+)
+"src/zed_macro.ml" 54 1104 1114 "src/zed_macro.ml" 54 1104 1125
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 54 1104 1126 "src/zed_macro.ml" 54 1104 1127
+type(
+  int
+)
+"src/zed_macro.ml" 54 1104 1114 "src/zed_macro.ml" 54 1104 1127
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 53 1071 1081 "src/zed_macro.ml" 54 1104 1127
+type(
+  unit
+)
+"src/zed_macro.ml" 52 1042 1052 "src/zed_macro.ml" 54 1104 1127
+type(
+  unit
+)
+"src/zed_macro.ml" 50 957 993 "src/zed_macro.ml" 55 1128 1139
+type(
+  unit
+)
+"src/zed_macro.ml" 50 957 965 "src/zed_macro.ml" 55 1128 1139
+type(
+  unit
+)
+"src/zed_macro.ml" 43 805 807 "src/zed_macro.ml" 55 1128 1139
+type(
+  unit
+)
+"src/zed_macro.ml" 57 1141 1145 "src/zed_macro.ml" 57 1141 1151
+type(
+  'a t -> unit
+)
+ident(
+  def cancel "src/zed_macro.ml" 64 1267 1267 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 57 1141 1152 "src/zed_macro.ml" 57 1141 1153
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 58 1156 1158 "src/zed_macro.ml" 62 1260 1265
+)
+"src/zed_macro.ml" 58 1156 1161 "src/zed_macro.ml" 58 1156 1168
+type(
+  bool React.signal -> bool
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 58 1156 1169 "src/zed_macro.ml" 58 1156 1170
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 57 1141 1152 "src/zed_macro.ml" 57 1141 1153
+)
+"src/zed_macro.ml" 58 1156 1169 "src/zed_macro.ml" 58 1156 1180
+type(
+  bool React.signal
+)
+"src/zed_macro.ml" 58 1156 1161 "src/zed_macro.ml" 58 1156 1180
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_macro.ml" 59 1192 1196 "src/zed_macro.ml" 59 1192 1197
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 57 1141 1152 "src/zed_macro.ml" 57 1141 1153
+)
+"src/zed_macro.ml" 59 1192 1211 "src/zed_macro.ml" 59 1192 1213
+type(
+  'a list
+)
+"src/zed_macro.ml" 59 1192 1196 "src/zed_macro.ml" 59 1192 1213
+type(
+  unit
+)
+"src/zed_macro.ml" 60 1215 1219 "src/zed_macro.ml" 60 1215 1220
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 57 1141 1152 "src/zed_macro.ml" 57 1141 1153
+)
+"src/zed_macro.ml" 60 1215 1219 "src/zed_macro.ml" 60 1215 1234
+type(
+  bool -> unit
+)
+"src/zed_macro.ml" 60 1215 1235 "src/zed_macro.ml" 60 1215 1240
+type(
+  bool
+)
+"src/zed_macro.ml" 60 1215 1219 "src/zed_macro.ml" 60 1215 1240
+call(
+  stack
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 61 1242 1246 "src/zed_macro.ml" 61 1242 1247
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 57 1141 1152 "src/zed_macro.ml" 57 1141 1153
+)
+"src/zed_macro.ml" 61 1242 1246 "src/zed_macro.ml" 61 1242 1257
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 61 1242 1258 "src/zed_macro.ml" 61 1242 1259
+type(
+  int
+)
+"src/zed_macro.ml" 61 1242 1246 "src/zed_macro.ml" 61 1242 1259
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 60 1215 1219 "src/zed_macro.ml" 61 1242 1259
+type(
+  unit
+)
+"src/zed_macro.ml" 58 1156 1186 "src/zed_macro.ml" 62 1260 1265
+type(
+  unit
+)
+"src/zed_macro.ml" 58 1156 1158 "src/zed_macro.ml" 62 1260 1265
+type(
+  unit
+)
+"src/zed_macro.ml" 64 1267 1271 "src/zed_macro.ml" 64 1267 1276
+type(
+  'a t -> int React.signal
+)
+ident(
+  def count "src/zed_macro.ml" 65 1289 1289 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 64 1267 1277 "src/zed_macro.ml" 64 1267 1278
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 64 1267 1281 "src/zed_macro.ml" 64 1267 1288
+)
+"src/zed_macro.ml" 64 1267 1281 "src/zed_macro.ml" 64 1267 1282
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 64 1267 1277 "src/zed_macro.ml" 64 1267 1278
+)
+"src/zed_macro.ml" 64 1267 1281 "src/zed_macro.ml" 64 1267 1288
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 65 1289 1293 "src/zed_macro.ml" 65 1289 1302
+type(
+  'a t -> int
+)
+ident(
+  def get_count "src/zed_macro.ml" 67 1324 1324 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 65 1289 1303 "src/zed_macro.ml" 65 1289 1304
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 65 1289 1307 "src/zed_macro.ml" 65 1289 1322
+)
+"src/zed_macro.ml" 65 1289 1307 "src/zed_macro.ml" 65 1289 1314
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 65 1289 1315 "src/zed_macro.ml" 65 1289 1316
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 65 1289 1303 "src/zed_macro.ml" 65 1289 1304
+)
+"src/zed_macro.ml" 65 1289 1315 "src/zed_macro.ml" 65 1289 1322
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 65 1289 1307 "src/zed_macro.ml" 65 1289 1322
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_macro.ml" 67 1324 1328 "src/zed_macro.ml" 67 1324 1335
+type(
+  'a t -> int React.signal
+)
+ident(
+  def counter "src/zed_macro.ml" 68 1350 1350 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 67 1324 1336 "src/zed_macro.ml" 67 1324 1337
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 67 1324 1340 "src/zed_macro.ml" 67 1324 1349
+)
+"src/zed_macro.ml" 67 1324 1340 "src/zed_macro.ml" 67 1324 1341
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 67 1324 1336 "src/zed_macro.ml" 67 1324 1337
+)
+"src/zed_macro.ml" 67 1324 1340 "src/zed_macro.ml" 67 1324 1349
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 68 1350 1354 "src/zed_macro.ml" 68 1350 1365
+type(
+  'a t -> int
+)
+ident(
+  def get_counter "src/zed_macro.ml" 69 1388 1388 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 68 1350 1366 "src/zed_macro.ml" 68 1350 1367
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 68 1350 1370 "src/zed_macro.ml" 68 1350 1387
+)
+"src/zed_macro.ml" 68 1350 1370 "src/zed_macro.ml" 68 1350 1377
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 68 1350 1378 "src/zed_macro.ml" 68 1350 1379
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 68 1350 1366 "src/zed_macro.ml" 68 1350 1367
+)
+"src/zed_macro.ml" 68 1350 1378 "src/zed_macro.ml" 68 1350 1387
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 68 1350 1370 "src/zed_macro.ml" 68 1350 1387
+call(
+  tail
+)
+type(
+  int
+)
+"src/zed_macro.ml" 69 1388 1392 "src/zed_macro.ml" 69 1388 1403
+type(
+  'a t -> int -> unit
+)
+ident(
+  def set_counter "src/zed_macro.ml" 70 1426 1426 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 69 1388 1404 "src/zed_macro.ml" 69 1388 1405
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 69 1388 1406 "src/zed_macro.ml" 69 1388 1425
+)
+"src/zed_macro.ml" 69 1388 1406 "src/zed_macro.ml" 69 1388 1407
+type(
+  int
+)
+ident(
+  def v "src/zed_macro.ml" 69 1388 1410 "src/zed_macro.ml" 69 1388 1425
+)
+"src/zed_macro.ml" 69 1388 1410 "src/zed_macro.ml" 69 1388 1411
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 69 1388 1404 "src/zed_macro.ml" 69 1388 1405
+)
+"src/zed_macro.ml" 69 1388 1410 "src/zed_macro.ml" 69 1388 1423
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 69 1388 1424 "src/zed_macro.ml" 69 1388 1425
+type(
+  int
+)
+ident(
+  int_ref v "src/zed_macro.ml" 69 1388 1406 "src/zed_macro.ml" 69 1388 1407
+)
+"src/zed_macro.ml" 69 1388 1410 "src/zed_macro.ml" 69 1388 1425
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 70 1426 1430 "src/zed_macro.ml" 70 1426 1441
+type(
+  'a t -> int -> unit
+)
+ident(
+  def add_counter "src/zed_macro.ml" 72 1487 1487 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 70 1426 1442 "src/zed_macro.ml" 70 1426 1443
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 70 1426 1444 "src/zed_macro.ml" 70 1426 1485
+)
+"src/zed_macro.ml" 70 1426 1444 "src/zed_macro.ml" 70 1426 1445
+type(
+  int
+)
+ident(
+  def v "src/zed_macro.ml" 70 1426 1448 "src/zed_macro.ml" 70 1426 1485
+)
+"src/zed_macro.ml" 70 1426 1448 "src/zed_macro.ml" 70 1426 1449
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 70 1426 1442 "src/zed_macro.ml" 70 1426 1443
+)
+"src/zed_macro.ml" 70 1426 1448 "src/zed_macro.ml" 70 1426 1461
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 70 1426 1463 "src/zed_macro.ml" 70 1426 1470
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 70 1426 1471 "src/zed_macro.ml" 70 1426 1472
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 70 1426 1442 "src/zed_macro.ml" 70 1426 1443
+)
+"src/zed_macro.ml" 70 1426 1471 "src/zed_macro.ml" 70 1426 1480
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 70 1426 1463 "src/zed_macro.ml" 70 1426 1480
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_macro.ml" 70 1426 1481 "src/zed_macro.ml" 70 1426 1482
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_macro.ml" 70 1426 1483 "src/zed_macro.ml" 70 1426 1484
+type(
+  int
+)
+ident(
+  int_ref v "src/zed_macro.ml" 70 1426 1444 "src/zed_macro.ml" 70 1426 1445
+)
+"src/zed_macro.ml" 70 1426 1462 "src/zed_macro.ml" 70 1426 1485
+type(
+  int
+)
+"src/zed_macro.ml" 70 1426 1448 "src/zed_macro.ml" 70 1426 1485
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 72 1487 1491 "src/zed_macro.ml" 72 1487 1494
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  def add "src/zed_macro.ml" 78 1619 1619 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 72 1487 1497 "src/zed_macro.ml" 76 1612 1617
+)
+"src/zed_macro.ml" 72 1487 1497 "src/zed_macro.ml" 72 1487 1498
+type(
+  'a
+)
+ident(
+  def x "src/zed_macro.ml" 73 1501 1503 "src/zed_macro.ml" 76 1612 1617
+)
+"src/zed_macro.ml" 73 1501 1506 "src/zed_macro.ml" 73 1501 1513
+type(
+  bool React.signal -> bool
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 73 1501 1514 "src/zed_macro.ml" 73 1501 1515
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+)
+"src/zed_macro.ml" 73 1501 1514 "src/zed_macro.ml" 73 1501 1525
+type(
+  bool React.signal
+)
+"src/zed_macro.ml" 73 1501 1506 "src/zed_macro.ml" 73 1501 1525
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_macro.ml" 74 1537 1541 "src/zed_macro.ml" 74 1537 1542
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+)
+"src/zed_macro.ml" 74 1537 1556 "src/zed_macro.ml" 74 1537 1557
+type(
+  'a
+)
+ident(
+  int_ref x "src/zed_macro.ml" 72 1487 1497 "src/zed_macro.ml" 72 1487 1498
+)
+"src/zed_macro.ml" 74 1537 1561 "src/zed_macro.ml" 74 1537 1562
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+)
+"src/zed_macro.ml" 74 1537 1561 "src/zed_macro.ml" 74 1537 1572
+type(
+  'a list
+)
+"src/zed_macro.ml" 74 1537 1556 "src/zed_macro.ml" 74 1537 1572
+type(
+  'a list
+)
+"src/zed_macro.ml" 74 1537 1541 "src/zed_macro.ml" 74 1537 1572
+type(
+  unit
+)
+"src/zed_macro.ml" 75 1574 1578 "src/zed_macro.ml" 75 1574 1579
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+)
+"src/zed_macro.ml" 75 1574 1578 "src/zed_macro.ml" 75 1574 1589
+type(
+  int -> unit
+)
+"src/zed_macro.ml" 75 1574 1591 "src/zed_macro.ml" 75 1574 1598
+type(
+  int React.signal -> int
+)
+ident(
+  ext_ref React.S.value
+)
+"src/zed_macro.ml" 75 1574 1599 "src/zed_macro.ml" 75 1574 1600
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 72 1487 1495 "src/zed_macro.ml" 72 1487 1496
+)
+"src/zed_macro.ml" 75 1574 1599 "src/zed_macro.ml" 75 1574 1606
+type(
+  int React.signal
+)
+"src/zed_macro.ml" 75 1574 1591 "src/zed_macro.ml" 75 1574 1606
+call(
+  stack
+)
+type(
+  int
+)
+"src/zed_macro.ml" 75 1574 1607 "src/zed_macro.ml" 75 1574 1608
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/zed_macro.ml" 75 1574 1609 "src/zed_macro.ml" 75 1574 1610
+type(
+  int
+)
+"src/zed_macro.ml" 75 1574 1590 "src/zed_macro.ml" 75 1574 1611
+type(
+  int
+)
+"src/zed_macro.ml" 75 1574 1578 "src/zed_macro.ml" 75 1574 1611
+call(
+  tail
+)
+type(
+  unit
+)
+"src/zed_macro.ml" 73 1501 1531 "src/zed_macro.ml" 76 1612 1617
+type(
+  unit
+)
+"src/zed_macro.ml" 73 1501 1503 "src/zed_macro.ml" 76 1612 1617
+type(
+  unit
+)
+"src/zed_macro.ml" 78 1619 1623 "src/zed_macro.ml" 78 1619 1631
+type(
+  'a t -> 'a list
+)
+ident(
+  def contents "src/zed_macro.ml" 78 1619 1643 "src/zed_macro.ml" 1 0 -1
+)
+"src/zed_macro.ml" 78 1619 1632 "src/zed_macro.ml" 78 1619 1633
+type(
+  'a t
+)
+ident(
+  def r "src/zed_macro.ml" 78 1619 1636 "src/zed_macro.ml" 78 1619 1643
+)
+"src/zed_macro.ml" 78 1619 1636 "src/zed_macro.ml" 78 1619 1637
+type(
+  'a t
+)
+ident(
+  int_ref r "src/zed_macro.ml" 78 1619 1632 "src/zed_macro.ml" 78 1619 1633
+)
+"src/zed_macro.ml" 78 1619 1636 "src/zed_macro.ml" 78 1619 1643
+type(
+  'a list
+)

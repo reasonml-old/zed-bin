@@ -1,0 +1,713 @@
+"src/zed_re.ml" 12 201 213 "src/zed_re.ml" 12 201 236
+call(
+  stack
+)
+"src/zed_re.ml" 17 341 345 "src/zed_re.ml" 17 341 352
+type(
+  CamomileLibraryDyn.Camomile.URe.regexp -> Re.compiled_regexp
+)
+ident(
+  def compile "src/zed_re.ml" 19 367 367 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 17 341 355 "src/zed_re.ml" 17 341 365
+type(
+  CamomileLibraryDyn.Camomile.URe.regexp -> Re.compiled_regexp
+)
+ident(
+  ext_ref Re.compile
+)
+"src/zed_re.ml" 19 367 371 "src/zed_re.ml" 19 367 386
+type(
+  Re.SubText.t option array ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+ident(
+  def convert_success "src/zed_re.ml" 29 571 571 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 19 367 387 "src/zed_re.ml" 19 367 390
+type(
+  Re.SubText.t option array
+)
+ident(
+  def arr "src/zed_re.ml" 20 393 395 "src/zed_re.ml" 27 562 569
+)
+"src/zed_re.ml" 20 393 395 "src/zed_re.ml" 20 393 404
+type(
+  (Re.SubText.t option -> (Re.SubText.ur_index * Re.SubText.ur_index) option) ->
+  Re.SubText.t option array ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+ident(
+  ext_ref Array.map
+)
+"src/zed_re.ml" 22 419 433 "src/zed_re.ml" 22 419 436
+type(
+  Re.SubText.t
+)
+ident(
+  def sub "src/zed_re.ml" 23 440 451 "src/zed_re.ml" 24 500 527
+)
+"src/zed_re.ml" 22 419 428 "src/zed_re.ml" 22 419 436
+type(
+  Re.SubText.t option
+)
+"src/zed_re.ml" 23 440 455 "src/zed_re.ml" 23 440 459
+type(
+  Re.SubText.ur_text
+)
+ident(
+  def rope "src/zed_re.ml" 24 500 511 "src/zed_re.ml" 24 500 527
+)
+"src/zed_re.ml" 23 440 461 "src/zed_re.ml" 23 440 465
+type(
+  Re.SubText.ur_index
+)
+ident(
+  def zip1 "src/zed_re.ml" 24 500 511 "src/zed_re.ml" 24 500 527
+)
+"src/zed_re.ml" 23 440 467 "src/zed_re.ml" 23 440 471
+type(
+  Re.SubText.ur_index
+)
+ident(
+  def zip2 "src/zed_re.ml" 24 500 511 "src/zed_re.ml" 24 500 527
+)
+"src/zed_re.ml" 23 440 455 "src/zed_re.ml" 23 440 471
+type(
+  Re.SubText.ur_text * Re.SubText.ur_index * Re.SubText.ur_index
+)
+"src/zed_re.ml" 23 440 474 "src/zed_re.ml" 23 440 492
+type(
+  Re.SubText.t ->
+  Re.SubText.ur_text * Re.SubText.ur_index * Re.SubText.ur_index
+)
+ident(
+  ext_ref Re.SubText.context
+)
+"src/zed_re.ml" 23 440 493 "src/zed_re.ml" 23 440 496
+type(
+  Re.SubText.t
+)
+ident(
+  int_ref sub "src/zed_re.ml" 22 419 433 "src/zed_re.ml" 22 419 436
+)
+"src/zed_re.ml" 23 440 474 "src/zed_re.ml" 23 440 496
+call(
+  stack
+)
+type(
+  Re.SubText.ur_text * Re.SubText.ur_index * Re.SubText.ur_index
+)
+"src/zed_re.ml" 24 500 516 "src/zed_re.ml" 24 500 520
+type(
+  Re.SubText.ur_index
+)
+ident(
+  int_ref zip1 "src/zed_re.ml" 23 440 461 "src/zed_re.ml" 23 440 465
+)
+"src/zed_re.ml" 24 500 522 "src/zed_re.ml" 24 500 526
+type(
+  Re.SubText.ur_index
+)
+ident(
+  int_ref zip2 "src/zed_re.ml" 23 440 467 "src/zed_re.ml" 23 440 471
+)
+"src/zed_re.ml" 24 500 515 "src/zed_re.ml" 24 500 527
+type(
+  Re.SubText.ur_index * Re.SubText.ur_index
+)
+"src/zed_re.ml" 24 500 511 "src/zed_re.ml" 24 500 527
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option
+)
+"src/zed_re.ml" 23 440 451 "src/zed_re.ml" 24 500 527
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option
+)
+"src/zed_re.ml" 25 528 537 "src/zed_re.ml" 25 528 541
+type(
+  Re.SubText.t option
+)
+"src/zed_re.ml" 26 545 556 "src/zed_re.ml" 26 545 560
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option
+)
+"src/zed_re.ml" 21 405 409 "src/zed_re.ml" 26 545 561
+type(
+  Re.SubText.t option -> (Re.SubText.ur_index * Re.SubText.ur_index) option
+)
+"src/zed_re.ml" 27 562 566 "src/zed_re.ml" 27 562 569
+type(
+  Re.SubText.t option array
+)
+ident(
+  int_ref arr "src/zed_re.ml" 19 367 387 "src/zed_re.ml" 19 367 390
+)
+"src/zed_re.ml" 20 393 395 "src/zed_re.ml" 27 562 569
+call(
+  tail
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+"src/zed_re.ml" 29 571 575 "src/zed_re.ml" 29 571 582
+type(
+  Re.SubText.t option array option ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  def convert "src/zed_re.ml" 35 666 666 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 30 594 603 "src/zed_re.ml" 30 594 606
+type(
+  Re.SubText.t option array
+)
+ident(
+  def arr "src/zed_re.ml" 31 610 616 "src/zed_re.ml" 31 610 641
+)
+"src/zed_re.ml" 30 594 598 "src/zed_re.ml" 30 594 606
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 31 610 621 "src/zed_re.ml" 31 610 636
+type(
+  Re.SubText.t option array ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+ident(
+  int_ref convert_success "src/zed_re.ml" 19 367 371 "src/zed_re.ml" 19 367 386
+)
+"src/zed_re.ml" 31 610 637 "src/zed_re.ml" 31 610 640
+type(
+  Re.SubText.t option array
+)
+ident(
+  int_ref arr "src/zed_re.ml" 30 594 603 "src/zed_re.ml" 30 594 606
+)
+"src/zed_re.ml" 31 610 620 "src/zed_re.ml" 31 610 641
+call(
+  stack
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+"src/zed_re.ml" 31 610 616 "src/zed_re.ml" 31 610 641
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 32 642 646 "src/zed_re.ml" 32 642 650
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 33 654 660 "src/zed_re.ml" 33 654 664
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 29 571 585 "src/zed_re.ml" 33 654 664
+type(
+  Re.SubText.t option array option ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 35 666 670 "src/zed_re.ml" 35 666 682
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text ->
+  int -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  def regexp_match "src/zed_re.ml" 38 783 783 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 35 666 684 "src/zed_re.ml" 35 666 687
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  def sem "src/zed_re.ml" 35 666 688 "src/zed_re.ml" 36 706 781
+)
+"src/zed_re.ml" 35 666 688 "src/zed_re.ml" 35 666 694
+type(
+  Re.compiled_regexp
+)
+ident(
+  def regexp "src/zed_re.ml" 35 666 695 "src/zed_re.ml" 36 706 781
+)
+"src/zed_re.ml" 35 666 695 "src/zed_re.ml" 35 666 699
+type(
+  Re.text
+)
+ident(
+  def rope "src/zed_re.ml" 35 666 700 "src/zed_re.ml" 36 706 781
+)
+"src/zed_re.ml" 35 666 700 "src/zed_re.ml" 35 666 703
+type(
+  int
+)
+ident(
+  def idx "src/zed_re.ml" 36 706 708 "src/zed_re.ml" 36 706 781
+)
+"src/zed_re.ml" 36 706 708 "src/zed_re.ml" 36 706 715
+type(
+  Re.SubText.t option array option ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  int_ref convert "src/zed_re.ml" 29 571 575 "src/zed_re.ml" 29 571 582
+)
+"src/zed_re.ml" 36 706 717 "src/zed_re.ml" 36 706 732
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text -> Re.index -> Re.SubText.t option array option
+)
+ident(
+  ext_ref Re.regexp_match
+)
+"src/zed_re.ml" 36 706 734 "src/zed_re.ml" 36 706 737
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  int_ref sem "src/zed_re.ml" 35 666 684 "src/zed_re.ml" 35 666 687
+)
+"src/zed_re.ml" 36 706 738 "src/zed_re.ml" 36 706 744
+type(
+  Re.compiled_regexp
+)
+ident(
+  int_ref regexp "src/zed_re.ml" 35 666 688 "src/zed_re.ml" 35 666 694
+)
+"src/zed_re.ml" 36 706 745 "src/zed_re.ml" 36 706 749
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 35 666 695 "src/zed_re.ml" 35 666 699
+)
+"src/zed_re.ml" 36 706 751 "src/zed_re.ml" 36 706 770
+type(
+  Zed_rope.rope -> int -> Re.index
+)
+ident(
+  ext_ref Zed_rope.Zip.make_f
+)
+"src/zed_re.ml" 36 706 771 "src/zed_re.ml" 36 706 775
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 35 666 695 "src/zed_re.ml" 35 666 699
+)
+"src/zed_re.ml" 36 706 776 "src/zed_re.ml" 36 706 779
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_re.ml" 35 666 700 "src/zed_re.ml" 35 666 703
+)
+"src/zed_re.ml" 36 706 750 "src/zed_re.ml" 36 706 780
+call(
+  stack
+)
+type(
+  Re.index
+)
+"src/zed_re.ml" 36 706 716 "src/zed_re.ml" 36 706 781
+call(
+  stack
+)
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 36 706 708 "src/zed_re.ml" 36 706 781
+call(
+  tail
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 38 783 787 "src/zed_re.ml" 38 783 801
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text ->
+  int -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  def search_forward "src/zed_re.ml" 41 931 931 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 38 783 803 "src/zed_re.ml" 38 783 806
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  def sem "src/zed_re.ml" 38 783 807 "src/zed_re.ml" 39 825 929
+)
+"src/zed_re.ml" 38 783 807 "src/zed_re.ml" 38 783 813
+type(
+  Re.compiled_regexp
+)
+ident(
+  def regexp "src/zed_re.ml" 38 783 814 "src/zed_re.ml" 39 825 929
+)
+"src/zed_re.ml" 38 783 814 "src/zed_re.ml" 38 783 818
+type(
+  Re.text
+)
+ident(
+  def rope "src/zed_re.ml" 38 783 819 "src/zed_re.ml" 39 825 929
+)
+"src/zed_re.ml" 38 783 819 "src/zed_re.ml" 38 783 822
+type(
+  int
+)
+ident(
+  def idx "src/zed_re.ml" 39 825 827 "src/zed_re.ml" 39 825 929
+)
+"src/zed_re.ml" 39 825 827 "src/zed_re.ml" 39 825 834
+type(
+  Re.SubText.t option array option ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  int_ref convert "src/zed_re.ml" 29 571 575 "src/zed_re.ml" 29 571 582
+)
+"src/zed_re.ml" 39 825 840 "src/zed_re.ml" 39 825 857
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text -> Re.index -> Re.SubText.t option array option
+)
+ident(
+  ext_ref Re.search_forward
+)
+"src/zed_re.ml" 39 825 859 "src/zed_re.ml" 39 825 862
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  int_ref sem "src/zed_re.ml" 38 783 803 "src/zed_re.ml" 38 783 806
+)
+"src/zed_re.ml" 39 825 863 "src/zed_re.ml" 39 825 869
+type(
+  Re.compiled_regexp
+)
+ident(
+  int_ref regexp "src/zed_re.ml" 38 783 807 "src/zed_re.ml" 38 783 813
+)
+"src/zed_re.ml" 39 825 870 "src/zed_re.ml" 39 825 874
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 38 783 814 "src/zed_re.ml" 38 783 818
+)
+"src/zed_re.ml" 39 825 876 "src/zed_re.ml" 39 825 895
+type(
+  Zed_rope.rope -> int -> Re.index
+)
+ident(
+  ext_ref Zed_rope.Zip.make_f
+)
+"src/zed_re.ml" 39 825 896 "src/zed_re.ml" 39 825 900
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 38 783 814 "src/zed_re.ml" 38 783 818
+)
+"src/zed_re.ml" 39 825 901 "src/zed_re.ml" 39 825 904
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_re.ml" 38 783 819 "src/zed_re.ml" 38 783 822
+)
+"src/zed_re.ml" 39 825 875 "src/zed_re.ml" 39 825 905
+call(
+  stack
+)
+type(
+  Re.index
+)
+"src/zed_re.ml" 39 825 840 "src/zed_re.ml" 39 825 905
+call(
+  stack
+)
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 39 825 911 "src/zed_re.ml" 39 825 920
+type(
+  exn
+)
+"src/zed_re.ml" 39 825 924 "src/zed_re.ml" 39 825 928
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 39 825 835 "src/zed_re.ml" 39 825 929
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 39 825 827 "src/zed_re.ml" 39 825 929
+call(
+  tail
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 41 931 935 "src/zed_re.ml" 41 931 950
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text ->
+  int -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  def search_backward "src/zed_re.ml" 52 1244 1281 "src/zed_re.ml" 1 0 -1
+)
+"src/zed_re.ml" 41 931 952 "src/zed_re.ml" 41 931 955
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  def sem "src/zed_re.ml" 41 931 956 "src/zed_re.ml" 52 1244 1281
+)
+"src/zed_re.ml" 41 931 956 "src/zed_re.ml" 41 931 962
+type(
+  Re.compiled_regexp
+)
+ident(
+  def regexp "src/zed_re.ml" 41 931 963 "src/zed_re.ml" 52 1244 1281
+)
+"src/zed_re.ml" 41 931 963 "src/zed_re.ml" 41 931 967
+type(
+  Re.text
+)
+ident(
+  def rope "src/zed_re.ml" 41 931 968 "src/zed_re.ml" 52 1244 1281
+)
+"src/zed_re.ml" 41 931 968 "src/zed_re.ml" 41 931 971
+type(
+  int
+)
+ident(
+  def idx "src/zed_re.ml" 42 974 976 "src/zed_re.ml" 52 1244 1281
+)
+"src/zed_re.ml" 42 974 984 "src/zed_re.ml" 42 974 988
+type(
+  Re.index -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  def loop "src/zed_re.ml" 42 974 976 "src/zed_re.ml" 52 1244 1281
+)
+"src/zed_re.ml" 42 974 989 "src/zed_re.ml" 42 974 992
+type(
+  Re.index
+)
+ident(
+  def zip "src/zed_re.ml" 43 995 999 "src/zed_re.ml" 50 1193 1238
+)
+"src/zed_re.ml" 43 995 1005 "src/zed_re.ml" 43 995 1020
+type(
+  ?sem:CamomileLibraryDyn.Camomile.URe.match_semantics ->
+  Re.compiled_regexp ->
+  Re.text -> Re.index -> Re.SubText.t option array option
+)
+ident(
+  ext_ref Re.regexp_match
+)
+"src/zed_re.ml" 43 995 1022 "src/zed_re.ml" 43 995 1025
+type(
+  CamomileLibraryDyn.Camomile.URe.match_semantics option
+)
+ident(
+  int_ref sem "src/zed_re.ml" 41 931 952 "src/zed_re.ml" 41 931 955
+)
+"src/zed_re.ml" 43 995 1026 "src/zed_re.ml" 43 995 1032
+type(
+  Re.compiled_regexp
+)
+ident(
+  int_ref regexp "src/zed_re.ml" 41 931 956 "src/zed_re.ml" 41 931 962
+)
+"src/zed_re.ml" 43 995 1033 "src/zed_re.ml" 43 995 1037
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 41 931 963 "src/zed_re.ml" 41 931 967
+)
+"src/zed_re.ml" 43 995 1038 "src/zed_re.ml" 43 995 1041
+type(
+  Re.index
+)
+ident(
+  int_ref zip "src/zed_re.ml" 42 974 989 "src/zed_re.ml" 42 974 992
+)
+"src/zed_re.ml" 43 995 1005 "src/zed_re.ml" 43 995 1041
+call(
+  stack
+)
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 44 1047 1060 "src/zed_re.ml" 44 1047 1063
+type(
+  Re.SubText.t option array
+)
+ident(
+  def arr "src/zed_re.ml" 45 1067 1077 "src/zed_re.ml" 45 1067 1102
+)
+"src/zed_re.ml" 44 1047 1055 "src/zed_re.ml" 44 1047 1063
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 45 1067 1082 "src/zed_re.ml" 45 1067 1097
+type(
+  Re.SubText.t option array ->
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+ident(
+  int_ref convert_success "src/zed_re.ml" 19 367 371 "src/zed_re.ml" 19 367 386
+)
+"src/zed_re.ml" 45 1067 1098 "src/zed_re.ml" 45 1067 1101
+type(
+  Re.SubText.t option array
+)
+ident(
+  int_ref arr "src/zed_re.ml" 44 1047 1060 "src/zed_re.ml" 44 1047 1063
+)
+"src/zed_re.ml" 45 1067 1081 "src/zed_re.ml" 45 1067 1102
+call(
+  stack
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array
+)
+"src/zed_re.ml" 45 1067 1077 "src/zed_re.ml" 45 1067 1102
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 46 1103 1111 "src/zed_re.ml" 46 1103 1115
+type(
+  Re.SubText.t option array option
+)
+"src/zed_re.ml" 47 1119 1132 "src/zed_re.ml" 47 1119 1151
+type(
+  Re.index -> bool
+)
+ident(
+  ext_ref Zed_rope.Zip.at_bos
+)
+"src/zed_re.ml" 47 1119 1152 "src/zed_re.ml" 47 1119 1155
+type(
+  Re.index
+)
+ident(
+  int_ref zip "src/zed_re.ml" 42 974 989 "src/zed_re.ml" 42 974 992
+)
+"src/zed_re.ml" 47 1119 1132 "src/zed_re.ml" 47 1119 1155
+call(
+  stack
+)
+type(
+  bool
+)
+"src/zed_re.ml" 48 1161 1173 "src/zed_re.ml" 48 1161 1177
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 50 1193 1205 "src/zed_re.ml" 50 1193 1209
+type(
+  Re.index -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  int_ref loop "src/zed_re.ml" 42 974 984 "src/zed_re.ml" 42 974 988
+)
+"src/zed_re.ml" 50 1193 1211 "src/zed_re.ml" 50 1193 1228
+type(
+  int -> Re.index -> Re.index
+)
+ident(
+  ext_ref Zed_rope.Zip.move
+)
+"src/zed_re.ml" 50 1193 1229 "src/zed_re.ml" 50 1193 1233
+type(
+  int
+)
+"src/zed_re.ml" 50 1193 1234 "src/zed_re.ml" 50 1193 1237
+type(
+  Re.index
+)
+ident(
+  int_ref zip "src/zed_re.ml" 42 974 989 "src/zed_re.ml" 42 974 992
+)
+"src/zed_re.ml" 50 1193 1210 "src/zed_re.ml" 50 1193 1238
+call(
+  stack
+)
+type(
+  Re.index
+)
+"src/zed_re.ml" 50 1193 1205 "src/zed_re.ml" 50 1193 1238
+call(
+  tail
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 47 1119 1129 "src/zed_re.ml" 50 1193 1238
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 43 995 999 "src/zed_re.ml" 50 1193 1238
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 52 1244 1246 "src/zed_re.ml" 52 1244 1250
+type(
+  Re.index -> (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+ident(
+  int_ref loop "src/zed_re.ml" 42 974 984 "src/zed_re.ml" 42 974 988
+)
+"src/zed_re.ml" 52 1244 1252 "src/zed_re.ml" 52 1244 1271
+type(
+  Zed_rope.rope -> int -> Re.index
+)
+ident(
+  ext_ref Zed_rope.Zip.make_f
+)
+"src/zed_re.ml" 52 1244 1272 "src/zed_re.ml" 52 1244 1276
+type(
+  Re.text
+)
+ident(
+  int_ref rope "src/zed_re.ml" 41 931 963 "src/zed_re.ml" 41 931 967
+)
+"src/zed_re.ml" 52 1244 1277 "src/zed_re.ml" 52 1244 1280
+type(
+  int
+)
+ident(
+  int_ref idx "src/zed_re.ml" 41 931 968 "src/zed_re.ml" 41 931 971
+)
+"src/zed_re.ml" 52 1244 1251 "src/zed_re.ml" 52 1244 1281
+call(
+  stack
+)
+type(
+  Re.index
+)
+"src/zed_re.ml" 52 1244 1246 "src/zed_re.ml" 52 1244 1281
+call(
+  tail
+)
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
+"src/zed_re.ml" 42 974 976 "src/zed_re.ml" 52 1244 1281
+type(
+  (Re.SubText.ur_index * Re.SubText.ur_index) option array option
+)
