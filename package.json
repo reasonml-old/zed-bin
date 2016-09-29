@@ -38,7 +38,6 @@
       "@opam-alpha/ocamlfind": "*",
       "camomile-bin": "https://github.com/reasonml/camomile-bin",
       "dependency-env": "https://github.com/reasonml/dependency-env.git",
-      "base-bytes": "https://github.com/npm-opam/base-bytes",
       "nopam": "https://github.com/reasonml/nopam.git"
   }
 }
