@@ -37,7 +37,7 @@
       "react-bin": "https://github.com/reasonml/react-bin",
       "@opam-alpha/ocamlfind": "*",
       "camomile-bin": "https://github.com/reasonml/camomile-bin",
-      "dependency-env": "https://github.com/reasonml/dependency-env.git",
-      "nopam": "https://github.com/reasonml/nopam.git"
+      "dependency-env": "*",
+      "nopam": "*"
   }
 }
